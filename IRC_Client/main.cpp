@@ -52,6 +52,10 @@
 		memset(&recvData,0,BUFFER_SIZE);
 		char sendData[BUFFER_SIZE];
 
+        cout << "Enter the address of the server :" << endl;
+        cout << "Example : 84.240.3.129" << endl;
+		cin >> hostname;
+
         //open socket
 		host = (hostent *) gethostbyname(hostname.c_str());
 		sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
