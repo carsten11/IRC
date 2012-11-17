@@ -19,3 +19,13 @@
 	<ctime>
 	<unistd.h>
 
+1353179320 source:c:\users\notandi\dropbox\tsam\irc_client\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	<winsock2.h>
+	<fstream>
+	<iomanip>
+	<ctime>
+	<unistd.h>
+

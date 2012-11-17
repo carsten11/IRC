@@ -29,7 +29,7 @@ string commMess;
 int main(int argc, char* argv[])
 {
     file.open("irc.log",fstream::out | fstream::app);
-    string hostname = argv[1];
+    string hostname = "";
     int port = 6667;
     char buffer [BUFFER_SIZE];
     int checksent, bsize;
@@ -52,6 +52,10 @@ int main(int argc, char* argv[])
     char recvData[BUFFER_SIZE];
     memset(&recvData,0,BUFFER_SIZE);
     char sendData[BUFFER_SIZE];
+
+    cout << "Enter the address of the server :" << endl;
+    cout << "Example : 84.240.3.129" << endl;
+    cin >> hostname;
 
     //open socket
     host = (hostent *) gethostbyname(hostname.c_str());
