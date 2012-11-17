@@ -29,3 +29,13 @@
 	<ctime>
 	<unistd.h>
 
+1353180484 source:c:\users\notandi\documents\github\irc\irc_client\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	<winsock2.h>
+	<fstream>
+	<iomanip>
+	<ctime>
+	<unistd.h>
+

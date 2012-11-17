@@ -29,7 +29,8 @@ string commMess;
 int main(int argc, char* argv[])
 {
     file.open("irc.log",fstream::out | fstream::app);
-    string hostname = "";
+    string hostname = argv[1];
+    //string hostname = "";
     int port = 6667;
     char buffer [BUFFER_SIZE];
     int checksent, bsize;
@@ -55,7 +56,7 @@ int main(int argc, char* argv[])
 
     cout << "Enter the address of the server :" << endl;
     cout << "Example : 84.240.3.129" << endl;
-    cin >> hostname;
+    //cin >> hostname;
 
     //open socket
     host = (hostent *) gethostbyname(hostname.c_str());
@@ -91,15 +92,10 @@ int main(int argc, char* argv[])
 
     while (true)
     {
-        bsize=0;
-
-        for(int i = 0; i<2; i++) //get the servers response
-        {
-            bsize = recv(sock,recvData,BUFFER_SIZE,0);
-            logRecvMess(recvData, bsize);
-            cout << recvData;
-            memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
-        }
+        bsize = recv(sock,recvData,BUFFER_SIZE,0);
+        logRecvMess(recvData, bsize);
+        cout << recvData;
+        memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
 
         Sleep(60000); //sleep gracefully for 60 seconds
 

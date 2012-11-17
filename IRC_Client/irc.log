@@ -422,3 +422,35 @@ Sat Nov 17 19:03:38 2012 : server : :cameron.freenode.net NOTICE * :*** Looking 
 :cameron.freenode.net NOTICE * :*** Found your hostname
 :cameron.freenode.net NOTICE * :*** No Ident response
 
+Sat Nov 17 19:34:16 2012 : server : :pratchett.freenode.net NOTICE * :*** Looking up your hostname...
+:pratchett.freenode.net NOTICE * :*** Checking Ident
+:pratchett.freenode.net NOTICE * :*** Found your hostname
+:pratchett.freenode.net NOTICE * :*** No Ident response
+ERROR :Closing Link: 127.0.0.1 (Connection timed out)
+
+Sat Nov 17 19:34:16 2012 : server : 
+Sat Nov 17 19:35:16 2012 : client : /QUIT 
+Sat Nov 17 19:35:16 2012 : server : 
+Sat Nov 17 19:35:16 2012 : server : 
+Sat Nov 17 19:35:16 2012 : server : 
+Sat Nov 17 19:35:58 2012 : server : :morgan.freenode.net NOTICE * :*** Looking up your hostname...
+:morgan.freenode.net NOTICE * :*** Checking Ident
+:morgan.freenode.net NOTICE * :*** Found your hostname
+:morgan.freenode.net NOTICE * :*** No Ident response
+
+Sat Nov 17 19:36:43 2012 : server : ERROR :Closing Link: 127.0.0.1 (Connection timed out)
+
+Sat Nov 17 19:38:01 2012 : server : :sendak.freenode.net NOTICE * :*** Looking up your hostname...
+:sendak.freenode.net NOTICE * :*** Checking Ident
+:sendak.freenode.net NOTICE * :*** Found your hostname
+:sendak.freenode.net NOTICE * :*** No Ident response
+
+Sat Nov 17 19:41:14 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+:cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Sat Nov 17 19:42:14 2012 : client : /QUIT 
+Sat Nov 17 19:42:14 2012 : server : ERROR :Closing Link: 127.0.0.1 (Connection timed out)
+
+Sat Nov 17 19:42:14 2012 : server : 
