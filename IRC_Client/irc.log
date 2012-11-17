@@ -410,3 +410,15 @@ Thu Nov 15 16:30:10 2012 : client : /QUIT
 Thu Nov 15 16:30:10 2012 : server : 
 Thu Nov 15 16:30:10 2012 : client : /QUIT 
 Thu Nov 15 16:30:10 2012 : server : 
+Sat Nov 17 19:03:07 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+:cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Sat Nov 17 19:03:07 2012 : server : :cameron.freenode.net 433 * Alex :Nickname is already in use.
+
+Sat Nov 17 19:03:38 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+:cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+

@@ -9,3 +9,13 @@
 	<ctime>
 	<unistd.h>
 
+1353178354 source:c:\users\carsten\documents\github\irc\irc_client\main.cpp
+	<iostream>
+	<cstring>
+	<stdlib.h>
+	<winsock2.h>
+	<fstream>
+	<iomanip>
+	<ctime>
+	<unistd.h>
+
