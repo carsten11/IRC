@@ -13,16 +13,17 @@
 	#include <ctime>
 	#include <unistd.h>
 
-
 	using namespace std;
+
+	string CRLF = "\r\n";	// Carriage return, Line Feed
 
 	const int BUFFER_SIZE = 1024;
 	fstream file;
 
-	void display();
-	void logSentMess();
-	void logRecvMess(char* buffer, int size);
-	void getdata(char* buffer);
+	void display(); //display's all the commands
+	void logSentMess(); //logs the message from the client
+	void logRecvMess(char* buffer, int size); //log the server response
+	void getdata(char* buffer); //Place the request to the server into the buffer
 
 
 	int main(int argc, char* argv[])
@@ -33,7 +34,7 @@
 		char buffer [BUFFER_SIZE];
 		int checksent, bsize;
 
-	   // display();
+	   // display();  //show all the commands
 
 		////******* from UDP server********
 		WSADATA wsaData;
@@ -51,6 +52,7 @@
 		memset(&recvData,0,BUFFER_SIZE);
 		char sendData[BUFFER_SIZE];
 
+        //open socket
 		host = (hostent *) gethostbyname(hostname.c_str());
 		sock = socket(AF_INET, SOCK_STREAM, IPPROTO_TCP);
 		if (sock == INVALID_SOCKET)
@@ -60,16 +62,18 @@
 			return EXIT_FAILURE;
 		}
 
+        //server info
 		serverAddr.sin_family = AF_INET;
 		serverAddr.sin_port = htons(port);
 		serverAddr.sin_addr = *((struct in_addr *) host->h_addr);
 		memset(&(serverAddr.sin_zero), 0, 8);
 
-		if(connect(sock,(struct sockaddr*)&serverAddr,sizeof(serverAddr))<0)
+		if(connect(sock,(struct sockaddr*)&serverAddr,sizeof(serverAddr))<0)//check if connection was sucessful
 		{
 			cerr << "Error connecting" << endl;
 			return EXIT_FAILURE;
 		}
+
 		cout << "Connected to server: " << endl;
 		//cout << "What nick name do you want (not more than 9 letters):" << endl;
 		getdata(buffer);
@@ -77,15 +81,16 @@
 		{
 			bsize=0;
 
-			for(int i = 0; i<2;i++)
+			for(int i = 0; i<2;i++) //get the servers response
 			{
 				bsize = recv(sock,recvData,BUFFER_SIZE,0);
 				logRecvMess(recvData, bsize);
 				cout << recvData;
-				memset(&recvData,0,BUFFER_SIZE);
+				memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
 			}
 
-			Sleep(60000);
+			Sleep(60000); //sleep gracefully for 60 seconds
+
 			checksent = send(sock, buffer, strlen(buffer), 0);
 			logSentMess();
 
@@ -93,10 +98,11 @@
 			logRecvMess(recvData, bsize);
 
 
-			if(buffer[0] == 'Q' && buffer[1] == 'U' && buffer[2] == 'I' && buffer[3] == 'T')
+			if(buffer[0] == 'Q' && buffer[1] == 'U' && buffer[2] == 'I' && buffer[3] == 'T') //if quit command is recived then break the loop
 				break;
 		}
 
+        //close all resources
 		shutdown(sock,port);
 		closesocket(sock);
 		WSACleanup();
@@ -104,9 +110,9 @@
 		return EXIT_SUCCESS;
 	}
 
-	void getdata(char* buffer)
+	void getdata(char* buffer) //Place the request to the server into the buffer
 	{
-		buffer[0] = 'Q';
+		buffer[0] = 'Q';  //hardcoded QUIT command
 		buffer[1] = 'U';
 		buffer[2] = 'I';
 		buffer[3] = 'T';
@@ -118,28 +124,31 @@
 		buffer[9] = '\0';
 	}
 
-	void logSentMess()
+	void logSentMess() //logs the message sent from the client to the server
 	{
 		string par = "/QUIT \r\n"; //to get it going we hardcode the message now
 
 		time_t now = time(0);
 		string nowTime = ctime(&now);
 		nowTime.erase(nowTime.find('\n',0),1);
-		string all = (nowTime + " : client : " + par);
-		file << all;
+		string all = (nowTime + " : client : " + par); //compose the string
+		cout << all;
+		file << all;  //write the string to the file
 	}
 
-	void logRecvMess(char* buffer, int size)
+	void logRecvMess(char* buffer, int size)  //log the server response
 	{
 		time_t now = time(0);
 		string nowTime = ctime(&now);
-		thetime.erase(nowTime.find('\n',0),1);
-		string all = (nowTime + " : server : ");
+		nowTime.erase(nowTime.find('\n',0),1);
+		string all = (nowTime + " : server : "); //compose the message
 		cout << all;
 		file << all;
-		for (int i = 0; i<size; ++i)
-			file << buffer[i];
+
+		for (int i = 0; i<size; ++i) //write the response from the buffer to the file
+            file << buffer[i];
 			file << endl;
+
 	}
 
 	//Echoing the diffrent commands and parameters
