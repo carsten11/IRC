@@ -28,6 +28,8 @@ string commMess;
 
 int main(int argc, char* argv[])
 {
+    HANDLE handles[10];
+    HANDLE hStdIn = GetStdHandle(STD_INPUT_HANDLE);
     file.open("irc.log",fstream::out | fstream::app);
     string hostname = argv[1];
     //string hostname = "";
@@ -52,6 +54,7 @@ int main(int argc, char* argv[])
     hostent *host;
     char recvData[BUFFER_SIZE];
     memset(&recvData,0,BUFFER_SIZE);
+
     char sendData[BUFFER_SIZE];
 
     cout << "Enter the address of the server :" << endl;
@@ -80,6 +83,10 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
+    handles[0] = WSACreateEvent();
+    handles[1] = hStdIn;
+    WSAEventSelect(sock, handles[0], FD_READ | FD_CLOSE);
+
     cout << "Connected to server: " << endl;
     cout << "Please make your legal command: " << endl;
     cin >> comm;
@@ -88,7 +95,9 @@ int main(int argc, char* argv[])
 
     getdata(buffer, comm, mess);
     //cout << "*****" << strlen(buffer);
+
     send(sock, buffer, strlen(buffer), 0);
+
 
     while (true)
     {
@@ -180,3 +189,34 @@ void display()
     cout << "[QUIT][<Quit message>] /Client connection closed /Example: QUIT :gone to lunch" << endl;
 
 }
+/*
+cout << "Connected to server:" << endl;
+    DWORD result;
+    while (true) {
+        result = WaitForMultipleObjects(2, handles, false, 5000);
+        //DWORD bytesRead;
+        if (result == WAIT_OBJECT_0) {
+            int bytesRead;
+            // bytesRead = recv(sock, recvData, BUFFER_SIZE, MSG_PEEK);
+            // Check if there is a line. Read only up to the line end.
+            bytesRead = recv(sock, recvData, BUFFER_SIZE, 0);
+            cout << recvData;
+            memset(&recvData, 0, BUFFER_SIZE);
+            WSAResetEvent(handles[0]);
+        }
+        else if (result == WAIT_OBJECT_0 + 1) {
+            INPUT_RECORD input;
+            ReadConsoleInput(hStdIn, &input, 1, &bytesRead);
+            char ch = input.Event.KeyEvent.uChar.AsciiChar;
+            if (ch == '\r') {
+                cout << endl;
+            }
+            else {
+                cout << ch;
+            }
+        }
+        else {
+            cout << "Timeout: " << (int) result << endl;
+        }
+    }
+  */
