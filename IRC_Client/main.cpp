@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
 
     cout << "Enter the address of the server :" << endl;
     cout << "Example : 84.240.3.129" << endl;
-    cin >> hostname;
+    hostname = "84.240.3.129";
 
     //open socket
     host = (hostent *) gethostbyname(hostname.c_str());
@@ -98,7 +98,9 @@ int main(int argc, char* argv[])
 
     send(sock, buffer, strlen(buffer), 0);
     logSentMess(comm, mess);
-
+    buffer={'U','S','E','R', ' ', 'A', 'L', ' ', '0', ' ', '*', ' ', ':', '.', '\r','\n'};
+    cout << buffer << endl;
+    send(sock, buffer, strlen(buffer), 0);
 
     while (true)
     {
@@ -106,6 +108,7 @@ int main(int argc, char* argv[])
         logRecvMess(recvData, bsize);
         cout << recvData;
         memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+
         cout << "Enter next command: ";
         cin >> comm;
         cout << "Please enter a message if following the command: " << endl;
@@ -122,10 +125,10 @@ int main(int argc, char* argv[])
         logRecvMess(recvData, bsize);
 
 
-        if(comm == "QUIT")
-           break;
-    }
+        //if(comm == "QUIT")
+         //  break;
 
+}
     //close all resources
     shutdown(sock,port);
     closesocket(sock);
