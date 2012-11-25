@@ -20,7 +20,7 @@ const int BUFFER_SIZE = 1024;
 fstream file;
 
 void display(); //display's all the commands
-void logSentMess(); //logs the message from the client
+void logSentMess(string comm, string mess); //logs the message from the client
 void logRecvMess(char* buffer, int size); //log the server response
 void getdata(char* buffer, string comm, string mess); //Place the request to the server into the buffer
 string commMess;
@@ -59,7 +59,7 @@ int main(int argc, char* argv[])
 
     cout << "Enter the address of the server :" << endl;
     cout << "Example : 84.240.3.129" << endl;
-    //cin >> hostname;
+    cin >> hostname;
 
     //open socket
     host = (hostent *) gethostbyname(hostname.c_str());
@@ -97,6 +97,7 @@ int main(int argc, char* argv[])
     //cout << "*****" << strlen(buffer);
 
     send(sock, buffer, strlen(buffer), 0);
+    logSentMess(comm, mess);
 
 
     while (true)
@@ -105,18 +106,24 @@ int main(int argc, char* argv[])
         logRecvMess(recvData, bsize);
         cout << recvData;
         memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
-
-        Sleep(60000); //sleep gracefully for 60 seconds
-
-        checksent = send(sock, buffer, strlen(buffer), 0);
-        logSentMess();
+        cout << "Enter next command: ";
+        cin >> comm;
+        cout << "Please enter a message if following the command: " << endl;
+        cin >> mess;
+        getdata(buffer, comm, mess);
+        send(sock, buffer, strlen(buffer), 0);
+        //cout << "Entering sleep";
+        //Sleep(5000); //sleep gracefully for 60 seconds
+        //cout << "Waking up";
+        //checksent = send(sock, buffer, strlen(buffer), 0);
+        logSentMess(comm, mess);
 
         bsize = recv(sock,recvData,BUFFER_SIZE,0);
         logRecvMess(recvData, bsize);
 
 
-        if(buffer[0] == 'Q' && buffer[1] == 'U' && buffer[2] == 'I' && buffer[3] == 'T') //if quit command is recived then break the loop
-            break;
+        if(comm == "QUIT")
+           break;
     }
 
     //close all resources
@@ -140,9 +147,9 @@ void getdata(char* buffer, string comm, string mess) //Place the request to the 
     //cout << "buffer"<< buffer << len <<endl;
 }
 
-void logSentMess() //logs the message sent from the client to the server
+void logSentMess(string comm, string mess) //logs the message sent from the client to the server
 {
-    string par = "/QUIT \r\n"; //to get it going we hardcode the message now
+    string par = comm + " " + mess; //to get it going we hardcode the message now
 
     time_t now = time(0);
     string nowTime = ctime(&now);
