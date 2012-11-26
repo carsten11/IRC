@@ -16,7 +16,7 @@
 using namespace std;
 
 string CRLF = "\r\n";	// Carriage return, Line Feed
-const int BUFFER_SIZE = 1024;
+const int BUFFER_SIZE = 5000;
 fstream file;
 
 void display(); //display's all the commands
@@ -88,6 +88,7 @@ int main(int argc, char* argv[])
     WSAEventSelect(sock, handles[0], FD_READ | FD_CLOSE);
 
     cout << "Connected to server: " << endl;
+
     cout << "Please make your legal command: " << endl;
     cin >> comm;
     cout << "Please enter a message if following the command: " << endl;
@@ -104,13 +105,16 @@ int main(int argc, char* argv[])
 
     while (true)
     {
+        //recvData = 'null';
         bsize = recv(sock,recvData,BUFFER_SIZE,0);
         logRecvMess(recvData, bsize);
-        cout << recvData;
+        cout << "**********" << recvData;
         memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
 
         cout << "Enter next command: ";
         cin >> comm;
+        //if (!isvalid())
+           // cout <<
         cout << "Please enter a message if following the command: " << endl;
         cin >> mess;
         getdata(buffer, comm, mess);
@@ -121,8 +125,8 @@ int main(int argc, char* argv[])
         //checksent = send(sock, buffer, strlen(buffer), 0);
         logSentMess(comm, mess);
 
-        bsize = recv(sock,recvData,BUFFER_SIZE,0);
-        logRecvMess(recvData, bsize);
+        //bsize = recv(sock,recvData,BUFFER_SIZE,0);
+       // logRecvMess(recvData, bsize);
 
 
         //if(comm == "QUIT")
