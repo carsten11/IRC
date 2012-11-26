@@ -16,13 +16,14 @@
 using namespace std;
 
 string CRLF = "\r\n";	// Carriage return, Line Feed
-const int BUFFER_SIZE = 5000;
+const int BUFFER_SIZE = 15000;
 fstream file;
 
 void display(); //display's all the commands
 void logSentMess(string comm, string mess); //logs the message from the client
 void logRecvMess(char* buffer, int size); //log the server response
 void getdata(char* buffer, string comm, string mess); //Place the request to the server into the buffer
+void clear(char buffer[BUFFER_SIZE]);
 string commMess;
 
 
@@ -93,22 +94,26 @@ int main(int argc, char* argv[])
     cin >> comm;
     cout << "Please enter a message if following the command: " << endl;
     cin >> mess;
-
+    //send NICK and NickName
     getdata(buffer, comm, mess);
-    //cout << "*****" << strlen(buffer);
-
     send(sock, buffer, strlen(buffer), 0);
     logSentMess(comm, mess);
-    buffer={'U','S','E','R', ' ', 'A', 'L', ' ', '0', ' ', '*', ' ', ':', '.', '\r','\n'};
-    cout << buffer << endl;
+    //clear(buffer);
+    //send directly USER command, where the user does not need to give information
+    comm = "USER AL 0 *";
+    mess = ".";
+    getdata(buffer, comm, mess);
+    //buffer={'U','S','E','R', ' ', 'A', 'L', ' ', '0', ' ', '*', ' ', ':', '.', '\r','\n'};
     send(sock, buffer, strlen(buffer), 0);
+    logSentMess(comm, mess);
+    //clear(buffer);
 
     while (true)
     {
-        //recvData = 'null';
+        clear(recvData);
         bsize = recv(sock,recvData,BUFFER_SIZE,0);
         logRecvMess(recvData, bsize);
-        cout << "**********" << recvData;
+        cout << "**********\n" << recvData;
         memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
 
         cout << "Enter next command: ";
@@ -117,6 +122,7 @@ int main(int argc, char* argv[])
            // cout <<
         cout << "Please enter a message if following the command: " << endl;
         cin >> mess;
+
         getdata(buffer, comm, mess);
         send(sock, buffer, strlen(buffer), 0);
         //cout << "Entering sleep";
@@ -124,7 +130,7 @@ int main(int argc, char* argv[])
         //cout << "Waking up";
         //checksent = send(sock, buffer, strlen(buffer), 0);
         logSentMess(comm, mess);
-
+        //clear(buffer);
         //bsize = recv(sock,recvData,BUFFER_SIZE,0);
        // logRecvMess(recvData, bsize);
 
@@ -139,6 +145,12 @@ int main(int argc, char* argv[])
     WSACleanup();
     file.close();
     return EXIT_SUCCESS;
+}
+
+void clear(char buffer[BUFFER_SIZE])
+{
+    for (int i = 0;i<BUFFER_SIZE; i++)
+        buffer[i]=0;
 }
 
 void getdata(char* buffer, string comm, string mess) //Place the request to the server into the buffer
@@ -161,7 +173,7 @@ void logSentMess(string comm, string mess) //logs the message sent from the clie
     time_t now = time(0);
     string nowTime = ctime(&now);
     nowTime.erase(nowTime.find('\n',0),1);
-    string all = (nowTime + " : client : " + par); //compose the string
+    string all = (nowTime + " : client : " + par + CRLF); //compose the string
     cout << all;
     file << all;  //write the string to the file
 }
