@@ -15,14 +15,17 @@
 
 using namespace std;
 
-string CRLF = "\r\n";	// Carriage return, Line Feed
+string CRLF = "\r\n\0";	// Carriage return, Line Feed
 const int BUFFER_SIZE = 15000;
 fstream file;
 
 void display(); //display's all the commands
+//logSent logs the sent messages in one function
+void logSent(SOCKET sock, char* buffer, string comm, string mess);//call
 void logSentMess(string comm, string mess); //logs the message from the client
-void logRecvMess(char* buffer, int size); //log the server response
 void getdata(char* buffer, string comm, string mess); //Place the request to the server into the buffer
+
+void logRecvMess(char* buffer, int size); //log the server response
 void clear(char buffer[BUFFER_SIZE]);
 string commMess;
 
@@ -84,61 +87,67 @@ int main(int argc, char* argv[])
         return EXIT_FAILURE;
     }
 
-    handles[0] = WSACreateEvent();
-    handles[1] = hStdIn;
-    WSAEventSelect(sock, handles[0], FD_READ | FD_CLOSE);
+    bsize = recv(sock,recvData,BUFFER_SIZE,0);
+    logRecvMess(recvData, bsize);
+    cout << "\n*rec**1***:\n" << recvData;
+    //handles[0] = WSACreateEvent();
+    // handles[1] = hStdIn;
+    //WSAEventSelect(sock, handles[0], FD_READ | FD_CLOSE);
 
     cout << "Connected to server: " << endl;
-
-    cout << "Please make your legal command: " << endl;
-    cin >> comm;
-    cout << "Please enter a message if following the command: " << endl;
+    comm = "NICK";
+    cout << "Please choose a NICKNAME: ";
     cin >> mess;
-    //send NICK and NickName
-    getdata(buffer, comm, mess);
-    send(sock, buffer, strlen(buffer), 0);
-    logSentMess(comm, mess);
+
+    //call getdata to fill the buffer with the two strings.
+    logSent(sock,buffer,comm,mess);
+
+    bsize = recv(sock,recvData,BUFFER_SIZE,0);
+    logRecvMess(recvData, bsize);
+    cout << "\n*recv*2 ***:\n" << recvData << endl;
     //clear(buffer);
+
     //send directly USER command, where the user does not need to give information
     comm = "USER AL 0 *";
     mess = ".";
-    getdata(buffer, comm, mess);
-    //buffer={'U','S','E','R', ' ', 'A', 'L', ' ', '0', ' ', '*', ' ', ':', '.', '\r','\n'};
-    send(sock, buffer, strlen(buffer), 0);
-    logSentMess(comm, mess);
+    logSent(sock,buffer,comm,mess);
     //clear(buffer);
+
+    bsize = recv(sock,recvData,BUFFER_SIZE,0);
+    logRecvMess(recvData, bsize);
+    cout << "\nHÉR ER Bsize: " << bsize << endl;
+    cout << "\n*recv*3 ***:\n" << recvData << endl;
+
 
     while (true)
     {
-        clear(recvData);
-        bsize = recv(sock,recvData,BUFFER_SIZE,0);
-        logRecvMess(recvData, bsize);
-        cout << "**********\n" << recvData;
-        memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+        //clear(recvData);
+        //while (bsize > 0)
+
+        {
+            //  bsize = 0;
+            //cout << "recvData í byrjun loopu: "<< recvData;
+            bsize = recv(sock,recvData,BUFFER_SIZE,0);
+            logRecvMess(recvData, bsize);
+            cout << "\n*rec**1 í loopu***:\n" << recvData;
+            memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+            cout << "recvData eftir loopu: "<< recvData;
+            cout << "\nHÉR ER Bsize: " << bsize << endl;
+        }
 
         cout << "Enter next command: ";
         cin >> comm;
         //if (!isvalid())
-           // cout <<
+        // cout <<
         cout << "Please enter a message if following the command: " << endl;
         cin >> mess;
 
-        getdata(buffer, comm, mess);
-        send(sock, buffer, strlen(buffer), 0);
-        //cout << "Entering sleep";
-        //Sleep(5000); //sleep gracefully for 60 seconds
-        //cout << "Waking up";
-        //checksent = send(sock, buffer, strlen(buffer), 0);
-        logSentMess(comm, mess);
-        //clear(buffer);
-        //bsize = recv(sock,recvData,BUFFER_SIZE,0);
-       // logRecvMess(recvData, bsize);
-
+        logSent(sock,buffer,comm,mess);
 
         //if(comm == "QUIT")
-         //  break;
+        //  break;
 
-}
+    }
     //close all resources
     shutdown(sock,port);
     closesocket(sock);
@@ -147,9 +156,17 @@ int main(int argc, char* argv[])
     return EXIT_SUCCESS;
 }
 
+
+void logSent(SOCKET sock, char* buffer, string comm, string mess)
+{
+    getdata(buffer, comm, mess);
+    send(sock, buffer, strlen(buffer), 0);
+    logSentMess(comm, mess);
+}
+
 void clear(char buffer[BUFFER_SIZE])
 {
-    for (int i = 0;i<BUFFER_SIZE; i++)
+    for (int i = 0; i<BUFFER_SIZE; i++)
         buffer[i]=0;
 }
 
@@ -157,10 +174,10 @@ void getdata(char* buffer, string comm, string mess) //Place the request to the 
 {
     string commMess = comm + " :" + mess + CRLF;
     //cout<< "commMess: "<< commMess << commMess.size()<< endl;
-    for (int a=0;a<=commMess.size();a++)
-        {
-            buffer[a]=commMess[a];
-        }
+    for (int a=0; a<=commMess.size(); a++)
+    {
+        buffer[a]=commMess[a];
+    }
     int len = strlen(buffer);
     buffer[len++] = '\0';
     //cout << "buffer"<< buffer << len <<endl;

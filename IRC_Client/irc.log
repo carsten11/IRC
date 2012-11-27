@@ -1,149 +1,1707 @@
-Mon Nov 26 14:30:11 2012 : client : NICK NaaCaa
-Mon Nov 26 14:30:11 2012 : client : USER AL 0 * .
-Mon Nov 26 14:30:11 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
-:cameron.freenode.net NOTICE * :*** Checking Ident
+Tue Nov 27 11:56:13 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 11:56:23 2012 : client : NICK mello1234
+Tue Nov 27 11:56:23 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
 :cameron.freenode.net NOTICE * :*** Found your hostname
 :cameron.freenode.net NOTICE * :*** No Ident response
 
-Mon Nov 26 14:30:21 2012 : client : JOIN #tsam
-Mon Nov 26 14:30:21 2012 : server : :cameron.freenode.net 001 NaaCaa :Welcome to the freenode Internet Relay Chat Network NaaCaa
-:cameron.freenode.net 002 NaaCaa :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
-:cameron.freenode.net 003 NaaCaa :This server was created Sat Feb 25 2012 at 17:22:16 EET
-:cameron.freenode.net 004 NaaCaa cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
-:cameron.freenode.net 005 NaaCaa CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
-:cameron.freenode.net 005 NaaCaa CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
-:cameron.freenode.net 005 NaaCaa EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
-:cameron.freenode.net 251 NaaCaa :There are 209 users and 78425 invisible on 34 servers
-:cameron.freenode.net 252 NaaCaa 35 :IRC Operators online
-:cameron.freenode.net 253 NaaCaa 5 :unknown connection(s)
-:cameron.freenode.net 254 NaaCaa 42845 :channels formed
-:cameron.freenode.net 255 NaaCaa :I have 4463 clients and 1 servers
-:cameron.freenode.net 265 NaaCaa 4463 9497 :Current local users 4463, max 9497
-:cameron.freenode.net 266 NaaCaa 78634 83501 :Current global users 78634, max 83501
-:cameron.freenode.net 250 NaaCaa :Highest connection count: 9498 (9497 clients) (2242284 connections received)
-:cameron.freenode.net 375 NaaCaa :- cameron.freenode.net Message of the Day - 
-:cameron.freenode.net 372 NaaCaa :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
-:cameron.freenode.net 372 NaaCaa :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
-:cameron.freenode.net 372 NaaCaa :- been involved in the production of many of the film "greatest hits" 
-:cameron.freenode.net 372 NaaCaa :- of the past 25 years, including the Terminator movies and the 3D
-:cameron.freenode.net 372 NaaCaa :- blockbuster Avatar.
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- You're using freenode, a service of Peer-Directed Projects
-:cameron.freenode.net 372 NaaCaa :- Center Ltd (http://freenode.net/pdpc.shtml).
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- By connecting to freenode you indicate that you have read
-:cameron.freenode.net 372 NaaCaa :- and agree to adhere to our policies and procedures as per
-:cameron.freenode.net 372 NaaCaa :- the website (http://freenode.net). We would like to remind
-:cameron.freenode.net 372 NaaCaa :- you that unauthorized public logging of channels on the
-:cameron.freenode.net 372 NaaCaa :- network is prohibited. Public channel logging should only
-:cameron.freenode.net 372 NaaCaa :- take place where the channel owner(s) has requested this
-:cameron.freenode.net 372 NaaCaa :- and users of the channel are all made aware (if you are
-:cameron.freenode.net 372 NaaCaa :- publically logging your channel, you may wish to keep a
-:cameron.freenode.net 372 NaaCaa :- notice in topic and perhaps as a on-join message).
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- freenode runs an open proxy scanner. Your use of the network
-:cameron.freenode.net 372 NaaCaa :- indicates your acceptance of this policy. For details on
-:cameron.freenode.net 372 NaaCaa :- freenode network policy, please take a look at our policy
-:cameron.freenode.net 372 NaaCaa :- page (http://freenode.net/policy.shtml). Thank you for using
-:cameron.freenode.net 372 NaaCaa :- the network!
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- Don't forget to check out these other Peer-Directed Projects:
-:cameron.freenode.net 372 NaaCaa :- FOSSCON [http://www.fosscon.org] and fossevents 
-:cameron.freenode.net 372 NaaCaa :- [http://www.fossevents.org], and soon we'll repeat last years 
-:cameron.freenode.net 372 NaaCaa :- success with Picnics for Geeks across the globe, more info at 
-:cameron.freenode.net 372 NaaCaa :- [http://geeknic.org]
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- freenode is a service of Peer-Directed Projects Center Ltd,
-:cameron.freenode.net 372 NaaCaa :- a not for profit organisation registered in England and Wales.
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- If you support the work we do and wish to donate to the PDPC, 
-:cameron.freenode.net 372 NaaCaa :- you may do so over at http://freenode.net/pdpc_donations.shtml
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- Thank you for using freenode!
-:cameron.freenode.net 372 NaaCaa :-  
-:cameron.freenode.net 372 NaaCaa :- ***************************************************************
-:cameron.freenode.net 372 NaaCaa :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
-:cameron.freenode.net 372 NaaCaa :- ***************************************************************
-:cameron.freenode.net 376 NaaCaa :End of /MOTD command.
-:NaaCaa MODE NaaCaa :+i
+Tue Nov 27 11:57:46 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
 
-Mon Nov 26 14:37:42 2012 : client : NICK Blemere
-Mon Nov 26 14:37:42 2012 : client : USER AL 0 * .
-Mon Nov 26 14:37:42 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
-:cameron.freenode.net NOTICE * :*** Checking Ident
+Tue Nov 27 11:57:51 2012 : client : NICK malllooo
+Tue Nov 27 11:57:51 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
 :cameron.freenode.net NOTICE * :*** Found your hostname
 :cameron.freenode.net NOTICE * :*** No Ident response
 
-Mon Nov 26 14:37:54 2012 : client : join #tsam
-Mon Nov 26 14:37:54 2012 : server : :cameron.freenode.net 001 Blemere :Welcome to the freenode Internet Relay Chat Network Blemere
-:cameron.freenode.net 002 Blemere :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
-:cameron.freenode.net 003 Blemere :This server was created Sat Feb 25 2012 at 17:22:16 EET
-:cameron.freenode.net 004 Blemere cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
-:cameron.freenode.net 005 Blemere CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
-:cameron.freenode.net 005 Blemere CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
-:cameron.freenode.net 005 Blemere EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
-:cameron.freenode.net 251 Blemere :There are 209 users and 78659 invisible on 34 servers
-:cameron.freenode.net 252 Blemere 35 :IRC Operators online
-:cameron.freenode.net 253 Blemere 10 :unknown connection(s)
-:cameron.freenode.net 254 Blemere 42843 :channels formed
-:cameron.freenode.net 255 Blemere :I have 4494 clients and 1 servers
-:cameron.freenode.net 265 Blemere 4494 9497 :Current local users 4494, max 9497
-:cameron.freenode.net 266 Blemere 78868 83501 :Current global users 78868, max 83501
-:cameron.freenode.net 250 Blemere :Highest connection count: 9498 (9497 clients) (2242393 connections received)
-:cameron.freenode.net 375 Blemere :- cameron.freenode.net Message of the Day - 
-:cameron.freenode.net 372 Blemere :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
-:cameron.freenode.net 372 Blemere :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
-:cameron.freenode.net 372 Blemere :- been involved in the production of many of the film "greatest hits" 
-:cameron.freenode.net 372 Blemere :- of the past 25 years, including the Terminator movies and the 3D
-:cameron.freenode.net 372 Blemere :- blockbuster Avatar.
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- You're using freenode, a service of Peer-Directed Projects
-:cameron.freenode.net 372 Blemere :- Center Ltd (http://freenode.net/pdpc.shtml).
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- By connecting to freenode you indicate that you have read
-:cameron.freenode.net 372 Blemere :- and agree to adhere to our policies and procedures as per
-:cameron.freenode.net 372 Blemere :- the website (http://freenode.net). We would like to remind
-:cameron.freenode.net 372 Blemere :- you that unauthorized public logging of channels on the
-:cameron.freenode.net 372 Blemere :- network is prohibited. Public channel logging should only
-:cameron.freenode.net 372 Blemere :- take place where the channel owner(s) has requested this
-:cameron.freenode.net 372 Blemere :- and users of the channel are all made aware (if you are
-:cameron.freenode.net 372 Blemere :- publically logging your channel, you may wish to keep a
-:cameron.freenode.net 372 Blemere :- notice in topic and perhaps as a on-join message).
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- freenode runs an open proxy scanner. Your use of the network
-:cameron.freenode.net 372 Blemere :- indicates your acceptance of this policy. For details on
-:cameron.freenode.net 372 Blemere :- freenode network policy, please take a look at our policy
-:cameron.freenode.net 372 Blemere :- page (http://freenode.net/policy.shtml). Thank you for using
-:cameron.freenode.net 372 Blemere :- the network!
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- Don't forget to check out these other Peer-Directed Projects:
-:cameron.freenode.net 372 Blemere :- FOSSCON [http://www.fosscon.org] and fossevents 
-:cameron.freenode.net 372 Blemere :- [http://www.fossevents.org], and soon we'll repeat last years 
-:cameron.freenode.net 372 Blemere :- success with Picnics for Geeks across the globe, more info at 
-:cameron.freenode.net 372 Blemere :- [http://geeknic.org]
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- freenode is a service of Peer-Directed Projects Center Ltd,
-:cameron.freenode.net 372 Blemere :- a not for profit organisation registered in England and Wales.
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- If you support the work we do and wish to donate to the PDPC, 
-:cameron.freenode.net 372 Blemere :- you may do so over at http://freenode.net/pdpc_donations.shtml
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- Thank you for using freenode!
-:cameron.freenode.net 372 Blemere :-  
-:cameron.freenode.net 372 Blemere :- ***************************************************************
-:cameron.freenode.net 372 Blemere :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
-:cameron.freenode.net 372 Blemere :- ***************************************************************
-:cameron.freenode.net 376 Blemere :End of /MOTD command.
-:Blemere MODE Blemere :+i
+Tue Nov 27 11:58:16 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
 
-Mon Nov 26 14:37:59 2012 : client : part tsam
-Mon Nov 26 14:37:59 2012 : server : :Blemere!~AL@fire-out.ru.is JOIN #tsam
-:cameron.freenode.net 332 Blemere #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
-:cameron.freenode.net 333 Blemere #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
-:cameron.freenode.net 353 Blemere @ #tsam :Blemere arnisig2 AlexBaa einartryggvi frey cozmic
-:cameron.freenode.net 366 Blemere #tsam :End of /NAMES list.
+Tue Nov 27 11:58:18 2012 : client : NICK meeeeeeee
+Tue Nov 27 11:58:18 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 11:59:51 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 11:59:54 2012 : client : NICK ksssssssss
+Tue Nov 27 11:59:54 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:01:26 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:01:30 2012 : client : NICK mammmaaaa
+Tue Nov 27 12:01:30 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:01:30 2012 : client : USER AL 0 * .
+Tue Nov 27 12:01:30 2012 : server : :cameron.freenode.net 001 mammmaaaa :Welcome to the freenode Internet Relay Chat Network mammmaaaa
+
+Tue Nov 27 12:01:30 2012 : server : :cameron.freenode.net 002 mammmaaaa :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 mammmaaaa :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 mammmaaaa cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 mammmaaaa CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 mammmaaaa CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 mammmaaaa EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 mammmaaaa :There are 212 users and 76895 invisible on 34 servers
+:cameron.freenode.net 252 mammmaaaa 35 :IRC Operators online
+:cameron.freenode.net 253 mammmaaaa 6 :unknown connection(s)
+:cameron.freenode.net 254 mammmaaaa 42853 :channels formed
+:cameron.freenode.net 255 mammmaaaa :I have 4036 clients and 1 servers
+:cameron.freenode.net 265 mammmaaaa 4036 9497 :Current local users 4036, max 9497
+:cameron.freenode.net 266 mammmaaaa 77107 85546 :Current global users 77107, max 85546
+:cameron.freenode.net 250 mammmaaaa :Highest connection count: 9498 (9497 clients) (2252581 connections received)
+:cameron.freenode.net 375 mammmaaaa :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 mammmaaaa :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 mammmaaaa :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 mammmaaaa :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 mammmaaaa :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 mammmaaaa :- blockbuster Avatar.
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 mammmaaaa :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 mammmaaaa :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 mammmaaaa :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 mammmaaaa :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 mammmaaaa :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 mammmaaaa :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 mammmaaaa :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 mammmaaaa :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 mammmaaaa :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 mammmaaaa :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 mammmaaaa :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 mammmaaaa :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 mammmaaaa :- the network!
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 mammmaaaa :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 mammmaaaa :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 mammmaaaa :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 mammmaaaa :- [http://geeknic.org]
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 mammmaaaa :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 mammmaaaa :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- Thank you for using freenode!
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- ***************************************************************
+:cameron.freenode.net 372 mammmaaaa :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 mammmaaaa :- ***************************************************************
+:cameron.freenode.net 376 mammmaaaa :End of /MOTD command.
+:mammmaaaa MODE mammmaaaa :+i
+
+Tue Nov 27 12:01:49 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:01:52 2012 : client : NICK mammmaaaa
+Tue Nov 27 12:01:52 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:01:52 2012 : client : USER AL 0 * .
+Tue Nov 27 12:01:52 2012 : server : :cameron.freenode.net 001 mammmaaaa :Welcome to the freenode Internet Relay Chat Network mammmaaaa
+
+Tue Nov 27 12:01:52 2012 : server : :cameron.freenode.net 002 mammmaaaa :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 mammmaaaa :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 mammmaaaa cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 mammmaaaa CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 mammmaaaa CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 mammmaaaa EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 mammmaaaa :There are 212 users and 76919 invisible on 34 servers
+:cameron.freenode.net 252 mammmaaaa 35 :IRC Operators online
+:cameron.freenode.net 253 mammmaaaa 8 :unknown connection(s)
+:cameron.freenode.net 254 mammmaaaa 42859 :channels formed
+:cameron.freenode.net 255 mammmaaaa :I have 4035 clients and 1 servers
+:cameron.freenode.net 265 mammmaaaa 4035 9497 :Current local users 4035, max 9497
+:cameron.freenode.net 266 mammmaaaa 77131 85546 :Current global users 77131, max 85546
+:cameron.freenode.net 250 mammmaaaa :Highest connection count: 9498 (9497 clients) (2252583 connections received)
+:cameron.freenode.net 375 mammmaaaa :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 mammmaaaa :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 mammmaaaa :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 mammmaaaa :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 mammmaaaa :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 mammmaaaa :- blockbuster Avatar.
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 mammmaaaa :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 mammmaaaa :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 mammmaaaa :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 mammmaaaa :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 mammmaaaa :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 mammmaaaa :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 mammmaaaa :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 mammmaaaa :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 mammmaaaa :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 mammmaaaa :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 mammmaaaa :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 mammmaaaa :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 mammmaaaa :- the network!
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 mammmaaaa :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 mammmaaaa :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 mammmaaaa :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 mammmaaaa :- [http://geeknic.org]
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 mammmaaaa :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 mammmaaaa :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- Thank you for using freenode!
+:cameron.freenode.net 372 mammmaaaa :-  
+:cameron.freenode.net 372 mammmaaaa :- ***************************************************************
+:cameron.freenode.net 372 mammmaaaa :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 mammmaaaa :- ***************************************************************
+:cameron.freenode.net 376 mammmaaaa :End of /MOTD command.
+:mammmaaaa MODE mammmaaaa :+i
+
+Tue Nov 27 12:02:23 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:02:26 2012 : client : NICK meeeeeeeee
+Tue Nov 27 12:02:26 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:02:26 2012 : client : USER AL 0 * .
+Tue Nov 27 12:02:26 2012 : server : :cameron.freenode.net 001 meeeeeeeee :Welcome to the freenode Internet Relay Chat Network meeeeeeeee
+
+Tue Nov 27 12:02:26 2012 : server : :cameron.freenode.net 002 meeeeeeeee :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 meeeeeeeee :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 meeeeeeeee cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 meeeeeeeee CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 meeeeeeeee CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 meeeeeeeee EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 meeeeeeeee :There are 212 users and 76917 invisible on 34 servers
+:cameron.freenode.net 252 meeeeeeeee 35 :IRC Operators online
+:cameron.freenode.net 253 meeeeeeeee 5 :unknown connection(s)
+:cameron.freenode.net 254 meeeeeeeee 42860 :channels formed
+:cameron.freenode.net 255 meeeeeeeee :I have 4039 clients and 1 servers
+:cameron.freenode.net 265 meeeeeeeee 4039 9497 :Current local users 4039, max 9497
+:cameron.freenode.net 266 meeeeeeeee 77129 85546 :Current global users 77129, max 85546
+:cameron.freenode.net 250 meeeeeeeee :Highest connection count: 9498 (9497 clients) (2252596 connections received)
+:cameron.freenode.net 375 meeeeeeeee :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 meeeeeeeee :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 meeeeeeeee :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 meeeeeeeee :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 meeeeeeeee :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 meeeeeeeee :- blockbuster Avatar.
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 meeeeeeeee :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 meeeeeeeee :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 meeeeeeeee :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 meeeeeeeee :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 meeeeeeeee :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 meeeeeeeee :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 meeeeeeeee :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 meeeeeeeee :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 meeeeeeeee :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 meeeeeeeee :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 meeeeeeeee :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 meeeeeeeee :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 meeeeeeeee :- the network!
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 meeeeeeeee :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 meeeeeeeee :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 meeeeeeeee :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 meeeeeeeee :- [http://geeknic.org]
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 meeeeeeeee :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 meeeeeeeee :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- Thank you for using freenode!
+:cameron.freenode.net 372 meeeeeeeee :-  
+:cameron.freenode.net 372 meeeeeeeee :- ***************************************************************
+:cameron.freenode.net 372 meeeeeeeee :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 meeeeeeeee :- ***************************************************************
+:cameron.freenode.net 376 meeeeeeeee :End of /MOTD command.
+:meeeeeeeee MODE meeeeeeeee :+i
+
+Tue Nov 27 12:02:32 2012 : client : join #tsam
+Tue Nov 27 12:02:32 2012 : server : :meeeeeeeee!~AL@fire-out.ru.is JOIN #tsam
+
+Tue Nov 27 12:06:41 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:06:45 2012 : client : NICK meloooooo
+Tue Nov 27 12:06:45 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:06:45 2012 : client : USER AL 0 * .
+Tue Nov 27 12:06:45 2012 : server : :cameron.freenode.net 001 meloooooo :Welcome to the freenode Internet Relay Chat Network meloooooo
+
+Tue Nov 27 12:06:45 2012 : server : :cameron.freenode.net 002 meloooooo :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 meloooooo :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 meloooooo cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 meloooooo CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 meloooooo CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 meloooooo EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 meloooooo :There are 212 users and 76964 invisible on 34 servers
+:cameron.freenode.net 252 meloooooo 35 :IRC Operators online
+:cameron.freenode.net 253 meloooooo 7 :unknown connection(s)
+:cameron.freenode.net 254 meloooooo 42860 :channels formed
+:cameron.freenode.net 255 meloooooo :I have 4036 clients and 1 servers
+:cameron.freenode.net 265 meloooooo 4036 9497 :Current local users 4036, max 9497
+:cameron.freenode.net 266 meloooooo 77176 85546 :Current global users 77176, max 85546
+:cameron.freenode.net 250 meloooooo :Highest connection count: 9498 (9497 clients) (2252622 connections received)
+:cameron.freenode.net 375 meloooooo :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 meloooooo :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 meloooooo :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 meloooooo :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 meloooooo :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 meloooooo :- blockbuster Avatar.
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 meloooooo :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 meloooooo :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 meloooooo :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 meloooooo :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 meloooooo :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 meloooooo :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 meloooooo :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 meloooooo :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 meloooooo :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 meloooooo :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 meloooooo :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 meloooooo :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 meloooooo :- the network!
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 meloooooo :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 meloooooo :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 meloooooo :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 meloooooo :- [http://geeknic.org]
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 meloooooo :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 meloooooo :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- Thank you for using freenode!
+:cameron.freenode.net 372 meloooooo :-  
+:cameron.freenode.net 372 meloooooo :- ***************************************************************
+:cameron.freenode.net 372 meloooooo :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 meloooooo :- ***************************************************************
+:cameron.freenode.net 376 meloooooo :End of /MOTD command.
+:meloooooo MODE meloooooo :+i
+
+Tue Nov 27 12:06:51 2012 : client : join #tsam
+Tue Nov 27 12:06:51 2012 : server : :meloooooo!~AL@fire-out.ru.is JOIN #tsam
+
+Tue Nov 27 12:07:58 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:08:02 2012 : client : NICK maloooha
+Tue Nov 27 12:08:02 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:08:02 2012 : client : USER AL 0 * .
+Tue Nov 27 12:08:02 2012 : server : :cameron.freenode.net 001 maloooha :Welcome to the freenode Internet Relay Chat Network maloooha
+
+Tue Nov 27 12:08:02 2012 : server : :cameron.freenode.net 002 maloooha :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 maloooha :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 maloooha cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 maloooha CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 maloooha CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 maloooha EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 maloooha :There are 212 users and 76958 invisible on 34 servers
+:cameron.freenode.net 252 maloooha 35 :IRC Operators online
+:cameron.freenode.net 253 maloooha 1 :unknown connection(s)
+:cameron.freenode.net 254 maloooha 42864 :channels formed
+:cameron.freenode.net 255 maloooha :I have 4029 clients and 1 servers
+:cameron.freenode.net 265 maloooha 4029 9497 :Current local users 4029, max 9497
+:cameron.freenode.net 266 maloooha 77170 85546 :Current global users 77170, max 85546
+:cameron.freenode.net 250 maloooha :Highest connection count: 9498 (9497 clients) (2252627 connections received)
+:cameron.freenode.net 375 maloooha :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 maloooha :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 maloooha :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 maloooha :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 maloooha :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 maloooha :- blockbuster Avatar.
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 maloooha :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 maloooha :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 maloooha :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 maloooha :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 maloooha :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 maloooha :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 maloooha :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 maloooha :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 maloooha :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 maloooha :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 maloooha :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 maloooha :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 maloooha :- the network!
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 maloooha :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 maloooha :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 maloooha :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 maloooha :- [http://geeknic.org]
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 maloooha :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 maloooha :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- Thank you for using freenode!
+:cameron.freenode.net 372 maloooha :-  
+:cameron.freenode.net 372 maloooha :- ***************************************************************
+:cameron.freenode.net 372 maloooha :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 maloooha :- ***************************************************************
+:cameron.freenode.net 376 maloooha :End of /MOTD command.
+:maloooha MODE maloooha :+i
+
+Tue Nov 27 12:09:46 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:09:53 2012 : client : NICK melooohe
+Tue Nov 27 12:09:53 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:09:53 2012 : client : USER AL 0 * .
+Tue Nov 27 12:09:53 2012 : server : :cameron.freenode.net 001 melooohe :Welcome to the freenode Internet Relay Chat Network melooohe
+
+Tue Nov 27 12:09:53 2012 : server : :cameron.freenode.net 002 melooohe :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 melooohe :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 melooohe cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 melooohe CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 melooohe CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 melooohe EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 melooohe :There are 212 users and 76973 invisible on 34 servers
+:cameron.freenode.net 252 melooohe 35 :IRC Operators online
+:cameron.freenode.net 253 melooohe 4 :unknown connection(s)
+:cameron.freenode.net 254 melooohe 42868 :channels formed
+:cameron.freenode.net 255 melooohe :I have 4037 clients and 1 servers
+:cameron.freenode.net 265 melooohe 4037 9497 :Current local users 4037, max 9497
+:cameron.freenode.net 266 melooohe 77185 85546 :Current global users 77185, max 85546
+:cameron.freenode.net 250 melooohe :Highest connection count: 9498 (9497 clients) (2252642 connections received)
+:cameron.freenode.net 375 melooohe :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 melooohe :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 melooohe :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 melooohe :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 melooohe :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 melooohe :- blockbuster Avatar.
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 melooohe :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 melooohe :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 melooohe :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 melooohe :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 melooohe :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 melooohe :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 melooohe :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 melooohe :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 melooohe :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 melooohe :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 melooohe :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 melooohe :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 melooohe :- the network!
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 melooohe :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 melooohe :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 melooohe :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 melooohe :- [http://geeknic.org]
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 melooohe :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 melooohe :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- Thank you for using freenode!
+:cameron.freenode.net 372 melooohe :-  
+:cameron.freenode.net 372 melooohe :- ***************************************************************
+:cameron.freenode.net 372 melooohe :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 melooohe :- ***************************************************************
+:cameron.freenode.net 376 melooohe :End of /MOTD command.
+:melooohe MODE melooohe :+i
+
+Tue Nov 27 12:11:33 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:11:37 2012 : client : NICK mellaaaaa
+Tue Nov 27 12:11:37 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:11:37 2012 : client : USER AL 0 * .
+Tue Nov 27 12:11:37 2012 : server : :cameron.freenode.net 001 mellaaaaa :Welcome to the freenode Internet Relay Chat Network mellaaaaa
+
+Tue Nov 27 12:11:37 2012 : server : :cameron.freenode.net 002 mellaaaaa :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 mellaaaaa :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 mellaaaaa cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 mellaaaaa CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 mellaaaaa CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 mellaaaaa EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 mellaaaaa :There are 213 users and 76992 invisible on 34 servers
+:cameron.freenode.net 252 mellaaaaa 35 :IRC Operators online
+:cameron.freenode.net 253 mellaaaaa 5 :unknown connection(s)
+:cameron.freenode.net 254 mellaaaaa 42859 :channels formed
+:cameron.freenode.net 255 mellaaaaa :I have 4034 clients and 1 servers
+:cameron.freenode.net 265 mellaaaaa 4034 9497 :Current local users 4034, max 9497
+:cameron.freenode.net 266 mellaaaaa 77205 85546 :Current global users 77205, max 85546
+:cameron.freenode.net 250 mellaaaaa :Highest connection count: 9498 (9497 clients) (2252652 connections received)
+:cameron.freenode.net 375 mellaaaaa :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 mellaaaaa :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 mellaaaaa :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 mellaaaaa :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 mellaaaaa :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 mellaaaaa :- blockbuster Avatar.
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 mellaaaaa :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 mellaaaaa :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 mellaaaaa :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 mellaaaaa :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 mellaaaaa :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 mellaaaaa :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 mellaaaaa :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 mellaaaaa :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 mellaaaaa :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 mellaaaaa :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 mellaaaaa :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 mellaaaaa :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 mellaaaaa :- the network!
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 mellaaaaa :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 mellaaaaa :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 mellaaaaa :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 mellaaaaa :- [http://geeknic.org]
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 mellaaaaa :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 mellaaaaa :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- Thank you for using freenode!
+:cameron.freenode.net 372 mellaaaaa :-  
+:cameron.freenode.net 372 mellaaaaa :- ***************************************************************
+:cameron.freenode.net 372 mellaaaaa :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 mellaaaaa :- ***************************************************************
+:cameron.freenode.net 376 mellaaaaa :End of /MOTD command.
+:mellaaaaa MODE mellaaaaa :+i
+
+Tue Nov 27 12:13:55 2012 : server : PING :cameron.freenode.net
+
+Tue Nov 27 12:15:47 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:15:51 2012 : client : NICK melooooooooo
+Tue Nov 27 12:15:51 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:15:51 2012 : client : USER AL 0 * .
+Tue Nov 27 12:15:51 2012 : server : :cameron.freenode.net 001 melooooooooo :Welcome to the freenode Internet Relay Chat Network melooooooooo
+
+Tue Nov 27 12:15:51 2012 : server : :cameron.freenode.net 002 melooooooooo :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 melooooooooo :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 melooooooooo cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 melooooooooo CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 melooooooooo CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 melooooooooo EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 melooooooooo :There are 213 users and 77043 invisible on 34 servers
+:cameron.freenode.net 252 melooooooooo 35 :IRC Operators online
+:cameron.freenode.net 253 melooooooooo 5 :unknown connection(s)
+:cameron.freenode.net 254 melooooooooo 42869 :channels formed
+:cameron.freenode.net 255 melooooooooo :I have 4038 clients and 1 servers
+:cameron.freenode.net 265 melooooooooo 4038 9497 :Current local users 4038, max 9497
+:cameron.freenode.net 266 melooooooooo 77256 85546 :Current global users 77256, max 85546
+:cameron.freenode.net 250 melooooooooo :Highest connection count: 9498 (9497 clients) (2252678 connections received)
+:cameron.freenode.net 375 melooooooooo :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 melooooooooo :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 melooooooooo :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 melooooooooo :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 melooooooooo :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 melooooooooo :- blockbuster Avatar.
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 melooooooooo :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 melooooooooo :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 melooooooooo :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 melooooooooo :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 melooooooooo :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 melooooooooo :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 melooooooooo :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 melooooooooo :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 melooooooooo :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 melooooooooo :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 melooooooooo :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 melooooooooo :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 melooooooooo :- the network!
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 melooooooooo :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 melooooooooo :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 melooooooooo :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 melooooooooo :- [http://geeknic.org]
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 melooooooooo :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 melooooooooo :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- Thank you for using freenode!
+:cameron.freenode.net 372 melooooooooo :-  
+:cameron.freenode.net 372 melooooooooo :- ***************************************************************
+:cameron.freenode.net 372 melooooooooo :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 melooooooooo :- ***************************************************************
+:cameron.freenode.net 376 melooooooooo :End of /MOTD command.
+:melooooooooo MODE melooooooooo :+i
+
+Tue Nov 27 12:16:43 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:16:46 2012 : client : NICK gargah
+Tue Nov 27 12:16:46 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:16:46 2012 : client : USER AL 0 * .
+Tue Nov 27 12:16:46 2012 : server : :cameron.freenode.net 001 gargah :Welcome to the freenode Internet Relay Chat Network gargah
+
+Tue Nov 27 12:16:46 2012 : server : :cameron.freenode.net 002 gargah :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 gargah :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 gargah cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 gargah CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 gargah CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 gargah EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 gargah :There are 213 users and 77073 invisible on 34 servers
+:cameron.freenode.net 252 gargah 35 :IRC Operators online
+:cameron.freenode.net 253 gargah 9 :unknown connection(s)
+:cameron.freenode.net 254 gargah 42855 :channels formed
+:cameron.freenode.net 255 gargah :I have 4038 clients and 1 servers
+:cameron.freenode.net 265 gargah 4038 9497 :Current local users 4038, max 9497
+:cameron.freenode.net 266 gargah 77286 85546 :Current global users 77286, max 85546
+:cameron.freenode.net 250 gargah :Highest connection count: 9498 (9497 clients) (2252684 connections received)
+:cameron.freenode.net 375 gargah :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 gargah :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 gargah :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 gargah :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 gargah :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 gargah :- blockbuster Avatar.
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 gargah :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 gargah :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 gargah :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 gargah :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 gargah :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 gargah :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 gargah :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 gargah :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 gargah :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 gargah :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 gargah :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 gargah :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 gargah :- the network!
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 gargah :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 gargah :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 gargah :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 gargah :- [http://geeknic.org]
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 gargah :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 gargah :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- Thank you for using freenode!
+:cameron.freenode.net 372 gargah :-  
+:cameron.freenode.net 372 gargah :- ***************************************************************
+:cameron.freenode.net 372 gargah :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 gargah :- ***************************************************************
+:cameron.freenode.net 376 gargah :End of /MOTD command.
+:gargah MODE gargah :+i
+
+Tue Nov 27 12:17:18 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:17:24 2012 : client : NICK hello123
+Tue Nov 27 12:17:24 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:17:24 2012 : client : USER AL 0 * .
+Tue Nov 27 12:17:24 2012 : server : :cameron.freenode.net 001 hello123 :Welcome to the freenode Internet Relay Chat Network hello123
+
+Tue Nov 27 12:17:24 2012 : server : :cameron.freenode.net 002 hello123 :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 hello123 :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 hello123 cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 hello123 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 hello123 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 hello123 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 hello123 :There are 213 users and 77087 invisible on 34 servers
+:cameron.freenode.net 252 hello123 35 :IRC Operators online
+:cameron.freenode.net 253 hello123 9 :unknown connection(s)
+:cameron.freenode.net 254 hello123 42863 :channels formed
+:cameron.freenode.net 255 hello123 :I have 4040 clients and 1 servers
+:cameron.freenode.net 265 hello123 4040 9497 :Current local users 4040, max 9497
+:cameron.freenode.net 266 hello123 77300 85546 :Current global users 77300, max 85546
+:cameron.freenode.net 250 hello123 :Highest connection count: 9498 (9497 clients) (2252690 connections received)
+:cameron.freenode.net 375 hello123 :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 hello123 :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 hello123 :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 hello123 :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 hello123 :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 hello123 :- blockbuster Avatar.
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 hello123 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 hello123 :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 hello123 :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 hello123 :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 hello123 :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 hello123 :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 hello123 :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 hello123 :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 hello123 :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 hello123 :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 hello123 :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 hello123 :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 hello123 :- the network!
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 hello123 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 hello123 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 hello123 :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 hello123 :- [http://geeknic.org]
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 hello123 :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 hello123 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- Thank you for using freenode!
+:cameron.freenode.net 372 hello123 :-  
+:cameron.freenode.net 372 hello123 :- ***************************************************************
+:cameron.freenode.net 372 hello123 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 hello123 :- ***************************************************************
+:cameron.freenode.net 376 hello123 :End of /MOTD command.
+:hello123 MODE hello123 :+i
+
+Tue Nov 27 12:18:25 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:18:29 2012 : client : NICK haloo123
+Tue Nov 27 12:18:29 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:18:29 2012 : client : USER AL 0 * .
+Tue Nov 27 12:18:29 2012 : server : :cameron.freenode.net 001 haloo123 :Welcome to the freenode Internet Relay Chat Network haloo123
+
+Tue Nov 27 12:18:29 2012 : server : :cameron.freenode.net 002 haloo123 :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 haloo123 :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 haloo123 cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 haloo123 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 haloo123 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 haloo123 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 haloo123 :There are 213 users and 77107 invisible on 34 servers
+:cameron.freenode.net 252 haloo123 35 :IRC Operators online
+:cameron.freenode.net 253 haloo123 5 :unknown connection(s)
+:cameron.freenode.net 254 haloo123 42864 :channels formed
+:cameron.freenode.net 255 haloo123 :I have 4046 clients and 1 servers
+:cameron.freenode.net 265 haloo123 4046 9497 :Current local users 4046, max 9497
+:cameron.freenode.net 266 haloo123 77320 85546 :Current global users 77320, max 85546
+:cameron.freenode.net 250 haloo123 :Highest connection count: 9498 (9497 clients) (2252699 connections received)
+:cameron.freenode.net 375 haloo123 :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 haloo123 :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 haloo123 :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 haloo123 :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 haloo123 :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 haloo123 :- blockbuster Avatar.
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 haloo123 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 haloo123 :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 haloo123 :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 haloo123 :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 haloo123 :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 haloo123 :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 haloo123 :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 haloo123 :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 haloo123 :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 haloo123 :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 haloo123 :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 haloo123 :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 haloo123 :- the network!
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 haloo123 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 haloo123 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 haloo123 :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 haloo123 :- [http://geeknic.org]
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 haloo123 :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 haloo123 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- Thank you for using freenode!
+:cameron.freenode.net 372 haloo123 :-  
+:cameron.freenode.net 372 haloo123 :- ***************************************************************
+:cameron.freenode.net 372 haloo123 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 haloo123 :- ***************************************************************
+:cameron.freenode.net 376 haloo123 :End of /MOTD command.
+:haloo123 MODE haloo123 :+i
+
+Tue Nov 27 12:20:30 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:20:36 2012 : client : NICK mattcalr
+Tue Nov 27 12:20:36 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:20:36 2012 : client : USER AL 0 * .
+Tue Nov 27 12:20:36 2012 : server : :cameron.freenode.net 001 mattcalr :Welcome to the freenode Internet Relay Chat Network mattcalr
+
+Tue Nov 27 12:20:37 2012 : server : :cameron.freenode.net 002 mattcalr :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 mattcalr :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 mattcalr cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 mattcalr CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 mattcalr CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 mattcalr EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 mattcalr :There are 213 users and 77127 invisible on 34 servers
+:cameron.freenode.net 252 mattcalr 35 :IRC Operators online
+:cameron.freenode.net 253 mattcalr 9 :unknown connection(s)
+:cameron.freenode.net 254 mattcalr 42883 :channels formed
+:cameron.freenode.net 255 mattcalr :I have 4045 clients and 1 servers
+:cameron.freenode.net 265 mattcalr 4045 9497 :Current local users 4045, max 9497
+:cameron.freenode.net 266 mattcalr 77340 85546 :Current global users 77340, max 85546
+:cameron.freenode.net 250 mattcalr :Highest connection count: 9498 (9497 clients) (2252712 connections received)
+:cameron.freenode.net 375 mattcalr :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 mattcalr :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 mattcalr :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 mattcalr :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 mattcalr :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 mattcalr :- blockbuster Avatar.
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 mattcalr :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 mattcalr :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 mattcalr :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 mattcalr :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 mattcalr :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 mattcalr :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 mattcalr :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 mattcalr :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 mattcalr :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 mattcalr :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 mattcalr :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 mattcalr :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 mattcalr :- the network!
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 mattcalr :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 mattcalr :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 mattcalr :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 mattcalr :- [http://geeknic.org]
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 mattcalr :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 mattcalr :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- Thank you for using freenode!
+:cameron.freenode.net 372 mattcalr :-  
+:cameron.freenode.net 372 mattcalr :- ***************************************************************
+:cameron.freenode.net 372 mattcalr :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 mattcalr :- ***************************************************************
+:cameron.freenode.net 376 mattcalr :End of /MOTD command.
+:mattcalr MODE mattcalr :+i
+
+Tue Nov 27 12:28:03 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:28:13 2012 : client : NICK keeeeeeeeee
+Tue Nov 27 12:28:13 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:28:13 2012 : client : USER AL 0 * .
+Tue Nov 27 12:28:13 2012 : server : :cameron.freenode.net 001 keeeeeeeeee :Welcome to the freenode Internet Relay Chat Network keeeeeeeeee
+
+Tue Nov 27 12:28:13 2012 : server : :cameron.freenode.net 002 keeeeeeeeee :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 keeeeeeeeee :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 keeeeeeeeee cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 keeeeeeeeee CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 keeeeeeeeee CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 keeeeeeeeee EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 keeeeeeeeee :There are 213 users and 77245 invisible on 34 servers
+:cameron.freenode.net 252 keeeeeeeeee 35 :IRC Operators online
+:cameron.freenode.net 253 keeeeeeeeee 8 :unknown connection(s)
+:cameron.freenode.net 254 keeeeeeeeee 42908 :channels formed
+:cameron.freenode.net 255 keeeeeeeeee :I have 4056 clients and 1 servers
+:cameron.freenode.net 265 keeeeeeeeee 4056 9497 :Current local users 4056, max 9497
+:cameron.freenode.net 266 keeeeeeeeee 77458 85546 :Current global users 77458, max 85546
+:cameron.freenode.net 250 keeeeeeeeee :Highest connection count: 9498 (9497 clients) (2252754 connections received)
+:cameron.freenode.net 375 keeeeeeeeee :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 keeeeeeeeee :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 keeeeeeeeee :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 keeeeeeeeee :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 keeeeeeeeee :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 keeeeeeeeee :- blockbuster Avatar.
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 keeeeeeeeee :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 keeeeeeeeee :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 keeeeeeeeee :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 keeeeeeeeee :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 keeeeeeeeee :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 keeeeeeeeee :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 keeeeeeeeee :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 keeeeeeeeee :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 keeeeeeeeee :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 keeeeeeeeee :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 keeeeeeeeee :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 keeeeeeeeee :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 keeeeeeeeee :- the network!
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 keeeeeeeeee :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 keeeeeeeeee :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 keeeeeeeeee :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 keeeeeeeeee :- [http://geeknic.org]
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 keeeeeeeeee :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 keeeeeeeeee :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- Thank you for using freenode!
+:cameron.freenode.net 372 keeeeeeeeee :-  
+:cameron.freenode.net 372 keeeeeeeeee :- ***************************************************************
+:cameron.freenode.net 372 keeeeeeeeee :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 keeeeeeeeee :- ***************************************************************
+:cameron.freenode.net 376 keeeeeeeeee :End of /MOTD command.
+:keeeeeeeeee MODE keeeeeeeeee :+i
+
+Tue Nov 27 12:30:52 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:30:57 2012 : client : NICK mahlvars
+Tue Nov 27 12:30:57 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:30:57 2012 : client : USER AL 0 * .
+Tue Nov 27 12:30:57 2012 : server : :cameron.freenode.net 001 mahlvars :Welcome to the freenode Internet Relay Chat Network mahlvars
+
+Tue Nov 27 12:30:57 2012 : server : :cameron.freenode.net 002 mahlvars :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 mahlvars :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 mahlvars cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 mahlvars CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 mahlvars CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 mahlvars EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 mahlvars :There are 213 users and 77241 invisible on 34 servers
+:cameron.freenode.net 252 mahlvars 35 :IRC Operators online
+:cameron.freenode.net 253 mahlvars 5 :unknown connection(s)
+:cameron.freenode.net 254 mahlvars 42922 :channels formed
+:cameron.freenode.net 255 mahlvars :I have 4058 clients and 1 servers
+:cameron.freenode.net 265 mahlvars 4058 9497 :Current local users 4058, max 9497
+:cameron.freenode.net 266 mahlvars 77454 85546 :Current global users 77454, max 85546
+:cameron.freenode.net 250 mahlvars :Highest connection count: 9498 (9497 clients) (2252767 connections received)
+:cameron.freenode.net 375 mahlvars :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 mahlvars :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 mahlvars :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 mahlvars :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 mahlvars :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 mahlvars :- blockbuster Avatar.
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 mahlvars :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 mahlvars :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 mahlvars :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 mahlvars :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 mahlvars :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 mahlvars :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 mahlvars :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 mahlvars :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 mahlvars :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 mahlvars :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 mahlvars :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 mahlvars :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 mahlvars :- the network!
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 mahlvars :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 mahlvars :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 mahlvars :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 mahlvars :- [http://geeknic.org]
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 mahlvars :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 mahlvars :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- Thank you for using freenode!
+:cameron.freenode.net 372 mahlvars :-  
+:cameron.freenode.net 372 mahlvars :- ***************************************************************
+:cameron.freenode.net 372 mahlvars :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 mahlvars :- ***************************************************************
+:cameron.freenode.net 376 mahlvars :End of /MOTD command.
+:mahlvars MODE mahlvars :+i
+
+Tue Nov 27 12:34:24 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:34:27 2012 : client : NICK neeelaaa
+Tue Nov 27 12:34:27 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:34:27 2012 : client : USER AL 0 * .
+Tue Nov 27 12:34:27 2012 : server : :cameron.freenode.net 001 neeelaaa :Welcome to the freenode Internet Relay Chat Network neeelaaa
+
+Tue Nov 27 12:34:27 2012 : server : :cameron.freenode.net 002 neeelaaa :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 neeelaaa :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 neeelaaa cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 neeelaaa CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 neeelaaa CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 neeelaaa EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 neeelaaa :There are 212 users and 77305 invisible on 34 servers
+:cameron.freenode.net 252 neeelaaa 35 :IRC Operators online
+:cameron.freenode.net 253 neeelaaa 6 :unknown connection(s)
+:cameron.freenode.net 254 neeelaaa 42923 :channels formed
+:cameron.freenode.net 255 neeelaaa :I have 4043 clients and 1 servers
+:cameron.freenode.net 265 neeelaaa 4043 9497 :Current local users 4043, max 9497
+:cameron.freenode.net 266 neeelaaa 77517 85546 :Current global users 77517, max 85546
+:cameron.freenode.net 250 neeelaaa :Highest connection count: 9498 (9497 clients) (2252780 connections received)
+:cameron.freenode.net 375 neeelaaa :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 neeelaaa :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 neeelaaa :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 neeelaaa :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 neeelaaa :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 neeelaaa :- blockbuster Avatar.
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 neeelaaa :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 neeelaaa :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 neeelaaa :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 neeelaaa :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 neeelaaa :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 neeelaaa :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 neeelaaa :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 neeelaaa :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 neeelaaa :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 neeelaaa :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 neeelaaa :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 neeelaaa :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 neeelaaa :- the network!
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 neeelaaa :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 neeelaaa :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 neeelaaa :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 neeelaaa :- [http://geeknic.org]
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 neeelaaa :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 neeelaaa :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- Thank you for using freenode!
+:cameron.freenode.net 372 neeelaaa :-  
+:cameron.freenode.net 372 neeelaaa :- ***************************************************************
+:cameron.freenode.net 372 neeelaaa :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 neeelaaa :- ***************************************************************
+:cameron.freenode.net 376 neeelaaa :End of /MOTD command.
+:neeelaaa MODE neeelaaa :+i
+
+Tue Nov 27 12:35:31 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:35:33 2012 : client : NICK djsgkjsks
+Tue Nov 27 12:35:33 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:35:33 2012 : client : USER AL 0 * .
+Tue Nov 27 12:35:33 2012 : server : :cameron.freenode.net 001 djsgkjsks :Welcome to the freenode Internet Relay Chat Network djsgkjsks
+
+Tue Nov 27 12:35:33 2012 : server : :cameron.freenode.net 002 djsgkjsks :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 djsgkjsks :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 djsgkjsks cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 djsgkjsks CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 djsgkjsks CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 djsgkjsks EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 djsgkjsks :There are 212 users and 77341 invisible on 34 servers
+:cameron.freenode.net 252 djsgkjsks 35 :IRC Operators online
+:cameron.freenode.net 253 djsgkjsks 7 :unknown connection(s)
+:cameron.freenode.net 254 djsgkjsks 42937 :channels formed
+:cameron.freenode.net 255 djsgkjsks :I have 4048 clients and 1 servers
+:cameron.freenode.net 265 djsgkjsks 4048 9497 :Current local users 4048, max 9497
+:cameron.freenode.net 266 djsgkjsks 77553 85546 :Current global users 77553, max 85546
+:cameron.freenode.net 250 djsgkjsks :Highest connection count: 9498 (9497 clients) (2252791 connections received)
+:cameron.freenode.net 375 djsgkjsks :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 djsgkjsks :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 djsgkjsks :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 djsgkjsks :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 djsgkjsks :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 djsgkjsks :- blockbuster Avatar.
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 djsgkjsks :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 djsgkjsks :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 djsgkjsks :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 djsgkjsks :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 djsgkjsks :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 djsgkjsks :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 djsgkjsks :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 djsgkjsks :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 djsgkjsks :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 djsgkjsks :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 djsgkjsks :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 djsgkjsks :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 djsgkjsks :- the network!
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 djsgkjsks :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 djsgkjsks :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 djsgkjsks :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 djsgkjsks :- [http://geeknic.org]
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 djsgkjsks :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 djsgkjsks :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- Thank you for using freenode!
+:cameron.freenode.net 372 djsgkjsks :-  
+:cameron.freenode.net 372 djsgkjsks :- ***************************************************************
+:cameron.freenode.net 372 djsgkjsks :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 djsgkjsks :- ***************************************************************
+:cameron.freenode.net 376 djsgkjsks :End of /MOTD command.
+:djsgkjsks MODE djsgkjsks :+i
+
+Tue Nov 27 12:37:33 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:37:41 2012 : client : NICK dgadfha
+Tue Nov 27 12:37:41 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:37:41 2012 : client : USER AL 0 * .
+Tue Nov 27 12:37:41 2012 : server : :cameron.freenode.net 001 dgadfha :Welcome to the freenode Internet Relay Chat Network dgadfha
+
+Tue Nov 27 12:37:41 2012 : server : :cameron.freenode.net 002 dgadfha :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 dgadfha :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 dgadfha cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 dgadfha CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 dgadfha CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 dgadfha EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 dgadfha :There are 211 users and 77381 invisible on 34 servers
+:cameron.freenode.net 252 dgadfha 35 :IRC Operators online
+:cameron.freenode.net 253 dgadfha 4 :unknown connection(s)
+:cameron.freenode.net 254 dgadfha 42929 :channels formed
+:cameron.freenode.net 255 dgadfha :I have 4050 clients and 1 servers
+:cameron.freenode.net 265 dgadfha 4050 9497 :Current local users 4050, max 9497
+:cameron.freenode.net 266 dgadfha 77592 85546 :Current global users 77592, max 85546
+:cameron.freenode.net 250 dgadfha :Highest connection count: 9498 (9497 clients) (2252807 connections received)
+:cameron.freenode.net 375 dgadfha :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 dgadfha :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 dgadfha :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 dgadfha :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 dgadfha :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 dgadfha :- blockbuster Avatar.
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 dgadfha :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 dgadfha :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 dgadfha :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 dgadfha :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 dgadfha :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 dgadfha :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 dgadfha :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 dgadfha :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 dgadfha :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 dgadfha :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 dgadfha :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 dgadfha :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 dgadfha :- the network!
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 dgadfha :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 dgadfha :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 dgadfha :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 dgadfha :- [http://geeknic.org]
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 dgadfha :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 dgadfha :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- Thank you for using freenode!
+:cameron.freenode.net 372 dgadfha :-  
+:cameron.freenode.net 372 dgadfha :- ***************************************************************
+:cameron.freenode.net 372 dgadfha :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 dgadfha :- ***************************************************************
+:cameron.freenode.net 376 dgadfha :End of /MOTD command.
+:dgadfha MODE dgadfha :+i
+
+Tue Nov 27 12:46:07 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 12:46:12 2012 : client : NICK bleeemee
+Tue Nov 27 12:46:12 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 12:46:12 2012 : client : USER AL 0 * .
+Tue Nov 27 12:46:13 2012 : server : :cameron.freenode.net 001 bleeemee :Welcome to the freenode Internet Relay Chat Network bleeemee
+
+Tue Nov 27 12:46:13 2012 : server : :cameron.freenode.net 002 bleeemee :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 bleeemee :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 bleeemee cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 bleeemee CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 bleeemee CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 bleeemee EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 bleeemee :There are 211 users and 77454 invisible on 34 servers
+:cameron.freenode.net 252 bleeemee 35 :IRC Operators online
+:cameron.freenode.net 253 bleeemee 10 :unknown connection(s)
+:cameron.freenode.net 254 bleeemee 42948 :channels formed
+:cameron.freenode.net 255 bleeemee :I have 4065 clients and 1 servers
+:cameron.freenode.net 265 bleeemee 4065 9497 :Current local users 4065, max 9497
+:cameron.freenode.net 266 bleeemee 77665 85546 :Current global users 77665, max 85546
+:cameron.freenode.net 250 bleeemee :Highest connection count: 9498 (9497 clients) (2252871 connections received)
+:cameron.freenode.net 375 bleeemee :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 bleeemee :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 bleeemee :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 bleeemee :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 bleeemee :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 bleeemee :- blockbuster Avatar.
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 bleeemee :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 bleeemee :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 bleeemee :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 bleeemee :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 bleeemee :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 bleeemee :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 bleeemee :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 bleeemee :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 bleeemee :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 bleeemee :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 bleeemee :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 bleeemee :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 bleeemee :- the network!
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 bleeemee :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 bleeemee :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 bleeemee :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 bleeemee :- [http://geeknic.org]
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 bleeemee :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 bleeemee :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- Thank you for using freenode!
+:cameron.freenode.net 372 bleeemee :-  
+:cameron.freenode.net 372 bleeemee :- ***************************************************************
+:cameron.freenode.net 372 bleeemee :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 bleeemee :- ***************************************************************
+:cameron.freenode.net 376 bleeemee :End of /MOTD command.
+:bleeemee MODE bleeemee :+i
+
+Tue Nov 27 12:46:19 2012 : client : join #tsam
+Tue Nov 27 12:46:19 2012 : server : :bleeemee!~AL@fire-out.ru.is JOIN #tsam
+
+Tue Nov 27 13:00:11 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 13:00:15 2012 : client : NICK ha12345
+Tue Nov 27 13:00:15 2012 : client : NICK ha12345
+Tue Nov 27 13:00:15 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 13:00:15 2012 : client : USER AL 0 * .
+Tue Nov 27 13:00:16 2012 : server : :cameron.freenode.net 001 ha12345 :Welcome to the freenode Internet Relay Chat Network ha12345
+
+Tue Nov 27 13:00:16 2012 : server : :cameron.freenode.net 002 ha12345 :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 ha12345 :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 ha12345 cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 ha12345 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 ha12345 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 ha12345 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 ha12345 :There are 212 users and 77742 invisible on 34 servers
+:cameron.freenode.net 252 ha12345 35 :IRC Operators online
+:cameron.freenode.net 253 ha12345 4 :unknown connection(s)
+:cameron.freenode.net 254 ha12345 42942 :channels formed
+:cameron.freenode.net 255 ha12345 :I have 4057 clients and 1 servers
+:cameron.freenode.net 265 ha12345 4057 9497 :Current local users 4057, max 9497
+:cameron.freenode.net 266 ha12345 77954 85546 :Current global users 77954, max 85546
+:cameron.freenode.net 250 ha12345 :Highest connection count: 9498 (9497 clients) (2252965 connections received)
+:cameron.freenode.net 375 ha12345 :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 ha12345 :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 ha12345 :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 ha12345 :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 ha12345 :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 ha12345 :- blockbuster Avatar.
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 ha12345 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 ha12345 :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 ha12345 :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 ha12345 :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 ha12345 :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 ha12345 :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 ha12345 :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 ha12345 :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 ha12345 :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 ha12345 :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 ha12345 :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 ha12345 :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 ha12345 :- the network!
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 ha12345 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 ha12345 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 ha12345 :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 ha12345 :- [http://geeknic.org]
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 ha12345 :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 ha12345 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- Thank you for using freenode!
+:cameron.freenode.net 372 ha12345 :-  
+:cameron.freenode.net 372 ha12345 :- ***************************************************************
+:cameron.freenode.net 372 ha12345 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 ha12345 :- ***************************************************************
+:cameron.freenode.net 376 ha12345 :End of /MOTD command.
+:ha12345 MODE ha12345 :+i
+
+Tue Nov 27 13:05:25 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 13:05:29 2012 : client : NICK kssseee
+Tue Nov 27 13:05:29 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 13:05:29 2012 : client : USER AL 0 * .
+Tue Nov 27 13:05:29 2012 : server : :cameron.freenode.net 001 kssseee :Welcome to the freenode Internet Relay Chat Network kssseee
+
+Tue Nov 27 13:05:29 2012 : server : :cameron.freenode.net 002 kssseee :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 kssseee :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 kssseee cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 kssseee CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 kssseee CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 kssseee EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 kssseee :There are 212 users and 77860 invisible on 34 servers
+:cameron.freenode.net 252 kssseee 35 :IRC Operators online
+:cameron.freenode.net 253 kssseee 9 :unknown connection(s)
+:cameron.freenode.net 254 kssseee 42955 :channels formed
+:cameron.freenode.net 255 kssseee :I have 4075 clients and 1 servers
+:cameron.freenode.net 265 kssseee 4075 9497 :Current local users 4075, max 9497
+:cameron.freenode.net 266 kssseee 78072 85546 :Current global users 78072, max 85546
+:cameron.freenode.net 250 kssseee :Highest connection count: 9498 (9497 clients) (2253007 connections received)
+:cameron.freenode.net 375 kssseee :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 kssseee :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 kssseee :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 kssseee :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 kssseee :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 kssseee :- blockbuster Avatar.
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 kssseee :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 kssseee :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 kssseee :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 kssseee :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 kssseee :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 kssseee :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 kssseee :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 kssseee :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 kssseee :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 kssseee :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 kssseee :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 kssseee :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 kssseee :- the network!
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 kssseee :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 kssseee :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 kssseee :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 kssseee :- [http://geeknic.org]
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 kssseee :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 kssseee :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- Thank you for using freenode!
+:cameron.freenode.net 372 kssseee :-  
+:cameron.freenode.net 372 kssseee :- ***************************************************************
+:cameron.freenode.net 372 kssseee :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 kssseee :- ***************************************************************
+:cameron.freenode.net 376 kssseee :End of /MOTD command.
+:kssseee MODE kssseee :+i
+
+Tue Nov 27 13:05:40 2012 : client : JOIN #tsam
+Tue Nov 27 13:05:41 2012 : server : :kssseee!~AL@fire-out.ru.is JOIN #tsam
+
+Tue Nov 27 13:08:37 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 13:08:40 2012 : client : NICK ldeeee
+Tue Nov 27 13:08:40 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 13:08:40 2012 : client : USER AL 0 * .
+Tue Nov 27 13:08:40 2012 : server : :cameron.freenode.net 001 ldeeee :Welcome to the freenode Internet Relay Chat Network ldeeee
+
+Tue Nov 27 13:08:41 2012 : server : :cameron.freenode.net 002 ldeeee :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 ldeeee :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 ldeeee cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 ldeeee CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 ldeeee CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 ldeeee EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 ldeeee :There are 213 users and 77929 invisible on 34 servers
+:cameron.freenode.net 252 ldeeee 35 :IRC Operators online
+:cameron.freenode.net 253 ldeeee 5 :unknown connection(s)
+:cameron.freenode.net 254 ldeeee 42949 :channels formed
+:cameron.freenode.net 255 ldeeee :I have 4067 clients and 1 servers
+:cameron.freenode.net 265 ldeeee 4067 9497 :Current local users 4067, max 9497
+:cameron.freenode.net 266 ldeeee 78142 85546 :Current global users 78142, max 85546
+:cameron.freenode.net 250 ldeeee :Highest connection count: 9498 (9497 clients) (2253026 connections received)
+:cameron.freenode.net 375 ldeeee :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 ldeeee :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 ldeeee :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 ldeeee :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 ldeeee :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 ldeeee :- blockbuster Avatar.
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 ldeeee :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 ldeeee :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 ldeeee :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 ldeeee :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 ldeeee :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 ldeeee :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 ldeeee :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 ldeeee :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 ldeeee :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 ldeeee :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 ldeeee :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 ldeeee :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 ldeeee :- the network!
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 ldeeee :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 ldeeee :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 ldeeee :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 ldeeee :- [http://geeknic.org]
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 ldeeee :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 ldeeee :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- Thank you for using freenode!
+:cameron.freenode.net 372 ldeeee :-  
+:cameron.freenode.net 372 ldeeee :- ***************************************************************
+:cameron.freenode.net 372 ldeeee :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 ldeeee :- ***************************************************************
+:cameron.freenode.net 376 ldeeee :End of /MOTD command.
+:ldeeee MODE ldeeee :+i
+
+Tue Nov 27 13:08:55 2012 : client : #tsam #tsam
+Tue Nov 27 13:08:55 2012 : server : :cameron.freenode.net 421 ldeeee #tsam :Unknown command
+
+Tue Nov 27 13:09:06 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 13:09:11 2012 : client : NICK hallo123
+Tue Nov 27 13:09:11 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** Found your hostname
+:cameron.freenode.net NOTICE * :*** No Ident response
+
+Tue Nov 27 13:09:11 2012 : client : USER AL 0 * .
+Tue Nov 27 13:09:12 2012 : server : :cameron.freenode.net 001 hallo123 :Welcome to the freenode Internet Relay Chat Network hallo123
+
+Tue Nov 27 13:09:12 2012 : server : :cameron.freenode.net 002 hallo123 :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 hallo123 :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 hallo123 cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 hallo123 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 hallo123 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 hallo123 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 hallo123 :There are 213 users and 77975 invisible on 34 servers
+:cameron.freenode.net 252 hallo123 35 :IRC Operators online
+:cameron.freenode.net 253 hallo123 5 :unknown connection(s)
+:cameron.freenode.net 254 hallo123 42953 :channels formed
+:cameron.freenode.net 255 hallo123 :I have 4068 clients and 1 servers
+:cameron.freenode.net 265 hallo123 4068 9497 :Current local users 4068, max 9497
+:cameron.freenode.net 266 hallo123 78188 85546 :Current global users 78188, max 85546
+:cameron.freenode.net 250 hallo123 :Highest connection count: 9498 (9497 clients) (2253029 connections received)
+:cameron.freenode.net 375 hallo123 :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 hallo123 :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 hallo123 :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 hallo123 :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 hallo123 :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 hallo123 :- blockbuster Avatar.
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 hallo123 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freeno
+Tue Nov 27 13:09:37 2012 : client : JOIN #tsam
+Tue Nov 27 13:09:37 2012 : server : de.net 372 hallo123 :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 hallo123 :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 hallo123 :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 hallo123 :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 hallo123 :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 hallo123 :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 hallo123 :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 hallo123 :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 hallo123 :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 hallo123 :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 hallo123 :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 hallo123 :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 hallo123 :- the network!
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 hallo123 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 hallo123 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 hallo123 :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 hallo123 :- [http://geeknic.org]
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 hallo123 :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 hallo123 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- Thank you for using freenode!
+:cameron.freenode.net 372 hallo123 :-  
+:cameron.freenode.net 372 hallo123 :- ***************************************************************
+:cameron.freenode.net 372 hallo123 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 hallo123 :- ***************************************************************
+:cameron.freenode.net 376 hallo123 :End of /MOTD command.
+:hallo123 MODE hallo123 :+i
+
+Tue Nov 27 13:13:07 2012 : server : :cameron.freenode.net NOTICE * :*** Looking up your hostname...
+
+Tue Nov 27 13:13:12 2012 : client : NICK sklaaaaa
+Tue Nov 27 13:13:12 2012 : server : :cameron.freenode.net NOTICE * :*** Checking Ident
+:cameron.freenode.net NOTICE * :*** No Ident response
+:cameron.freenode.net NOTICE * :*** Found your hostname
+
+Tue Nov 27 13:13:12 2012 : client : USER AL 0 * .
+Tue Nov 27 13:13:12 2012 : server : :cameron.freenode.net 001 sklaaaaa :Welcome to the freenode Internet Relay Chat Network sklaaaaa
+
+Tue Nov 27 13:13:12 2012 : server : :cameron.freenode.net 002 sklaaaaa :Your host is cameron.freenode.net[84.240.3.129/6667], running version ircd-seven-1.1.3
+:cameron.freenode.net 003 sklaaaaa :This server was created Sat Feb 25 2012 at 17:22:16 EET
+:cameron.freenode.net 004 sklaaaaa cameron.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:cameron.freenode.net 005 sklaaaaa CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:cameron.freenode.net 005 sklaaaaa CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:cameron.freenode.net 005 sklaaaaa EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:cameron.freenode.net 251 sklaaaaa :There are 212 users and 78045 invisible on 34 servers
+:cameron.freenode.net 252 sklaaaaa 35 :IRC Operators online
+:cameron.freenode.net 253 sklaaaaa 4 :unknown connection(s)
+:cameron.freenode.net 254 sklaaaaa 42941 :channels formed
+:cameron.freenode.net 255 sklaaaaa :I have 4078 clients and 1 servers
+:cameron.freenode.net 265 sklaaaaa 4078 9497 :Current local users 4078, max 9497
+:cameron.freenode.net 266 sklaaaaa 78257 85546 :Current global users 78257, max 85546
+:cameron.freenode.net 250 sklaaaaa :Highest connection count: 9498 (9497 clients) (2253054 connections received)
+:cameron.freenode.net 375 sklaaaaa :- cameron.freenode.net Message of the Day - 
+:cameron.freenode.net 372 sklaaaaa :- Welcome to cameron.freenode.net, hosted in Vilnius, Lithuania. 
+:cameron.freenode.net 372 sklaaaaa :- Thanks to Skynet (http://www.skynet.lt) for sponsoring this server!
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- CAMERON, JAMES (1954-). Canadian screenwriter/director James Cameron has 
+:cameron.freenode.net 372 sklaaaaa :- been involved in the production of many of the film "greatest hits" 
+:cameron.freenode.net 372 sklaaaaa :- of the past 25 years, including the Terminator movies and the 3D
+:cameron.freenode.net 372 sklaaaaa :- blockbuster Avatar.
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- You're using freenode, a service of Peer-Directed Projects
+:cameron.freenode.net 372 sklaaaaa :- Center Ltd (http://freenode.net/pdpc.shtml).
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- By connecting to freenode you indicate that you have read
+:cameron.freenode.net 372 sklaaaaa :- and agree to adhere to our policies and procedures as per
+:cameron.freenode.net 372 sklaaaaa :- the website (http://freenode.net). We would like to remind
+:cameron.freenode.net 372 sklaaaaa :- you that unauthorized public logging of channels on the
+:cameron.freenode.net 372 sklaaaaa :- network is prohibited. Public channel logging should only
+:cameron.freenode.net 372 sklaaaaa :- take place where the channel owner(s) has requested this
+:cameron.freenode.net 372 sklaaaaa :- and users of the channel are all made aware (if you are
+:cameron.freenode.net 372 sklaaaaa :- publically logging your channel, you may wish to keep a
+:cameron.freenode.net 372 sklaaaaa :- notice in topic and perhaps as a on-join message).
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- freenode runs an open proxy scanner. Your use of the network
+:cameron.freenode.net 372 sklaaaaa :- indicates your acceptance of this policy. For details on
+:cameron.freenode.net 372 sklaaaaa :- freenode network policy, please take a look at our policy
+:cameron.freenode.net 372 sklaaaaa :- page (http://freenode.net/policy.shtml). Thank you for using
+:cameron.freenode.net 372 sklaaaaa :- the network!
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- Don't forget to check out these other Peer-Directed Projects:
+:cameron.freenode.net 372 sklaaaaa :- FOSSCON [http://www.fosscon.org] and fossevents 
+:cameron.freenode.net 372 sklaaaaa :- [http://www.fossevents.org], and soon we'll repeat last years 
+:cameron.freenode.net 372 sklaaaaa :- success with Picnics for Geeks across the globe, more info at 
+:cameron.freenode.net 372 sklaaaaa :- [http://geeknic.org]
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- freenode is a service of Peer-Directed Projects Center Ltd,
+:cameron.freenode.net 372 sklaaaaa :- a not for profit organisation registered in England and Wales.
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- If you support the work we do and wish to donate to the PDPC, 
+:cameron.freenode.net 372 sklaaaaa :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- Thank you for using freenode!
+:cameron.freenode.net 372 sklaaaaa :-  
+:cameron.freenode.net 372 sklaaaaa :- ***************************************************************
+:cameron.freenode.net 372 sklaaaaa :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:cameron.freenode.net 372 sklaaaaa :- ***************************************************************
+:cameron.freenode.net 376 sklaaaaa :End of /MOTD command.
+:sklaaaaa MODE sklaaaaa :+i
+
+Tue Nov 27 13:13:18 2012 : client : join #tsam
+Tue Nov 27 13:13:19 2012 : server : :sklaaaaa!~AL@fire-out.ru.is JOIN #tsam
 
