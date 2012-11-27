@@ -1,4 +1,4 @@
-//Alexandra Mahlmann, Carsten Petersen, Matthias Leo Gislason, Einar Orn Gissuarsson
+//Alexandra Mahlmann, Carsten Petersen, Matthias Leo Gislason
 //IRC Client
 //Fall 2012
 //Server:  irc.freenode.net
@@ -36,14 +36,14 @@ string commMess;
 
 int main(int argc, char* argv[])
 {
-    HANDLE handles[10];
-    HANDLE hStdIn = GetStdHandle(STD_INPUT_HANDLE);
+    //HANDLE handles[10];
+    //HANDLE hStdIn = GetStdHandle(STD_INPUT_HANDLE);
     file.open("irc.log",fstream::out | fstream::app);
     string hostname = argv[1];
     //string hostname = "";
     int port = 6667;
     char buffer [BUFFER_SIZE];
-    int checksent, bsize;
+    int bsize;
     string mess, comm;
 
     // display();  //show all the commands
@@ -62,8 +62,6 @@ int main(int argc, char* argv[])
     hostent *host;
     char recvData[BUFFER_SIZE];
     memset(&recvData,0,BUFFER_SIZE);
-
-    char sendData[BUFFER_SIZE];
 
     cout << "Enter the address of the server :" << endl;
     cout << "Example : 84.240.3.129" << endl;
@@ -93,7 +91,6 @@ int main(int argc, char* argv[])
 
     bsize = recv(sock,recvData,BUFFER_SIZE,0);
     logRecvMess(recvData, bsize);
-    cout << "\n*rec**1***:\n" << recvData;
     //handles[0] = WSACreateEvent();
     // handles[1] = hStdIn;
     //WSAEventSelect(sock, handles[0], FD_READ | FD_CLOSE);
@@ -103,12 +100,11 @@ int main(int argc, char* argv[])
     cout << "Please choose a NICKNAME: ";
     cin >> mess;
 
-    //call getdata to fill the buffer with the two strings.
+    //fills buffer with both strings and
     logSent(sock,buffer,comm,mess);
 
     bsize = recv(sock,recvData,BUFFER_SIZE,0);
     logRecvMess(recvData, bsize);
-    cout << "\n*recv*2 ***:\n" << recvData << endl;
     //clear(buffer);
 
     //send directly USER command, where the user does not need to give information
@@ -119,29 +115,15 @@ int main(int argc, char* argv[])
 
     bsize = recv(sock,recvData,BUFFER_SIZE,0);
     logRecvMess(recvData, bsize);
-    cout << "\nHÉR ER Bsize: " << bsize << endl;
-    cout << "\n*recv*3 ***:\n" << recvData << endl;
+    cout << recvData << endl;
 
 
     while (true)
     {
-        //clear(recvData);
-        //while (true)
-
-        {
-            // bsize = 0;
-            //cout << "recvData í byrjun loopu: "<< recvData;
-            bsize = recv(sock,recvData,BUFFER_SIZE,0);
-            logRecvMess(recvData, bsize);
-            cout << recvData[0] << endl;
-            cout << "\n*rec**1 í loopu***:\n" << recvData;
-            memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
-           // cout << "recvData eftir loopu: "<< recvData;
-            cout << "\nHÉR ER Bsize: " << bsize << endl;
-           // if (bsize < 30)
-              //  break;
-
-        }
+        bsize = recv(sock,recvData,BUFFER_SIZE,0);
+        logRecvMess(recvData, bsize);
+        cout << recvData << endl;
+        memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
 
         cout << "Enter next command (JOIN, QUIT, PART): ";
         cin >> comm;
@@ -150,7 +132,7 @@ int main(int argc, char* argv[])
             cout << "This is not a valid commad, please try again" << endl;
             cin >> comm;
         }
-        cout << "Please enter the channel: " << endl;
+        cout << "Please enter the channel: ";
         cin >> mess;
         logSent(sock,buffer,comm,mess);
         checkRecv(sock, comm, bsize, recvData);
@@ -174,23 +156,27 @@ void checkRecv(SOCKET sock, string comm, int bsize,char* recvData)
     transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
     if (comm == "JOIN")
     {
-            cout << "in function****" << endl;
-            bsize = recv(sock,recvData,BUFFER_SIZE,0);
-            logRecvMess(recvData, bsize);
-            cout << recvData[0] << endl;
-            cout << "\n*rec**1 í loopu***:\n" << recvData;
-            memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+        bsize = recv(sock,recvData,BUFFER_SIZE,0);
+        logRecvMess(recvData, bsize);
+        cout << recvData << endl;
+        memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
     }
 }
 
+void logRecv(SOCKET sock, char* buffer, string comm, string mess)
+{
+    getdata(buffer, comm, mess);
+    send(sock, buffer, strlen(buffer), 0);
+    logSentMess(comm, mess);
+}
 
- bool isvalid(string comm)
- {
+bool isvalid(string comm)
+{
     transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
     if (comm == "JOIN" || comm == "PART" || comm == "QUIT")
         return true;
+}
 
- }
 
 void logSent(SOCKET sock, char* buffer, string comm, string mess)
 {
@@ -208,20 +194,17 @@ void clear(char buffer[BUFFER_SIZE])
 void getdata(char* buffer, string comm, string mess) //Place the request to the server into the buffer
 {
     string commMess = comm + " :" + mess + CRLF;
-    //cout<< "commMess: "<< commMess << commMess.size()<< endl;
     for (int a=0; a<=commMess.size(); a++)
     {
         buffer[a]=commMess[a];
     }
     int len = strlen(buffer);
     buffer[len++] = '\0';
-    //cout << "buffer"<< buffer << len <<endl;
 }
 
 void logSentMess(string comm, string mess) //logs the message sent from the client to the server
 {
     string par = comm + " " + mess; //to get it going we hardcode the message now
-
     time_t now = time(0);
     string nowTime = ctime(&now);
     nowTime.erase(nowTime.find('\n',0),1);
@@ -242,7 +225,6 @@ void logRecvMess(char* buffer, int size)  //log the server response
     for (int i = 0; i<size; ++i) //write the response from the buffer to the file
         file << buffer[i];
     file << endl;
-
 }
 
 //Echoing the diffrent commands and parameters
@@ -267,34 +249,3 @@ void display()
     cout << "[QUIT][<Quit message>] /Client connection closed /Example: QUIT :gone to lunch" << endl;
 
 }
-/*
-cout << "Connected to server:" << endl;
-    DWORD result;
-    while (true) {
-        result = WaitForMultipleObjects(2, handles, false, 5000);
-        //DWORD bytesRead;
-        if (result == WAIT_OBJECT_0) {
-            int bytesRead;
-            // bytesRead = recv(sock, recvData, BUFFER_SIZE, MSG_PEEK);
-            // Check if there is a line. Read only up to the line end.
-            bytesRead = recv(sock, recvData, BUFFER_SIZE, 0);
-            cout << recvData;
-            memset(&recvData, 0, BUFFER_SIZE);
-            WSAResetEvent(handles[0]);
-        }
-        else if (result == WAIT_OBJECT_0 + 1) {
-            INPUT_RECORD input;
-            ReadConsoleInput(hStdIn, &input, 1, &bytesRead);
-            char ch = input.Event.KeyEvent.uChar.AsciiChar;
-            if (ch == '\r') {
-                cout << endl;
-            }
-            else {
-                cout << ch;
-            }
-        }
-        else {
-            cout << "Timeout: " << (int) result << endl;
-        }
-    }
-  */
