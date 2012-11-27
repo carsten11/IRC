@@ -29,7 +29,7 @@
 	<ctime>
 	<unistd.h>
 
-1354021709 source:c:\users\notandi\documents\github\irc\irc_client\main.cpp
+1354038991 source:c:\users\notandi\documents\github\irc\irc_client\main.cpp
 	<iostream>
 	<cstring>
 	<stdlib.h>
@@ -38,4 +38,5 @@
 	<iomanip>
 	<ctime>
 	<unistd.h>
+	<algorithm>
 

@@ -12,6 +12,8 @@
 #include <iomanip>
 #include <ctime>
 #include <unistd.h>
+#include <algorithm>
+//#include <boost/algorithm/string.hpp>
 
 using namespace std;
 
@@ -27,6 +29,8 @@ void getdata(char* buffer, string comm, string mess); //Place the request to the
 
 void logRecvMess(char* buffer, int size); //log the server response
 void clear(char buffer[BUFFER_SIZE]);
+bool isvalid(string comm);
+void checkRecv(SOCKET sock,string comm, int bsize,char* recvData);
 string commMess;
 
 
@@ -122,27 +126,34 @@ int main(int argc, char* argv[])
     while (true)
     {
         //clear(recvData);
-        //while (bsize > 0)
+        //while (true)
 
         {
-            //  bsize = 0;
+            // bsize = 0;
             //cout << "recvData í byrjun loopu: "<< recvData;
             bsize = recv(sock,recvData,BUFFER_SIZE,0);
             logRecvMess(recvData, bsize);
+            cout << recvData[0] << endl;
             cout << "\n*rec**1 í loopu***:\n" << recvData;
             memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
-            cout << "recvData eftir loopu: "<< recvData;
+           // cout << "recvData eftir loopu: "<< recvData;
             cout << "\nHÉR ER Bsize: " << bsize << endl;
+           // if (bsize < 30)
+              //  break;
+
         }
 
-        cout << "Enter next command: ";
+        cout << "Enter next command (JOIN, QUIT, PART): ";
         cin >> comm;
-        //if (!isvalid())
-        // cout <<
-        cout << "Please enter a message if following the command: " << endl;
+        while (!isvalid(comm))
+        {
+            cout << "This is not a valid commad, please try again" << endl;
+            cin >> comm;
+        }
+        cout << "Please enter the channel: " << endl;
         cin >> mess;
-
         logSent(sock,buffer,comm,mess);
+        checkRecv(sock, comm, bsize, recvData);
 
         //if(comm == "QUIT")
         //  break;
@@ -156,6 +167,30 @@ int main(int argc, char* argv[])
     return EXIT_SUCCESS;
 }
 
+
+
+void checkRecv(SOCKET sock, string comm, int bsize,char* recvData)
+{
+    transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
+    if (comm == "JOIN")
+    {
+            cout << "in function****" << endl;
+            bsize = recv(sock,recvData,BUFFER_SIZE,0);
+            logRecvMess(recvData, bsize);
+            cout << recvData[0] << endl;
+            cout << "\n*rec**1 í loopu***:\n" << recvData;
+            memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+    }
+}
+
+
+ bool isvalid(string comm)
+ {
+    transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
+    if (comm == "JOIN" || comm == "PART" || comm == "QUIT")
+        return true;
+
+ }
 
 void logSent(SOCKET sock, char* buffer, string comm, string mess)
 {
