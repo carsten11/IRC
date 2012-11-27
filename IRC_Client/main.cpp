@@ -132,6 +132,21 @@ int main(int argc, char* argv[])
             cout << "This is not a valid commad, please try again" << endl;
             cin >> comm;
         }
+        //if condition needed to check wheter client wants to quit the channel.
+        transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
+        if (comm == "QUIT")
+            {
+                cout << "Please enter a quit message if you want: ";
+                cin >> mess;
+                logSent(sock,buffer,comm,mess);
+                checkRecv(sock, comm, bsize, recvData);
+                bsize = recv(sock,recvData,BUFFER_SIZE,0);
+                logRecvMess(recvData, bsize);
+                cout << recvData << endl;
+                memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+                break;
+            }
+        //if the command is not quit, we keep on in th el
         cout << "Please enter the channel: ";
         cin >> mess;
         logSent(sock,buffer,comm,mess);
@@ -142,7 +157,7 @@ int main(int argc, char* argv[])
 
     }
     //close all resources
-    shutdown(sock,port);
+    //shutdown(sock,port);
     closesocket(sock);
     WSACleanup();
     file.close();
@@ -155,6 +170,13 @@ void checkRecv(SOCKET sock, string comm, int bsize,char* recvData)
 {
     transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
     if (comm == "JOIN")
+    {
+        bsize = recv(sock,recvData,BUFFER_SIZE,0);
+        logRecvMess(recvData, bsize);
+        cout << recvData << endl;
+        memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
+    }
+    else if (comm == "QUIT")
     {
         bsize = recv(sock,recvData,BUFFER_SIZE,0);
         logRecvMess(recvData, bsize);
