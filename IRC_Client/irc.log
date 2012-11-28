@@ -1006,3 +1006,1423 @@ Wed Nov 28 00:54:35 2012 : server : :zelazny.freenode.net 001 melbag :Welcome to
 Wed Nov 28 00:54:40 2012 : client : NICK mergal
 Wed Nov 28 00:54:40 2012 : server : :melbag!~AL@194-144-16-204.du.xdsl.is NICK :mergal
 
+Wed Nov 28 12:51:56 2012 : client : NICK jeeee
+Wed Nov 28 12:51:56 2012 : server : :gibson.freenode.net NOTICE * :*** Looking up your hostname...
+:gibson.freenode.net NOTICE * :*** Checking Ident
+:gibson.freenode.net NOTICE * :*** Found your hostname
+:gibson.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 12:51:56 2012 : client : USER AL 0 * .
+Wed Nov 28 12:51:56 2012 : server : :gibson.freenode.net 001 jeeee :Welcome to the freenode Internet Relay Chat Network jeeee
+
+Wed Nov 28 12:51:56 2012 : server : :gibson.freenode.net 002 jeeee :Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.1.3
+:gibson.freenode.net 003 jeeee :This server was created Sun Dec 4 2011 at 15:39:36 CET
+:gibson.freenode.net 004 jeeee gibson.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:gibson.freenode.net 005 jeeee CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:gibson.freenode.net 005 jeeee CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:gibson.freenode.net 005 jeeee EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:gibson.freenode.net 251 jeeee :There are 220 users and 77664 invisible on 34 servers
+:gibson.freenode.net 252 jeeee 38 :IRC Operators online
+:gibson.freenode.net 253 jeeee 5 :unknown connection(s)
+:gibson.freenode.net 254 jeeee 43038 :channels formed
+:gibson.freenode.net 255 jeeee :I have 1937 clients and 1 servers
+:gibson.freenode.net 265 jeeee 1937 3982 :Current local users 1937, max 3982
+:gibson.freenode.net 266 jeeee 77884 84163 :Current global users 77884, max 84163
+:gibson.freenode.net 250 jeeee :Highest connection count: 3983 (3982 clients) (400957 connections received)
+:gibson.freenode.net 375 jeeee :- gibson.freenode.net Message of the Day - 
+:gibson.freenode.net 372 jeeee :- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+:gibson.freenode.net 372 jeeee :- SSC Networks (www.ssc.no) for sponsoring this server!
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- GIBSON, WILLIAM (1948-) He is married with two children. In
+:gibson.freenode.net 372 jeeee :- the early 1980s he wrote Neuromancer, and with this novel he
+:gibson.freenode.net 372 jeeee :- helped establish a new kind of science fiction literature
+:gibson.freenode.net 372 jeeee :- called cyberpunk. William Gibson defined the word cyberspace,
+:gibson.freenode.net 372 jeeee :- and described virtual reality long before we saw the
+:gibson.freenode.net 372 jeeee :- similarities with todays Internet. He has won the Hugo Award,
+:gibson.freenode.net 372 jeeee :- Nebula Award and the Philipp K. Dick Award.
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- You're using freenode, a service of Peer-Directed Projects
+:gibson.freenode.net 372 jeeee :- Center Ltd (http://freenode.net/pdpc.shtml).
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- By connecting to freenode you indicate that you have read
+:gibson.freenode.net 372 jeeee :- and agree to adhere to our policies and procedures as per
+:gibson.freenode.net 372 jeeee :- the website (http://freenode.net). We would like to remind
+:gibson.freenode.net 372 jeeee :- you that unauthorized public logging of channels on the
+:gibson.freenode.net 372 jeeee :- network is prohibited. Public channel logging should only
+:gibson.freenode.net 372 jeeee :- take place where the channel owner(s) has requested this
+:gibson.freenode.net 372 jeeee :- and users of the channel are all made aware (if you are
+:gibson.freenode.net 372 jeeee :- publically logging your channel, you may wish to keep a
+:gibson.freenode.net 372 jeeee :- notice in topic and perhaps as a on-join message).
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- freenode runs an open proxy scanner. Your use of the network
+:gibson.freenode.net 372 jeeee :- indicates your acceptance of this policy. For details on
+:gibson.freenode.net 372 jeeee :- freenode network policy, please take a look at our policy
+:gibson.freenode.net 372 jeeee :- page (http://freenode.net/policy.shtml). Thank you for using
+:gibson.freenode.net 372 jeeee :- the network!
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- Don't forget to check out these other Peer-Directed Projects:
+:gibson.freenode.net 372 jeeee :- FOSSCON [http://www.fosscon.org] and fossevents 
+:gibson.freenode.net 372 jeeee :- [http://www.fossevents.org], and soon we'll repeat last years 
+:gibson.freenode.net 372 jeeee :- success with Picnics for Geeks across the globe, more info at 
+:gibson.freenode.net 372 jeeee :- [http://geeknic.org]
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- freenode is a service of Peer-Directed Projects Center Ltd,
+:gibson.freenode.net 372 jeeee :- a not for profit organisation registered in England and Wales.
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- If you support the work we do and wish to donate to the PDPC, 
+:gibson.freenode.net 372 jeeee :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- Thank you for using freenode!
+:gibson.freenode.net 372 jeeee :-  
+:gibson.freenode.net 372 jeeee :- ***************************************************************
+:gibson.freenode.net 372 jeeee :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:gibson.freenode.net 372 jeeee :- ***************************************************************
+:gibson.freenode.net 376 jeeee :End of /MOTD command.
+:jeeee MODE jeeee :+i
+
+Wed Nov 28 12:53:13 2012 : client : NICK jee
+Wed Nov 28 12:53:13 2012 : server : :hitchcock.freenode.net NOTICE * :*** Looking up your hostname...
+:hitchcock.freenode.net NOTICE * :*** Checking Ident
+:hitchcock.freenode.net NOTICE * :*** Found your hostname
+:hitchcock.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 12:53:13 2012 : client : USER AL 0 * .
+Wed Nov 28 12:53:13 2012 : server : :hitchcock.freenode.net 433 * jee :Nickname is already in use.
+
+Wed Nov 28 12:53:30 2012 : client : NICK asdfd1
+Wed Nov 28 12:53:30 2012 : server : :hitchcock.freenode.net NOTICE * :*** Looking up your hostname...
+:hitchcock.freenode.net NOTICE * :*** Checking Ident
+:hitchcock.freenode.net NOTICE * :*** Found your hostname
+:hitchcock.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 12:53:30 2012 : client : USER AL 0 * .
+Wed Nov 28 12:53:30 2012 : server : :hitchcock.freenode.net 001 asdfd1 :Welcome to the freenode Internet Relay Chat Network asdfd1
+
+Wed Nov 28 12:53:31 2012 : server : :hitchcock.freenode.net 002 asdfd1 :Your host is hitchcock.freenode.net[93.152.160.101/6667], running version ircd-seven-1.1.3
+:hitchcock.freenode.net 003 asdfd1 :This server was created Mon Nov 28 2011 at 01:18:55 EET
+:hitchcock.freenode.net 004 asdfd1 hitchcock.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:hitchcock.freenode.net 005 asdfd1 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:hitchcock.freenode.net 005 asdfd1 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:hitchcock.freenode.net 005 asdfd1 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:hitchcock.freenode.net 251 asdfd1 :There are 220 users and 77708 invisible on 34 servers
+:hitchcock.freenode.net 252 asdfd1 38 :IRC Operators online
+:hitchcock.freenode.net 253 asdfd1 9 :unknown connection(s)
+:hitchcock.freenode.net 254 asdfd1 43031 :channels formed
+:hitchcock.freenode.net 255 asdfd1 :I have 3294 clients and 1 servers
+:hitchcock.freenode.net 265 asdfd1 3294 6056 :Current local users 3294, max 6056
+:hitchcock.freenode.net 266 asdfd1 77928 85546 :Current global users 77928, max 85546
+:hitchcock.freenode.net 250 asdfd1 :Highest connection count: 6057 (6056 clients) (793186 connections received)
+:hitchcock.freenode.net 375 asdfd1 :- hitchcock.freenode.net Message of the Day - 
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- Welcome to hitchcock.freenode.net in Sofia, Bulgaria, EU, kindly sponsored by
+:hitchcock.freenode.net 372 asdfd1 :- OnlineDirect (http://onlinedirect.bg).
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- HITCHCOCK, ALFRED [1889-1980].  Born in London, UK, Hitchcock went on to pioneer
+:hitchcock.freenode.net 372 asdfd1 :- many techniques in film-making.
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- You're using freenode, a service of Peer-Directed Projects
+:hitchcock.freenode.net 372 asdfd1 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- By connecting to freenode you indicate that you have read
+:hitchcock.freenode.net 372 asdfd1 :- and agree to adhere to our policies and procedures as per
+:hitchcock.freenode.net 372 asdfd1 :- the website (http://freenode.net). We would like to remind
+:hitchcock.freenode.net 372 asdfd1 :- you that unauthorized public logging of channels on the
+:hitchcock.freenode.net 372 asdfd1 :- network is prohibited. Public channel logging should only
+:hitchcock.freenode.net 372 asdfd1 :- take place where the channel owner(s) has requested this
+:hitchcock.freenode.net 372 asdfd1 :- and users of the channel are all made aware (if you are
+:hitchcock.freenode.net 372 asdfd1 :- publically logging your channel, you may wish to keep a
+:hitchcock.freenode.net 372 asdfd1 :- notice in topic and perhaps as a on-join message).
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- freenode runs an open proxy scanner. Your use of the network
+:hitchcock.freenode.net 372 asdfd1 :- indicates your acceptance of this policy. For details on
+:hitchcock.freenode.net 372 asdfd1 :- freenode network policy, please take a look at our policy
+:hitchcock.freenode.net 372 asdfd1 :- page (http://freenode.net/policy.shtml). Thank you for using
+:hitchcock.freenode.net 372 asdfd1 :- the network!
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- Don't forget to check out these other Peer-Directed Projects:
+:hitchcock.freenode.net 372 asdfd1 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:hitchcock.freenode.net 372 asdfd1 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:hitchcock.freenode.net 372 asdfd1 :- success with Picnics for Geeks across the globe, more info at 
+:hitchcock.freenode.net 372 asdfd1 :- [http://geeknic.org]
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:hitchcock.freenode.net 372 asdfd1 :- a not for profit organisation registered in England and Wales.
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- If you support the work we do and wish to donate to the PDPC, 
+:hitchcock.freenode.net 372 asdfd1 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- Thank you for using freenode!
+:hitchcock.freenode.net 372 asdfd1 :-  
+:hitchcock.freenode.net 372 asdfd1 :- ***************************************************************
+:hitchcock.freenode.net 372 asdfd1 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:hitchcock.freenode.net 372 asdfd1 :- ***************************************************************
+:hitchcock.freenode.net 376 asdfd1 :End of /MOTD command.
+:asdfd1 MODE asdfd1 :+i
+
+Wed Nov 28 12:54:46 2012 : client : NICK lol123
+Wed Nov 28 12:54:46 2012 : server : :morgan.freenode.net NOTICE * :*** Looking up your hostname...
+:morgan.freenode.net NOTICE * :*** Checking Ident
+:morgan.freenode.net NOTICE * :*** Found your hostname
+:morgan.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 12:54:46 2012 : client : USER AL 0 * .
+Wed Nov 28 12:54:47 2012 : server : :morgan.freenode.net 001 lol123 :Welcome to the freenode Internet Relay Chat Network lol123
+
+Wed Nov 28 12:54:47 2012 : server : :morgan.freenode.net 002 lol123 :Your host is morgan.freenode.net[64.32.24.176/6667], running version ircd-seven-1.1.3
+:morgan.freenode.net 003 lol123 :This server was created Mon Jul 2 2012 at 17:49:30 EDT
+:morgan.freenode.net 004 lol123 morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:morgan.freenode.net 005 lol123 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:morgan.freenode.net 005 lol123 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:morgan.freenode.net 005 lol123 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:morgan.freenode.net 251 lol123 :There are 221 users and 77753 invisible on 34 servers
+:morgan.freenode.net 252 lol123 38 :IRC Operators online
+:morgan.freenode.net 253 lol123 18 :unknown connection(s)
+:morgan.freenode.net 254 lol123 43044 :channels formed
+:morgan.freenode.net 255 lol123 :I have 2832 clients and 1 servers
+:morgan.freenode.net 265 lol123 2832 7434 :Current local users 2832, max 7434
+:morgan.freenode.net 266 lol123 77974 85546 :Current global users 77974, max 85546
+:morgan.freenode.net 250 lol123 :Highest connection count: 7435 (7434 clients) (876446 connections received)
+:morgan.freenode.net 375 lol123 :- morgan.freenode.net Message of the Day - 
+:morgan.freenode.net 372 lol123 :- Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+:morgan.freenode.net 372 lol123 :- you to psyprus for sponsoring this server!
+:morgan.freenode.net 372 lol123 :-  
+:morgan.freenode.net 372 lol123 :- MORGAN, RICHARD K. (1965-) is an English science fiction
+:morgan.freenode.net 372 lol123 :- author. Morgan's books are generally set in a dystopian world.
+:morgan.freenode.net 372 lol123 :- His breakout novel Altered Carbon won the Philip K. Dick Award,
+:morgan.freenode.net 372 lol123 :- and he has written many successful and amazing works to follow.
+:morgan.freenode.net 372 lol123 :- His more recent writings feature heavily on the theme of
+:morgan.freenode.net 372 lol123 :- autonomy in science fiction and escapism in fantasy.
+:morgan.freenode.net 372 lol123 :- You're using freenode, a service of Peer-Directed Projects
+:morgan.freenode.net 372 lol123 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:morgan.freenode.net 372 lol123 :-  
+:morgan.freenode.net 372 lol123 :- By connecting to freenode you indicate that you have read
+:morgan.freenode.net 372 lol123 :- and agree to adhere to our policies and procedures as per
+:morgan.freenode.net 372 lol123 :- the website (http://freenode.net). We would like to remind
+:morgan.freenode.net 372 lol123 :- you that unauthorized public logging of channels on the
+:morgan.freenode.net 372 lol123 :- network is prohibited. Public channel logging should only
+:morgan.freenode.net 372 lol123 :- take place where the channel owner(s) has requested this
+:morgan.freenode.net 372 lol123 :- and users of the channel are all made aware (if you are
+:morgan.freenode.net 372 lol123 :- publically logging your channel, you may wish to keep a
+:morgan.freenode.net 372 lol123 :- notice in topic and perhaps as a on-join message).
+:morgan.freenode.net 372 lol123 :-  
+:morgan.freenode.net 372 lol123 :- freenode runs an open proxy scanner. Your use of the network
+:morgan.freenode.net 372 lol123 :- indicates your acceptance of this policy. For details on
+:morgan.freenode.net 372 lol123 :- freenode network policy, please take a look at our policy
+:morgan.freenode.net 372 lol123 :- page (http://freenode.net/policy.shtml). Thank you for using
+
+Wed Nov 28 12:57:43 2012 : client : NICK 123k
+Wed Nov 28 12:57:43 2012 : server : :niven.freenode.net NOTICE * :*** Looking up your hostname...
+:niven.freenode.net NOTICE * :*** Checking Ident
+:niven.freenode.net NOTICE * :*** No Ident response
+:niven.freenode.net NOTICE * :*** Found your hostname
+
+Wed Nov 28 12:57:43 2012 : client : USER AL 0 * .
+Wed Nov 28 12:57:43 2012 : server : :niven.freenode.net 432 * 123k :Erroneous Nickname
+
+Wed Nov 28 12:57:53 2012 : client : NICK k123
+Wed Nov 28 12:57:53 2012 : server : :zelazny.freenode.net NOTICE * :*** Looking up your hostname...
+:zelazny.freenode.net NOTICE * :*** Checking Ident
+:zelazny.freenode.net NOTICE * :*** Found your hostname
+:zelazny.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 12:57:53 2012 : client : USER AL 0 * .
+Wed Nov 28 12:57:54 2012 : server : :zelazny.freenode.net 001 k123 :Welcome to the freenode Internet Relay Chat Network k123
+
+Wed Nov 28 12:57:54 2012 : server : :zelazny.freenode.net 002 k123 :Your host is zelazny.freenode.net[140.211.167.106/6667], running version ircd-seven-1.1.3
+:zelazny.freenode.net 003 k123 :This server was created Tue Sep 25 2012 at 08:51:49 UTC
+:zelazny.freenode.net 004 k123 zelazny.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:zelazny.freenode.net 005 k123 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:zelazny.freenode.net 005 k123 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:zelazny.freenode.net 005 k123 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:zelazny.freenode.net 251 k123 :There are 221 users and 77769 invisible on 34 servers
+:zelazny.freenode.net 252 k123 38 :IRC Operators online
+:zelazny.freenode.net 253 k123 9 :unknown connection(s)
+:zelazny.freenode.net 254 k123 43036 :channels formed
+:zelazny.freenode.net 255 k123 :I have 2234 clients and 1 servers
+:zelazny.freenode.net 265 k123 2234 3837 :Current local users 2234, max 3837
+:zelazny.freenode.net 266 k123 77990 85546 :Current global users 77990, max 85546
+:zelazny.freenode.net 250 k123 :Highest connection count: 3838 (3837 clients) (520600 connections received)
+:zelazny.freenode.net 375 k123 :- zelazny.freenode.net Message of the Day - 
+:zelazny.freenode.net 372 k123 :- Welcome to zelazny.freenode.net in Corvallis, Oregon, US. 
+:zelazny.freenode.net 372 k123 :- Our thanks to Oregon State University for sponsoring this
+:zelazny.freenode.net 372 k123 :- server!
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- ZELAZNY, ROGER JOSEPH [1937-1995].  Roger Zelazny was a
+:zelazny.freenode.net 372 k123 :- leading light in the New Wave of science fiction.  He began
+:zelazny.freenode.net 372 k123 :- writing in 1962.  Known for such works as This Immortal,
+:zelazny.freenode.net 372 k123 :- Lord of Light, The Dream Master and the Amber books,
+:zelazny.freenode.net 372 k123 :- Zelazny is best known for his idiomatic American
+:zelazny.freenode.net 372 k123 :- protagonists, embodying the mythological figures of the
+:zelazny.freenode.net 372 k123 :- Trickster and the Hero of a Thousand Faces.
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- You're using freenode, a service of Peer-Directed Projects
+:zelazny.freenode.net 372 k123 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- By connecting to freenode you indicate that you have read
+:zelazny.freenode.net 372 k123 :- and agree to adhere to our policies and procedures as per
+:zelazny.freenode.net 372 k123 :- the website (http://freenode.net). We would like to remind
+:zelazny.freenode.net 372 k123 :- you that unauthorized public logging of channels on the
+:zelazny.freenode.net 372 k123 :- network is prohibited. Public channel logging should only
+:zelazny.freenode.net 372 k123 :- take place where the channel owner(s) has requested this
+:zelazny.freenode.net 372 k123 :- and users of the channel are all made aware (if you are
+:zelazny.freenode.net 372 k123 :- publically logging your channel, you may wish to keep a
+:zelazny.freenode.net 372 k123 :- notice in topic and perhaps as a on-join message).
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- freenode runs an open proxy scanner. Your use of the network
+:zelazny.freenode.net 372 k123 :- indicates your acceptance of this policy. For details on
+:zelazny.freenode.net 372 k123 :- freenode network policy, please take a look at our policy
+:zelazny.freenode.net 372 k123 :- page (http://freenode.net/policy.shtml). Thank you for using
+:zelazny.freenode.net 372 k123 :- the network!
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- Don't forget to check out these other Peer-Directed Projects:
+:zelazny.freenode.net 372 k123 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:zelazny.freenode.net 372 k123 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:zelazny.freenode.net 372 k123 :- success with Picnics for Geeks across the globe, more info at 
+:zelazny.freenode.net 372 k123 :- [http://geeknic.org]
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:zelazny.freenode.net 372 k123 :- a not for profit organisation registered in England and Wales.
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- If you support the work we do and wish to donate to the PDPC, 
+:zelazny.freenode.net 372 k123 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- Thank you for using freenode!
+:zelazny.freenode.net 372 k123 :-  
+:zelazny.freenode.net 372 k123 :- ***************************************************************
+:zelazny.freenode.net 372 k123 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:zelazny.freenode.net 372 k123 :- ***************************************************************
+:zelazny.freenode.net 376 k123 :End of /MOTD command.
+:k123 MODE k123 :+i
+
+Wed Nov 28 12:58:38 2012 : client : NICK je123
+Wed Nov 28 12:58:38 2012 : server : :zelazny.freenode.net NOTICE * :*** Looking up your hostname...
+:zelazny.freenode.net NOTICE * :*** Checking Ident
+:zelazny.freenode.net NOTICE * :*** Found your hostname
+:zelazny.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 12:58:38 2012 : client : USER AL 0 * .
+Wed Nov 28 12:58:38 2012 : server : :zelazny.freenode.net 001 je123 :Welcome to the freenode Internet Relay Chat Network je123
+
+Wed Nov 28 12:58:38 2012 : server : :zelazny.freenode.net 002 je123 :Your host is zelazny.freenode.net[140.211.167.106/6667], running version ircd-seven-1.1.3
+:zelazny.freenode.net 003 je123 :This server was created Tue Sep 25 2012 at 08:51:49 UTC
+:zelazny.freenode.net 004 je123 zelazny.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:zelazny.freenode.net 005 je123 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:zelazny.freenode.net 005 je123 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:zelazny.freenode.net 005 je123 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:zelazny.freenode.net 251 je123 :There are 221 users and 77793 invisible on 34 servers
+:zelazny.freenode.net 252 je123 38 :IRC Operators online
+:zelazny.freenode.net 253 je123 4 :unknown connection(s)
+:zelazny.freenode.net 254 je123 43040 :channels formed
+:zelazny.freenode.net 255 je123 :I have 2239 clients and 1 servers
+:zelazny.freenode.net 265 je123 2239 3837 :Current local users 2239, max 3837
+:zelazny.freenode.net 266 je123 78014 85546 :Current global users 78014, max 85546
+:zelazny.freenode.net 250 je123 :Highest connection count: 3838 (3837 clients) (520608 connections received)
+:zelazny.freenode.net 375 je123 :- zelazny.freenode.net Message of the Day - 
+:zelazny.freenode.net 372 je123 :- Welcome to zelazny.freenode.net in Corvallis, Oregon, US. 
+:zelazny.freenode.net 372 je123 :- Our thanks to Oregon State University for sponsoring this
+:zelazny.freenode.net 372 je123 :- server!
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- ZELAZNY, ROGER JOSEPH [1937-1995].  Roger Zelazny was a
+:zelazny.freenode.net 372 je123 :- leading light in the New Wave of science fiction.  He began
+:zelazny.freenode.net 372 je123 :- writing in 1962.  Known for such works as This Immortal,
+:zelazny.freenode.net 372 je123 :- Lord of Light, The Dream Master and the Amber books,
+:zelazny.freenode.net 372 je123 :- Zelazny is best known for his idiomatic American
+:zelazny.freenode.net 372 je123 :- protagonists, embodying the mythological figures of the
+:zelazny.freenode.net 372 je123 :- Trickster and the Hero of a Thousand Faces.
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- You're using freenode, a service of Peer-Directed Projects
+:zelazny.freenode.net 372 je123 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- By connecting to freenode you indicate that you have read
+:zelazny.freenode.net 372 je123 :- and agree to adhere to our policies and procedures as per
+:zelazny.freenode.net 372 je123 :- the website (http://freenode.net). We would like to remind
+:zelazny.freenode.net 372 je123 :- you that unauthorized public logging of channels on the
+:zelazny.freenode.net 372 je123 :- network is prohibited. Public channel logging should only
+:zelazny.freenode.net 372 je123 :- take place where the channel owner(s) has requested this
+:zelazny.freenode.net 372 je123 :- and users of the channel are all made aware (if you are
+:zelazny.freenode.net 372 je123 :- publically logging your channel, you may wish to keep a
+:zelazny.freenode.net 372 je123 :- notice in topic and perhaps as a on-join message).
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- freenode runs an open proxy scanner. Your use of the network
+:zelazny.freenode.net 372 je123 :- indicates your acceptance of this policy. For details on
+:zelazny.freenode.net 372 je123 :- freenode network policy, please take a look at our policy
+:zelazny.freenode.net 372 je123 :- page (http://freenode.net/policy.shtml). Thank you for using
+:zelazny.freenode.net 372 je123 :- the network!
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- Don't forget to check out these other Peer-Directed Projects:
+:zelazny.freenode.net 372 je123 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:zelazny.freenode.net 372 je123 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:zelazny.freenode.net 372 je123 :- success with Picnics for Geeks across the globe, more info at 
+:zelazny.freenode.net 372 je123 :- [http://geeknic.org]
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:zelazny.freenode.net 372 je123 :- a not for profit organisation registered in England and Wales.
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- If you support the work we do and wish to donate to the PDPC, 
+:zelazny.freenode.net 372 je123 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- Thank you for using freenode!
+:zelazny.freenode.net 372 je123 :-  
+:zelazny.freenode.net 372 je123 :- ***************************************************************
+:zelazny.freenode.net 372 je123 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:zelazny.freenode.net 372 je123 :- ***************************************************************
+:zelazny.freenode.net 376 je123 :End of /MOTD command.
+:je123 MODE je123 :+i
+
+Wed Nov 28 12:59:29 2012 : client : NICK asdf2
+Wed Nov 28 12:59:29 2012 : server : :barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+:barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** No Ident response
+:barjavel.freenode.net NOTICE * :*** Found your hostname
+
+Wed Nov 28 12:59:29 2012 : client : USER AL 0 * .
+Wed Nov 28 12:59:29 2012 : server : :barjavel.freenode.net 001 asdf2 :Welcome to the freenode Internet Relay Chat Network asdf2
+
+Wed Nov 28 12:59:29 2012 : server : :barjavel.freenode.net 002 asdf2 :Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+:barjavel.freenode.net 003 asdf2 :This server was created Mon Feb 6 2012 at 21:33:23 CET
+:barjavel.freenode.net 004 asdf2 barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:barjavel.freenode.net 005 asdf2 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:barjavel.freenode.net 005 asdf2 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:barjavel.freenode.net 005 asdf2 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:barjavel.freenode.net 251 asdf2 :There are 221 users and 77819 invisible on 34 servers
+:barjavel.freenode.net 252 asdf2 38 :IRC Operators online
+:barjavel.freenode.net 253 asdf2 6 :unknown connection(s)
+:barjavel.freenode.net 254 asdf2 43037 :channels formed
+:barjavel.freenode.net 255 asdf2 :I have 2802 clients and 1 servers
+:barjavel.freenode.net 265 asdf2 2802 10319 :Current local users 2802, max 10319
+:barjavel.freenode.net 266 asdf2 78040 85546 :Current global users 78040, max 85546
+:barjavel.freenode.net 250 asdf2 :Highest connection count: 10321 (10319 clients) (2600780 connections received)
+:barjavel.freenode.net 375 asdf2 :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 asdf2 :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net 372 asdf2 :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 asdf2 :- this server!
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 asdf2 :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 asdf2 :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 asdf2 :- the Grandfather Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 asdf2 :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- You're using freenode, a service of Peer-Directed Projects
+:barjavel.freenode.net 372 asdf2 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- By connecting to freenode you indicate that you have read
+:barjavel.freenode.net 372 asdf2 :- and agree to adhere to our policies and procedures as per
+:barjavel.freenode.net 372 asdf2 :- the website (http://freenode.net). We would like to remind
+:barjavel.freenode.net 372 asdf2 :- you that unauthorized public logging of channels on the
+:barjavel.freenode.net 372 asdf2 :- network is prohibited. Public channel logging should only
+:barjavel.freenode.net 372 asdf2 :- take place where the channel owner(s) has requested this
+:barjavel.freenode.net 372 asdf2 :- and users of the channel are all made aware (if you are
+:barjavel.freenode.net 372 asdf2 :- publically logging your channel, you may wish to keep a
+:barjavel.freenode.net 372 asdf2 :- notice in topic and perhaps as a on-join message).
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- freenode runs an open proxy scanner. Your use of the network
+:barjavel.freenode.net 372 asdf2 :- indicates your acceptance of this policy. For details on
+:barjavel.freenode.net 372 asdf2 :- freenode network policy, please take a look at our policy
+:barjavel.freenode.net 372 asdf2 :- page (http://freenode.net/policy.shtml). Thank you for using
+:barjavel.freenode.net 372 asdf2 :- the network!
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- Don't forget to check out these other Peer-Directed Projects:
+:barjavel.freenode.net 372 asdf2 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:barjavel.freenode.net 372 asdf2 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:barjavel.freenode.net 372 asdf2 :- success with Picnics for Geeks across the globe, more info at 
+:barjavel.freenode.net 372 asdf2 :- [http://geeknic.org]
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:barjavel.freenode.net 372 asdf2 :- a not for profit organisation registered in England and Wales.
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- If you support the work we do and wish to donate to the PDPC, 
+:barjavel.freenode.net 372 asdf2 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- Thank you for using freenode!
+:barjavel.freenode.net 372 asdf2 :-  
+:barjavel.freenode.net 372 asdf2 :- ***************************************************************
+:barjavel.freenode.net 372 asdf2 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:barjavel.freenode.net 372 asdf2 :- ***************************************************************
+:barjavel.freenode.net 376 asdf2 :End of /MOTD command.
+:asdf2 MODE asdf2 :+i
+
+Wed Nov 28 13:00:02 2012 : client : NICK adsf3
+Wed Nov 28 13:00:02 2012 : server : :barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+:barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** No Ident response
+:barjavel.freenode.net NOTICE * :*** Found your hostname
+
+Wed Nov 28 13:00:02 2012 : client : USER AL 0 * .
+Wed Nov 28 13:00:02 2012 : server : :barjavel.freenode.net 001 adsf3 :Welcome to the freenode Internet Relay Chat Network adsf3
+
+Wed Nov 28 13:00:03 2012 : server : :barjavel.freenode.net 002 adsf3 :Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+:barjavel.freenode.net 003 adsf3 :This server was created Mon Feb 6 2012 at 21:33:23 CET
+:barjavel.freenode.net 004 adsf3 barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:barjavel.freenode.net 005 adsf3 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:barjavel.freenode.net 005 adsf3 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:barjavel.freenode.net 005 adsf3 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:barjavel.freenode.net 251 adsf3 :There are 221 users and 77835 invisible on 34 servers
+:barjavel.freenode.net 252 adsf3 38 :IRC Operators online
+:barjavel.freenode.net 253 adsf3 6 :unknown connection(s)
+:barjavel.freenode.net 254 adsf3 43042 :channels formed
+:barjavel.freenode.net 255 adsf3 :I have 2803 clients and 1 servers
+:barjavel.freenode.net 265 adsf3 2803 10319 :Current local users 2803, max 10319
+:barjavel.freenode.net 266 adsf3 78056 85546 :Current global users 78056, max 85546
+:barjavel.freenode.net 250 adsf3 :Highest connection count: 10321 (10319 clients) (2600785 connections received)
+:barjavel.freenode.net 375 adsf3 :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 adsf3 :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net 372 adsf3 :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 adsf3 :- this server!
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 adsf3 :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 adsf3 :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 adsf3 :- the Grandfather Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 adsf3 :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- You're using freenode, a service of Peer-Directed Projects
+:barjavel.freenode.net 372 adsf3 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- By connecting to freenode you indicate that you have read
+:barjavel.freenode.net 372 adsf3 :- and agree to adhere to our policies and procedures as per
+:barjavel.freenode.net 372 adsf3 :- the website (http://freenode.net). We would like to remind
+:barjavel.freenode.net 372 adsf3 :- you that unauthorized public logging of channels on the
+:barjavel.freenode.net 372 adsf3 :- network is prohibited. Public channel logging should only
+:barjavel.freenode.net 372 adsf3 :- take place where the channel owner(s) has requested this
+:barjavel.freenode.net 372 adsf3 :- and users of the channel are all made aware (if you are
+:barjavel.freenode.net 372 adsf3 :- publically logging your channel, you may wish to keep a
+:barjavel.freenode.net 372 adsf3 :- notice in topic and perhaps as a on-join message).
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- freenode runs an open proxy scanner. Your use of the network
+:barjavel.freenode.net 372 adsf3 :- indicates your acceptance of this policy. For details on
+:barjavel.freenode.net 372 adsf3 :- freenode network policy, please take a look at our policy
+:barjavel.freenode.net 372 adsf3 :- page (http://freenode.net/policy.shtml). Thank you for using
+:barjavel.freenode.net 372 adsf3 :- the network!
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- Don't forget to check out these other Peer-Directed Projects:
+:barjavel.freenode.net 372 adsf3 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:barjavel.freenode.net 372 adsf3 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:barjavel.freenode.net 372 adsf3 :- success with Picnics for Geeks across the globe, more info at 
+:barjavel.freenode.net 372 adsf3 :- [http://geeknic.org]
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:barjavel.freenode.net 372 adsf3 :- a not for profit organisation registered in England and Wales.
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- If you support the work we do and wish to donate to the PDPC, 
+:barjavel.freenode.net 372 adsf3 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- Thank you for using freenode!
+:barjavel.freenode.net 372 adsf3 :-  
+:barjavel.freenode.net 372 adsf3 :- ***************************************************************
+:barjavel.freenode.net 372 adsf3 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:barjavel.freenode.net 372 adsf3 :- ***************************************************************
+:barjavel.freenode.net 376 adsf3 :End of /MOTD command.
+:adsf3 MODE adsf3 :+i
+
+Wed Nov 28 13:07:29 2012 : client : NICK bleeeee3
+Wed Nov 28 13:07:29 2012 : server : :gibson.freenode.net NOTICE * :*** Looking up your hostname...
+:gibson.freenode.net NOTICE * :*** Checking Ident
+:gibson.freenode.net NOTICE * :*** Found your hostname
+:gibson.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:07:29 2012 : client : USER AL 0 * .
+Wed Nov 28 13:07:29 2012 : server : :gibson.freenode.net 001 bleeeee3 :Welcome to the freenode Internet Relay Chat Network bleeeee3
+
+Wed Nov 28 13:07:29 2012 : server : :gibson.freenode.net 002 bleeeee3 :Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.1.3
+:gibson.freenode.net 003 bleeeee3 :This server was created Sun Dec 4 2011 at 15:39:36 CET
+:gibson.freenode.net 004 bleeeee3 gibson.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:gibson.freenode.net 005 bleeeee3 CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:gibson.freenode.net 005 bleeeee3 CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:gibson.freenode.net 005 bleeeee3 EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:gibson.freenode.net 251 bleeeee3 :There are 221 users and 77999 invisible on 34 servers
+:gibson.freenode.net 252 bleeeee3 38 :IRC Operators online
+:gibson.freenode.net 253 bleeeee3 11 :unknown connection(s)
+:gibson.freenode.net 254 bleeeee3 43074 :channels formed
+:gibson.freenode.net 255 bleeeee3 :I have 1979 clients and 1 servers
+:gibson.freenode.net 265 bleeeee3 1979 3982 :Current local users 1979, max 3982
+:gibson.freenode.net 266 bleeeee3 78220 84163 :Current global users 78220, max 84163
+:gibson.freenode.net 250 bleeeee3 :Highest connection count: 3983 (3982 clients) (401125 connections received)
+:gibson.freenode.net 375 bleeeee3 :- gibson.freenode.net Message of the Day - 
+:gibson.freenode.net 372 bleeeee3 :- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+:gibson.freenode.net 372 bleeeee3 :- SSC Networks (www.ssc.no) for sponsoring this server!
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- GIBSON, WILLIAM (1948-) He is married with two children. In
+:gibson.freenode.net 372 bleeeee3 :- the early 1980s he wrote Neuromancer, and with this novel he
+:gibson.freenode.net 372 bleeeee3 :- helped establish a new kind of science fiction literature
+:gibson.freenode.net 372 bleeeee3 :- called cyberpunk. William Gibson defined the word cyberspace,
+:gibson.freenode.net 372 bleeeee3 :- and described virtual reality long before we saw the
+:gibson.freenode.net 372 bleeeee3 :- similarities with todays Internet. He has won the Hugo Award,
+:gibson.freenode.net 372 bleeeee3 :- Nebula Award and the Philipp K. Dick Award.
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- You're using freenode, a service of Peer-Directed Projects
+:gibson.freenode.net 372 bleeeee3 :- Center Ltd (http://freenode.net/pdpc.shtml).
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- By connecting to freenode you indicate that you have read
+:gibson.freenode.net 372 bleeeee3 :- and agree to adhere to our policies and procedures as per
+:gibson.freenode.net 372 bleeeee3 :- the website (http://freenode.net). We would like to remind
+:gibson.freenode.net 372 bleeeee3 :- you that unauthorized public logging of channels on the
+:gibson.freenode.net 372 bleeeee3 :- network is prohibited. Public channel logging should only
+:gibson.freenode.net 372 bleeeee3 :- take place where the channel owner(s) has requested this
+:gibson.freenode.net 372 bleeeee3 :- and users of the channel are all made aware (if you are
+:gibson.freenode.net 372 bleeeee3 :- publically logging your channel, you may wish to keep a
+:gibson.freenode.net 372 bleeeee3 :- notice in topic and perhaps as a on-join message).
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- freenode runs an open proxy scanner. Your use of the network
+:gibson.freenode.net 372 bleeeee3 :- indicates your acceptance of this policy. For details on
+:gibson.freenode.net 372 bleeeee3 :- freenode network policy, please take a look at our policy
+:gibson.freenode.net 372 bleeeee3 :- page (http://freenode.net/policy.shtml). Thank you for using
+:gibson.freenode.net 372 bleeeee3 :- the network!
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- Don't forget to check out these other Peer-Directed Projects:
+:gibson.freenode.net 372 bleeeee3 :- FOSSCON [http://www.fosscon.org] and fossevents 
+:gibson.freenode.net 372 bleeeee3 :- [http://www.fossevents.org], and soon we'll repeat last years 
+:gibson.freenode.net 372 bleeeee3 :- success with Picnics for Geeks across the globe, more info at 
+:gibson.freenode.net 372 bleeeee3 :- [http://geeknic.org]
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- freenode is a service of Peer-Directed Projects Center Ltd,
+:gibson.freenode.net 372 bleeeee3 :- a not for profit organisation registered in England and Wales.
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- If you support the work we do and wish to donate to the PDPC, 
+:gibson.freenode.net 372 bleeeee3 :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- Thank you for using freenode!
+:gibson.freenode.net 372 bleeeee3 :-  
+:gibson.freenode.net 372 bleeeee3 :- ***************************************************************
+:gibson.freenode.net 372 bleeeee3 :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:gibson.freenode.net 372 bleeeee3 :- ***************************************************************
+:gibson.freenode.net 376 bleeeee3 :End of /MOTD command.
+:bleeeee3 MODE bleeeee3 :+i
+
+Wed Nov 28 13:07:36 2012 : client : JOIN #tsam
+Wed Nov 28 13:07:37 2012 : server : :bleeeee3!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:07:37 2012 : server : :gibson.freenode.net 332 bleeeee3 #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:gibson.freenode.net 333 bleeeee3 #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
+:gibson.freenode.net 353 bleeeee3 @ #tsam :bleeeee3 EpliNick glommi Saxaklandur AlexBaa Theragon kvg [TSAM]Carsten Mega winston_ ble cozmic\
+:gibson.freenode.net 366 bleeeee3 #tsam :End of /NAMES list.
+
+Wed Nov 28 13:09:52 2012 : client : NICK skeeggga
+Wed Nov 28 13:09:52 2012 : server : :niven.freenode.net NOTICE * :*** Looking up your hostname...
+:niven.freenode.net NOTICE * :*** Checking Ident
+:niven.freenode.net NOTICE * :*** No Ident response
+:niven.freenode.net NOTICE * :*** Found your hostname
+
+Wed Nov 28 13:09:52 2012 : client : USER AL 0 * .
+Wed Nov 28 13:09:53 2012 : server : :niven.freenode.net 001 skeeggga :Welcome to the freenode Internet Relay Chat Network skeeggga
+
+Wed Nov 28 13:09:53 2012 : server : :niven.freenode.net 002 skeeggga :Your host is niven.freenode.net[140.211.167.105/6667], running version ircd-seven-1.1.3
+:niven.freenode.net 003 skeeggga :This server was created Tue Sep 25 2012 at 08:52:30 UTC
+:niven.freenode.net 004 skeeggga niven.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:niven.freenode.net 005 skeeggga CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:niven.freenode.net 005 skeeggga CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:niven.freenode.net 005 skeeggga EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:niven.freenode.net 251 skeeggga :There are 221 users and 78068 invisible on 34 servers
+:niven.freenode.net 252 skeeggga 38 :IRC Operators online
+:niven.freenode.net 253 skeeggga 5 :unknown connection(s)
+:niven.freenode.net 254 skeeggga 43086 :channels formed
+:niven.freenode.net 255 skeeggga :I have 2371 clients and 2 servers
+:niven.freenode.net 265 skeeggga 2371 3893 :Current local users 2371, max 3893
+:niven.freenode.net 266 skeeggga 78289 85546 :Current global users 78289, max 85546
+:niven.freenode.net 250 skeeggga :Highest connection count: 3895 (3893 clients) (536544 connections received)
+:niven.freenode.net 375 skeeggga :- niven.freenode.net Message of the Day - 
+:niven.freenode.net 372 skeeggga :- Welcome to niven.freenode.net in Corvallis, Oregon, US.  Our
+:niven.freenode.net 372 skeeggga :- thanks to Oregon State University for sponsoring this server!
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- NIVEN, LAWRENCE VAN COTT [1938-].  Architect of Known Space,
+:niven.freenode.net 372 skeeggga :- the setting of Protector, World of Ptaavs and the
+:niven.freenode.net 372 skeeggga :- Ringworld series.  Author of "Flash Crowd", a canonical
+:niven.freenode.net 372 skeeggga :- sociological hard science fiction short story dealing with
+:niven.freenode.net 372 skeeggga :- effects of near instantaneous transportation on a modern
+:niven.freenode.net 372 skeeggga :- technological society.  In addition, he is well known for his
+:niven.freenode.net 372 skeeggga :- collaborations with Jerry Pournelle, including The Mote in
+:niven.freenode.net 372 skeeggga :- God's Eye and Lucifer's Hammer.
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- You're using freenode, a service of Peer-Directed Projects
+:niven.freenode.net 372 skeeggga :- Center Ltd (http://freenode.net/pdpc.shtml).
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- By connecting to freenode you indicate that you have read
+:niven.freenode.net 372 skeeggga :- and agree to adhere to our policies and procedures as per
+:niven.freenode.net 372 skeeggga :- the website (http://freenode.net). We would like to remind
+:niven.freenode.net 372 skeeggga :- you that unauthorized public logging of channels on the
+:niven.freenode.net 372 skeeggga :- network is prohibited. Public channel logging should only
+:niven.freenode.net 372 skeeggga :- take place where the channel owner(s) has requested this
+:niven.freenode.net 372 skeeggga :- and users of the channel are all made aware (if you are
+:niven.freenode.net 372 skeeggga :- publically logging your channel, you may wish to keep a
+:niven.freenode.net 372 skeeggga :- notice in topic and perhaps as a on-join message).
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- freenode runs an open proxy scanner. Your use of the network
+:niven.freenode.net 372 skeeggga :- indicates your acceptance of this policy. For details on
+:niven.freenode.net 372 skeeggga :- freenode network policy, please take a look at our policy
+:niven.freenode.net 372 skeeggga :- page (http://freenode.net/policy.shtml). Thank you for using
+:niven.freenode.net 372 skeeggga :- the network!
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- Don't forget to check out these other Peer-Directed Projects:
+:niven.freenode.net 372 skeeggga :- FOSSCON [http://www.fosscon.org] and fossevents 
+:niven.freenode.net 372 skeeggga :- [http://www.fossevents.org], and soon we'll repeat last years 
+:niven.freenode.net 372 skeeggga :- success with Picnics for Geeks across the globe, more info at 
+:niven.freenode.net 372 skeeggga :- [http://geeknic.org]
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- freenode is a service of Peer-Directed Projects Center Ltd,
+:niven.freenode.net 372 skeeggga :- a not for profit organisation registered in England and Wales.
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- If you support the work we do and wish to donate to the PDPC, 
+:niven.freenode.net 372 skeeggga :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- Thank you for using freenode!
+:niven.freenode.net 372 skeeggga :-  
+:niven.freenode.net 372 skeeggga :- ***************************************************************
+:niven.freenode.net 372 skeeggga :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:niven.freenode.net 372 skeeggga :- ***************************************************************
+:niven.freenode.net 376 skeeggga :End of /MOTD command.
+:skeeggga MODE skeeggga :+i
+
+Wed Nov 28 13:10:03 2012 : client : JOIN #tsam
+Wed Nov 28 13:10:03 2012 : server : :skeeggga!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:10:04 2012 : server : :niven.freenode.net 332 skeeggga #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:niven.freenode.net 333 skeeggga #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015593
+:niven.freenode.net 353 skeeggga @ #tsam :skeeggga Saxaklandur AlexBaa Theragon kvg [TSAM]Carsten Mega winston_ ble cozmic\
+:niven.freenode.net 366 skeeggga #tsam :End of /NAMES list.
+
+Wed Nov 28 13:10:11 2012 : client : PRIVMSG hello you
+Wed Nov 28 13:23:57 2012 : client : NICK hasenfuss
+Wed Nov 28 13:23:57 2012 : server : :gibson.freenode.net NOTICE * :*** Looking up your hostname...
+:gibson.freenode.net NOTICE * :*** Checking Ident
+:gibson.freenode.net NOTICE * :*** Found your hostname
+:gibson.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:23:57 2012 : client : USER AL 0 * .
+Wed Nov 28 13:23:57 2012 : server : :gibson.freenode.net 001 hasenfuss :Welcome to the freenode Internet Relay Chat Network hasenfuss
+
+Wed Nov 28 13:23:57 2012 : server : :gibson.freenode.net 002 hasenfuss :Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.1.3
+:gibson.freenode.net 003 hasenfuss :This server was created Sun Dec 4 2011 at 15:39:36 CET
+:gibson.freenode.net 004 hasenfuss gibson.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:gibson.freenode.net 005 hasenfuss CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:gibson.freenode.net 005 hasenfuss CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:gibson.freenode.net 005 hasenfuss EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:gibson.freenode.net 251 hasenfuss :There are 220 users and 78447 invisible on 34 servers
+:gibson.freenode.net 252 hasenfuss 38 :IRC Operators online
+:gibson.freenode.net 253 hasenfuss 15 :unknown connection(s)
+:gibson.freenode.net 254 hasenfuss 43112 :channels formed
+:gibson.freenode.net 255 hasenfuss :I have 2023 clients and 1 servers
+:gibson.freenode.net 265 hasenfuss 2023 3982 :Current local users 2023, max 3982
+:gibson.freenode.net 266 hasenfuss 78667 84163 :Current global users 78667, max 84163
+:gibson.freenode.net 250 hasenfuss :Highest connection count: 3983 (3982 clients) (401297 connections received)
+:gibson.freenode.net 375 hasenfuss :- gibson.freenode.net Message of the Day - 
+:gibson.freenode.net 372 hasenfuss :- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+:gibson.freenode.net 372 hasenfuss :- SSC Networks (www.ssc.no) for sponsoring this server!
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- GIBSON, WILLIAM (1948-) He is married with two children. In
+:gibson.freenode.net 372 hasenfuss :- the early 1980s he wrote Neuromancer, and with this novel he
+:gibson.freenode.net 372 hasenfuss :- helped establish a new kind of science fiction literature
+:gibson.freenode.net 372 hasenfuss :- called cyberpunk. William Gibson defined the word cyberspace,
+:gibson.freenode.net 372 hasenfuss :- and described virtual reality long before we saw the
+:gibson.freenode.net 372 hasenfuss :- similarities with todays Internet. He has won the Hugo Award,
+:gibson.freenode.net 372 hasenfuss :- Nebula Award and the Philipp K. Dick Award.
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- You're using freenode, a service of Peer-Directed Projects
+:gibson.freenode.net 372 hasenfuss :- Center Ltd (http://freenode.net/pdpc.shtml).
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- By connecting to freenode you indicate that you have read
+:gibson.freenode.net 372 hasenfuss :- and agree to adhere to our policies and procedures as per
+:gibson.freenode.net 372 hasenfuss :- the website (http://freenode.net). We would like to remind
+:gibson.freenode.net 372 hasenfuss :- you that unauthorized public logging of channels on the
+:gibson.freenode.net 372 hasenfuss :- network is prohibited. Public channel logging should only
+:gibson.freenode.net 372 hasenfuss :- take place where the channel owner(s) has requested this
+:gibson.freenode.net 372 hasenfuss :- and users of the channel are all made aware (if you are
+:gibson.freenode.net 372 hasenfuss :- publically logging your channel, you may wish to keep a
+:gibson.freenode.net 372 hasenfuss :- notice in topic and perhaps as a on-join message).
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- freenode runs an open proxy scanner. Your use of the network
+:gibson.freenode.net 372 hasenfuss :- indicates your acceptance of this policy. For details on
+:gibson.freenode.net 372 hasenfuss :- freenode network policy, please take a look at our policy
+:gibson.freenode.net 372 hasenfuss :- page (http://freenode.net/policy.shtml). Thank you for using
+:gibson.freenode.net 372 hasenfuss :- the network!
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- Don't forget to check out these other Peer-Directed Projects:
+:gibson.freenode.net 372 hasenfuss :- FOSSCON [http://www.fosscon.org] and fossevents 
+:gibson.freenode.net 372 hasenfuss :- [http://www.fossevents.org], and soon we'll repeat last years 
+:gibson.freenode.net 372 hasenfuss :- success with Picnics for Geeks across the globe, more info at 
+:gibson.freenode.net 372 hasenfuss :- [http://geeknic.org]
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- freenode is a service of Peer-Directed Projects Center Ltd,
+:gibson.freenode.net 372 hasenfuss :- a not for profit organisation registered in England and Wales.
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- If you support the work we do and wish to donate to the PDPC, 
+:gibson.freenode.net 372 hasenfuss :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- Thank you for using freenode!
+:gibson.freenode.net 372 hasenfuss :-  
+:gibson.freenode.net 372 hasenfuss :- ***************************************************************
+:gibson.freenode.net 372 hasenfuss :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:gibson.freenode.net 372 hasenfuss :- ***************************************************************
+:gibson.freenode.net 376 hasenfuss :End of /MOTD command.
+:hasenfuss MODE hasenfuss :+i
+
+Wed Nov 28 13:24:06 2012 : client : JOIN #tsam
+Wed Nov 28 13:24:06 2012 : server : :hasenfuss!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:24:06 2012 : server : :gibson.freenode.net 332 hasenfuss #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:gibson.freenode.net 333 hasenfuss #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
+:gibson.freenode.net 353 hasenfuss @ #tsam :hasenfuss fsdfsd EpliNick Saxaklandur kkmm AlexBaa Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:gibson.freenode.net 366 hasenfuss #tsam :End of /NAMES list.
+
+Wed Nov 28 13:24:26 2012 : server : :fsdfsd!~a@89-160-133-29.du.xdsl.is PRIVMSG #tsam :asds/quit
+
+Wed Nov 28 13:31:59 2012 : client : NICK hasenohr
+Wed Nov 28 13:31:59 2012 : server : :morgan.freenode.net NOTICE * :*** Looking up your hostname...
+:morgan.freenode.net NOTICE * :*** Checking Ident
+:morgan.freenode.net NOTICE * :*** Found your hostname
+:morgan.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:31:59 2012 : client : USER AL 0 * .
+Wed Nov 28 13:31:59 2012 : server : :morgan.freenode.net 001 hasenohr :Welcome to the freenode Internet Relay Chat Network hasenohr
+
+Wed Nov 28 13:31:59 2012 : server : :morgan.freenode.net 002 hasenohr :Your host is morgan.freenode.net[64.32.24.176/6667], running version ircd-seven-1.1.3
+:morgan.freenode.net 003 hasenohr :This server was created Mon Jul 2 2012 at 17:49:30 EDT
+:morgan.freenode.net 004 hasenohr morgan.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:morgan.freenode.net 005 hasenohr CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:morgan.freenode.net 005 hasenohr CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:morgan.freenode.net 005 hasenohr EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:morgan.freenode.net 251 hasenohr :There are 221 users and 78708 invisible on 34 servers
+:morgan.freenode.net 252 hasenohr 38 :IRC Operators online
+:morgan.freenode.net 253 hasenohr 8 :unknown connection(s)
+:morgan.freenode.net 254 hasenohr 43145 :channels formed
+:morgan.freenode.net 255 hasenohr :I have 2936 clients and 1 servers
+:morgan.freenode.net 265 hasenohr 2936 7434 :Current local users 2936, max 7434
+:morgan.freenode.net 266 hasenohr 78929 85546 :Current global users 78929, max 85546
+:morgan.freenode.net 250 hasenohr :Highest connection count: 7435 (7434 clients) (876819 connections received)
+:morgan.freenode.net 375 hasenohr :- morgan.freenode.net Message of the Day - 
+:morgan.freenode.net 372 hasenohr :- Welcome to morgan.freenode.net in Chicago, IL, USA! Thank
+:morgan.freenode.net 372 hasenohr :- you to psyprus for sponsoring this server!
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- MORGAN, RICHARD K. (1965-) is an English science fiction
+:morgan.freenode.net 372 hasenohr :- author. Morgan's books are generally set in a dystopian world.
+:morgan.freenode.net 372 hasenohr :- His breakout novel Altered Carbon won the Philip K. Dick Award,
+:morgan.freenode.net 372 hasenohr :- and he has written many successful and amazing works to follow.
+:morgan.freenode.net 372 hasenohr :- His more recent writings feature heavily on the theme of
+:morgan.freenode.net 372 hasenohr :- autonomy in science fiction and escapism in fantasy.
+:morgan.freenode.net 372 hasenohr :- You're using freenode, a service of Peer-Directed Projects
+:morgan.freenode.net 372 hasenohr :- Center Ltd (http://freenode.net/pdpc.shtml).
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- By connecting to freenode you indicate that you have read
+:morgan.freenode.net 372 hasenohr :- and agree to adhere to our policies and procedures as per
+:morgan.freenode.net 372 hasenohr :- the website (http://freenode.net). We would like to remind
+:morgan.freenode.net 372 hasenohr :- you that unauthorized public logging of channels on the
+:morgan.freenode.net 372 hasenohr :- network is prohibited. Public channel logging should only
+:morgan.freenode.net 372 hasenohr :- take place where the channel owner(s) has requested this
+:morgan.freenode.net 372 hasenohr :- and users of the channel are all made aware (if you are
+:morgan.freenode.net 372 hasenohr :- publically logging your channel, you may wish to keep a
+:morgan.freenode.net 372 hasenohr :- notice in topic and perhaps as a on-join message).
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- freenode runs an open proxy scanner. Your use of the network
+:morgan.freenode.net 372 hasenohr :- indicates your acceptance of this policy. For details on
+:morgan.freenode.net 372 hasenohr :- freenode network policy, please take a look at our policy
+:morgan.freenode.net 372 hasenohr :- page (http://freenode.net/policy.shtml). Thank you for using
+:morgan.freenode.net 372 hasenohr :- the network!
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- Don't forget to check out these other Peer-Directed Projects:
+:morgan.freenode.net 372 hasenohr :- FOSSCON [http://www.fosscon.org] and fossevents 
+:morgan.freenode.net 372 hasenohr :- [http://www.fossevents.org], and soon we'll repeat last years 
+:morgan.freenode.net 372 hasenohr :- success with Picnics for Geeks across the globe, more info at 
+:morgan.freenode.net 372 hasenohr :- [http://geeknic.org]
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- freenode is a service of Peer-Directed Projects Center Ltd,
+:morgan.freenode.net 372 hasenohr :- a not for profit organisation registered in England and Wales.
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- If you support the work we do and wish to donate to the PDPC, 
+:morgan.freenode.net 372 hasenohr :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- Thank you for using freenode!
+:morgan.freenode.net 372 hasenohr :-  
+:morgan.freenode.net 372 hasenohr :- ***************************************************************
+:morgan.freenode.net 372 hasenohr :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:morgan.freenode.net 372 hasenohr :- ***************************************************************
+:morgan.freenode.net 376 hasenohr :End of /MOTD command.
+:hasenohr MODE hasenohr :+i
+
+Wed Nov 28 13:32:06 2012 : client : JOIN #tsam
+Wed Nov 28 13:32:06 2012 : server : :hasenohr!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:32:06 2012 : server : :morgan.freenode.net 332 hasenohr #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:morgan.freenode.net 333 hasenohr #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015593
+:morgan.freenode.net 353 hasenohr @ #tsam :hasenohr glommi Saxaklandur AlexBaa Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:morgan.freenode.net 366 hasenohr #tsam :End of /NAMES list.
+
+Wed Nov 28 13:32:14 2012 : client : PRIVMSG hallo you
+Wed Nov 28 13:32:14 2012 : server : :morgan.freenode.net 401 hasenohr #.:hallo :No such nick/channel
+
+Wed Nov 28 13:32:16 2012 : server : :glommi!~glommi@fire-out.ru.is QUIT :Ping timeout: 260 seconds
+
+Wed Nov 28 13:34:29 2012 : client : NICK hasennase
+Wed Nov 28 13:34:29 2012 : server : :brooks.freenode.net NOTICE * :*** Looking up your hostname...
+:brooks.freenode.net NOTICE * :*** Checking Ident
+:brooks.freenode.net NOTICE * :*** No Ident response
+:brooks.freenode.net NOTICE * :*** Found your hostname
+
+Wed Nov 28 13:34:29 2012 : client : USER AL 0 * .
+Wed Nov 28 13:34:29 2012 : server : :brooks.freenode.net 001 hasennase :Welcome to the freenode Internet Relay Chat Network hasennase
+
+Wed Nov 28 13:34:30 2012 : server : :brooks.freenode.net 002 hasennase :Your host is brooks.freenode.net[199.195.193.196/6667], running version ircd-seven-1.1.3
+:brooks.freenode.net 003 hasennase :This server was created Tue Jul 3 2012 at 20:06:04 UTC
+:brooks.freenode.net 004 hasennase brooks.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:brooks.freenode.net 005 hasennase CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:brooks.freenode.net 005 hasennase CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:brooks.freenode.net 005 hasennase EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:brooks.freenode.net 251 hasennase :There are 221 users and 78788 invisible on 34 servers
+:brooks.freenode.net 252 hasennase 38 :IRC Operators online
+:brooks.freenode.net 253 hasennase 6 :unknown connection(s)
+:brooks.freenode.net 254 hasennase 43149 :channels formed
+:brooks.freenode.net 255 hasennase :I have 2842 clients and 1 servers
+:brooks.freenode.net 265 hasennase 2842 2922 :Current local users 2842, max 2922
+:brooks.freenode.net 266 hasennase 79009 85545 :Current global users 79009, max 85545
+:brooks.freenode.net 250 hasennase :Highest connection count: 2923 (2922 clients) (65822 connections received)
+:brooks.freenode.net 375 hasennase :- brooks.freenode.net Message of the Day - 
+:brooks.freenode.net 372 hasennase :- Welcome to brooks.freenode.net in Singapore, SG! Thank you
+:brooks.freenode.net 372 hasennase :- to MCBans for sponsoring this server!
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- Terence Dean "Terry" Brooks (1944-) is an American writer of
+:brooks.freenode.net 372 hasennase :- fantasy fiction. He writes mainly epic fantasy, and is most
+:brooks.freenode.net 372 hasennase :- famous for his various Shannara series. He has written 23 New
+:brooks.freenode.net 372 hasennase :- York Times bestsellers during his writing career, and has
+:brooks.freenode.net 372 hasennase :- over 21 million copies of his books in print. He is one of
+:brooks.freenode.net 372 hasennase :- the biggest-selling living fantasy writers.
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- You're using freenode, a service of Peer-Directed Projects
+:brooks.freenode.net 372 hasennase :- Center Ltd (http://freenode.net/pdpc.shtml).
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- By connecting to freenode you indicate that you have read
+:brooks.freenode.net 372 hasennase :- and agree to adhere to our policies and procedures as per
+:brooks.freenode.net 372 hasennase :- the website (http://freenode.net). We would like to remind
+:brooks.freenode.net 372 hasennase :- you that unauthorized public logging of channels on the
+:brooks.freenode.net 372 hasennase :- network is prohibited. Public channel logging should only
+:brooks.freenode.net 372 hasennase :- take place where the channel owner(s) has requested this
+:brooks.freenode.net 372 hasennase :- and users of the channel are all made aware (if you are
+:brooks.freenode.net 372 hasennase :- publically logging your channel, you may wish to keep a
+:brooks.freenode.net 372 hasennase :- notice in topic and perhaps as a on-join message).
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- freenode runs an open proxy scanner. Your use of the network
+:brooks.freenode.net 372 hasennase :- indicates your acceptance of this policy. For details on
+:brooks.freenode.net 372 hasennase :- freenode network policy, please take a look at our policy
+:brooks.freenode.net 372 hasennase :- page (http://freenode.net/policy.shtml). Thank you for using
+:brooks.freenode.net 372 hasennase :- the network!
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- Don't forget to check out these other Peer-Directed Projects:
+:brooks.freenode.net 372 hasennase :- FOSSCON [http://www.fosscon.org] and fossevents 
+:brooks.freenode.net 372 hasennase :- [http://www.fossevents.org], and soon we'll repeat last years 
+:brooks.freenode.net 372 hasennase :- success with Picnics for Geeks across the globe, more info at 
+:brooks.freenode.net 372 hasennase :- [http://geeknic.org]
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- freenode is a service of Peer-Directed Projects Center Ltd,
+:brooks.freenode.net 372 hasennase :- a not for profit organisation registered in England and Wales.
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- If you support the work we do and wish to donate to the PDPC, 
+:brooks.freenode.net 372 hasennase :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- Thank you for using freenode!
+:brooks.freenode.net 372 hasennase :-  
+:brooks.freenode.net 372 hasennase :- ***************************************************************
+:brooks.freenode.net 372 hasennase :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:brooks.freenode.net 372 hasennase :- ***************************************************************
+:brooks.freenode.net 376 hasennase :End of /MOTD command.
+:hasennase MODE hasennase :+i
+
+Wed Nov 28 13:34:35 2012 : client : JOIN #tsam
+Wed Nov 28 13:34:35 2012 : server : :hasennase!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:34:36 2012 : server : :brooks.freenode.net 332 hasennase #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:brooks.freenode.net 333 hasennase #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015593
+:brooks.freenode.net 353 hasennase @ #tsam :hasennase EpliNick Saxaklandur AlexBaa Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:brooks.freenode.net 366 hasennase #tsam :End of /NAMES list.
+
+Wed Nov 28 13:34:45 2012 : client : PRIVMSG hello you
+Wed Nov 28 13:34:45 2012 : server : :EpliNick!~EpliName@46-239-237-169.tal.is QUIT :Client Quit
+
+Wed Nov 28 13:34:46 2012 : server : :brooks.freenode.net 401 hasennase ##tsam:hello :No such nick/channel
+
+Wed Nov 28 13:39:28 2012 : client : NICK hentaess
+Wed Nov 28 13:39:28 2012 : server : :gibson.freenode.net NOTICE * :*** Looking up your hostname...
+:gibson.freenode.net NOTICE * :*** Checking Ident
+:gibson.freenode.net NOTICE * :*** Found your hostname
+:gibson.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:39:28 2012 : client : USER AL 0 * .
+Wed Nov 28 13:39:28 2012 : server : :gibson.freenode.net 001 hentaess :Welcome to the freenode Internet Relay Chat Network hentaess
+
+Wed Nov 28 13:39:28 2012 : server : :gibson.freenode.net 002 hentaess :Your host is gibson.freenode.net[213.179.58.83/6667], running version ircd-seven-1.1.3
+:gibson.freenode.net 003 hentaess :This server was created Sun Dec 4 2011 at 15:39:36 CET
+:gibson.freenode.net 004 hentaess gibson.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:gibson.freenode.net 005 hentaess CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:gibson.freenode.net 005 hentaess CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:gibson.freenode.net 005 hentaess EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:gibson.freenode.net 251 hentaess :There are 222 users and 78946 invisible on 34 servers
+:gibson.freenode.net 252 hentaess 38 :IRC Operators online
+:gibson.freenode.net 253 hentaess 11 :unknown connection(s)
+:gibson.freenode.net 254 hentaess 43151 :channels formed
+:gibson.freenode.net 255 hentaess :I have 2053 clients and 1 servers
+:gibson.freenode.net 265 hentaess 2053 3982 :Current local users 2053, max 3982
+:gibson.freenode.net 266 hentaess 79168 84163 :Current global users 79168, max 84163
+:gibson.freenode.net 250 hentaess :Highest connection count: 3983 (3982 clients) (401468 connections received)
+:gibson.freenode.net 375 hentaess :- gibson.freenode.net Message of the Day - 
+:gibson.freenode.net 372 hentaess :- Welcome to gibson.freenode.net in Norway, EU!  Thanks to
+:gibson.freenode.net 372 hentaess :- SSC Networks (www.ssc.no) for sponsoring this server!
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- GIBSON, WILLIAM (1948-) He is married with two children. In
+:gibson.freenode.net 372 hentaess :- the early 1980s he wrote Neuromancer, and with this novel he
+:gibson.freenode.net 372 hentaess :- helped establish a new kind of science fiction literature
+:gibson.freenode.net 372 hentaess :- called cyberpunk. William Gibson defined the word cyberspace,
+:gibson.freenode.net 372 hentaess :- and described virtual reality long before we saw the
+:gibson.freenode.net 372 hentaess :- similarities with todays Internet. He has won the Hugo Award,
+:gibson.freenode.net 372 hentaess :- Nebula Award and the Philipp K. Dick Award.
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- You're using freenode, a service of Peer-Directed Projects
+:gibson.freenode.net 372 hentaess :- Center Ltd (http://freenode.net/pdpc.shtml).
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- By connecting to freenode you indicate that you have read
+:gibson.freenode.net 372 hentaess :- and agree to adhere to our policies and procedures as per
+:gibson.freenode.net 372 hentaess :- the website (http://freenode.net). We would like to remind
+:gibson.freenode.net 372 hentaess :- you that unauthorized public logging of channels on the
+:gibson.freenode.net 372 hentaess :- network is prohibited. Public channel logging should only
+:gibson.freenode.net 372 hentaess :- take place where the channel owner(s) has requested this
+:gibson.freenode.net 372 hentaess :- and users of the channel are all made aware (if you are
+:gibson.freenode.net 372 hentaess :- publically logging your channel, you may wish to keep a
+:gibson.freenode.net 372 hentaess :- notice in topic and perhaps as a on-join message).
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- freenode runs an open proxy scanner. Your use of the network
+:gibson.freenode.net 372 hentaess :- indicates your acceptance of this policy. For details on
+:gibson.freenode.net 372 hentaess :- freenode network policy, please take a look at our policy
+:gibson.freenode.net 372 hentaess :- page (http://freenode.net/policy.shtml). Thank you for using
+:gibson.freenode.net 372 hentaess :- the network!
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- Don't forget to check out these other Peer-Directed Projects:
+:gibson.freenode.net 372 hentaess :- FOSSCON [http://www.fosscon.org] and fossevents 
+:gibson.freenode.net 372 hentaess :- [http://www.fossevents.org], and soon we'll repeat last years 
+:gibson.freenode.net 372 hentaess :- success with Picnics for Geeks across the globe, more info at 
+:gibson.freenode.net 372 hentaess :- [http://geeknic.org]
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- freenode is a service of Peer-Directed Projects Center Ltd,
+:gibson.freenode.net 372 hentaess :- a not for profit organisation registered in England and Wales.
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- If you support the work we do and wish to donate to the PDPC, 
+:gibson.freenode.net 372 hentaess :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- Thank you for using freenode!
+:gibson.freenode.net 372 hentaess :-  
+:gibson.freenode.net 372 hentaess :- ***************************************************************
+:gibson.freenode.net 372 hentaess :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:gibson.freenode.net 372 hentaess :- ***************************************************************
+:gibson.freenode.net 376 hentaess :End of /MOTD command.
+:hentaess MODE hentaess :+i
+
+Wed Nov 28 13:39:34 2012 : client : JOIN #tsam
+Wed Nov 28 13:39:34 2012 : server : :hentaess!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:39:34 2012 : server : :gibson.freenode.net 332 hentaess #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:gibson.freenode.net 333 hentaess #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
+:gibson.freenode.net 353 hentaess @ #tsam :hentaess fsdfsd HeyImAnOrange Saxaklandur AlexBaa Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:gibson.freenode.net 366 hentaess #tsam :End of /NAMES list.
+
+Wed Nov 28 13:39:45 2012 : client : PRIVMSG i cant no more
+Wed Nov 28 13:39:45 2012 : server : :fsdfsd!~a@89-160-133-29.du.xdsl.is QUIT :Read error: Connection reset by peer
+
+Wed Nov 28 13:39:45 2012 : server : :gibson.freenode.net 401 hentaess #tsam:i :No such nick/channel
+
+Wed Nov 28 13:42:00 2012 : client : NICK hananu
+Wed Nov 28 13:42:00 2012 : server : :wright.freenode.net NOTICE * :*** Looking up your hostname...
+:wright.freenode.net NOTICE * :*** Checking Ident
+:wright.freenode.net NOTICE * :*** Found your hostname
+:wright.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:42:00 2012 : client : USER AL 0 * .
+Wed Nov 28 13:42:00 2012 : server : :wright.freenode.net 001 hananu :Welcome to the freenode Internet Relay Chat Network hananu
+
+Wed Nov 28 13:42:00 2012 : server : :wright.freenode.net 002 hananu :Your host is wright.freenode.net[208.82.117.76/6667], running version ircd-seven-1.1.3
+:wright.freenode.net 003 hananu :This server was created Mon Feb 20 2012 at 22:07:23 UTC
+:wright.freenode.net 004 hananu wright.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:wright.freenode.net 005 hananu CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:wright.freenode.net 005 hananu CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:wright.freenode.net 005 hananu EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:wright.freenode.net 251 hananu :There are 222 users and 79053 invisible on 34 servers
+:wright.freenode.net 252 hananu 38 :IRC Operators online
+:wright.freenode.net 253 hananu 6 :unknown connection(s)
+:wright.freenode.net 254 hananu 43163 :channels formed
+:wright.freenode.net 255 hananu :I have 1809 clients and 1 servers
+:wright.freenode.net 265 hananu 1809 3109 :Current local users 1809, max 3109
+:wright.freenode.net 266 hananu 79275 85546 :Current global users 79275, max 85546
+:wright.freenode.net 250 hananu :Highest connection count: 3110 (3109 clients) (205006 connections received)
+:wright.freenode.net 375 hananu :- wright.freenode.net Message of the Day - 
+:wright.freenode.net 372 hananu :- Welcome to wright.freenode.net in Irvine, CA, USA!  Thanks to
+:wright.freenode.net 372 hananu :- Network Data Center Host, Inc. (www.ndchost.com) for sponsoring
+:wright.freenode.net 372 hananu :- this server!
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- WRIGHT, JOHN C. [1961-]. A sci-fi and fantasy author, works 
+:wright.freenode.net 372 hananu :- by Wright include The Golden Age series and the Chronicles
+:wright.freenode.net 372 hananu :- of Chaos.
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- You're using freenode, a service of Peer-Directed Projects
+:wright.freenode.net 372 hananu :- Center Ltd (http://freenode.net/pdpc.shtml).
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- By connecting to freenode you indicate that you have read
+:wright.freenode.net 372 hananu :- and agree to adhere to our policies and procedures as per
+:wright.freenode.net 372 hananu :- the website (http://freenode.net). We would like to remind
+:wright.freenode.net 372 hananu :- you that unauthorized public logging of channels on the
+:wright.freenode.net 372 hananu :- network is prohibited. Public channel logging should only
+:wright.freenode.net 372 hananu :- take place where the channel owner(s) has requested this
+:wright.freenode.net 372 hananu :- and users of the channel are all made aware (if you are
+:wright.freenode.net 372 hananu :- publically logging your channel, you may wish to keep a
+:wright.freenode.net 372 hananu :- notice in topic and perhaps as a on-join message).
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- freenode runs an open proxy scanner. Your use of the network
+:wright.freenode.net 372 hananu :- indicates your acceptance of this policy. For details on
+:wright.freenode.net 372 hananu :- freenode network policy, please take a look at our policy
+:wright.freenode.net 372 hananu :- page (http://freenode.net/policy.shtml). Thank you for using
+:wright.freenode.net 372 hananu :- the network!
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- Don't forget to check out these other Peer-Directed Projects:
+:wright.freenode.net 372 hananu :- FOSSCON [http://www.fosscon.org] and fossevents 
+:wright.freenode.net 372 hananu :- [http://www.fossevents.org], and soon we'll repeat last years 
+:wright.freenode.net 372 hananu :- success with Picnics for Geeks across the globe, more info at 
+:wright.freenode.net 372 hananu :- [http://geeknic.org]
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- freenode is a service of Peer-Directed Projects Center Ltd,
+:wright.freenode.net 372 hananu :- a not for profit organisation registered in England and Wales.
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- If you support the work we do and wish to donate to the PDPC, 
+:wright.freenode.net 372 hananu :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- Thank you for using freenode!
+:wright.freenode.net 372 hananu :-  
+:wright.freenode.net 372 hananu :- ***************************************************************
+:wright.freenode.net 372 hananu :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:wright.freenode.net 372 hananu :- ***************************************************************
+:wright.freenode.net 376 hananu :End of /MOTD command.
+:hananu MODE hananu :+i
+
+Wed Nov 28 13:42:04 2012 : client : JOIN #tsam
+Wed Nov 28 13:42:06 2012 : server : :hananu!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:42:07 2012 : server : :wright.freenode.net 332 hananu #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:wright.freenode.net 333 hananu #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015593
+:wright.freenode.net 353 hananu @ #tsam :hananu Saxaklandur AlexBaa Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:wright.freenode.net 366 hananu #tsam :End of /NAMES list.
+
+Wed Nov 28 13:42:18 2012 : client : PRIVMSG hana nu
+Wed Nov 28 13:43:21 2012 : client : NICK melloan
+Wed Nov 28 13:43:21 2012 : server : :barjavel.freenode.net NOTICE * :*** Looking up your hostname...
+:barjavel.freenode.net NOTICE * :*** Checking Ident
+:barjavel.freenode.net NOTICE * :*** Found your hostname
+:barjavel.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:43:21 2012 : client : USER AL 0 * .
+Wed Nov 28 13:43:21 2012 : server : :barjavel.freenode.net 001 melloan :Welcome to the freenode Internet Relay Chat Network melloan
+
+Wed Nov 28 13:43:21 2012 : server : :barjavel.freenode.net 002 melloan :Your host is barjavel.freenode.net[78.40.125.4/6667], running version ircd-seven-1.1.3
+:barjavel.freenode.net 003 melloan :This server was created Mon Feb 6 2012 at 21:33:23 CET
+:barjavel.freenode.net 004 melloan barjavel.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:barjavel.freenode.net 005 melloan CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:barjavel.freenode.net 005 melloan CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:barjavel.freenode.net 005 melloan EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:barjavel.freenode.net 251 melloan :There are 222 users and 79065 invisible on 34 servers
+:barjavel.freenode.net 252 melloan 38 :IRC Operators online
+:barjavel.freenode.net 253 melloan 9 :unknown connection(s)
+:barjavel.freenode.net 254 melloan 43161 :channels formed
+:barjavel.freenode.net 255 melloan :I have 2881 clients and 1 servers
+:barjavel.freenode.net 265 melloan 2881 10319 :Current local users 2881, max 10319
+:barjavel.freenode.net 266 melloan 79287 85546 :Current global users 79287, max 85546
+:barjavel.freenode.net 250 melloan :Highest connection count: 10321 (10319 clients) (2601247 connections received)
+:barjavel.freenode.net 375 melloan :- barjavel.freenode.net Message of the Day - 
+:barjavel.freenode.net 372 melloan :- Welcome to barjavel.freenode.net in Paris, FR, EU. 
+:barjavel.freenode.net 372 melloan :- Thanks to Bearstech (www.bearstech.com) for sponsoring
+:barjavel.freenode.net 372 melloan :- this server!
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- BARJAVEL, RENE [1911-1985].  Born in Nyons, he was a
+:barjavel.freenode.net 372 melloan :- science-fiction author, a journalist and a critic. He is
+:barjavel.freenode.net 372 melloan :- credited with having written the first novel to introduce 
+:barjavel.freenode.net 372 melloan :- the Grandfather Paradox in time travel, in his 1943 work 
+:barjavel.freenode.net 372 melloan :- 'Le Voyageur imprudent'.
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- You're using freenode, a service of Peer-Directed Projects
+:barjavel.freenode.net 372 melloan :- Center Ltd (http://freenode.net/pdpc.shtml).
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- By connecting to freenode you indicate that you have read
+:barjavel.freenode.net 372 melloan :- and agree to adhere to our policies and procedures as per
+:barjavel.freenode.net 372 melloan :- the website (http://freenode.net). We would like to remind
+:barjavel.freenode.net 372 melloan :- you that unauthorized public logging of channels on the
+:barjavel.freenode.net 372 melloan :- network is prohibited. Public channel logging should only
+:barjavel.freenode.net 372 melloan :- take place where the channel owner(s) has requested this
+:barjavel.freenode.net 372 melloan :- and users of the channel are all made aware (if you are
+:barjavel.freenode.net 372 melloan :- publically logging your channel, you may wish to keep a
+:barjavel.freenode.net 372 melloan :- notice in topic and perhaps as a on-join message).
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- freenode runs an open proxy scanner. Your use of the network
+:barjavel.freenode.net 372 melloan :- indicates your acceptance of this policy. For details on
+:barjavel.freenode.net 372 melloan :- freenode network policy, please take a look at our policy
+:barjavel.freenode.net 372 melloan :- page (http://freenode.net/policy.shtml). Thank you for using
+:barjavel.freenode.net 372 melloan :- the network!
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- Don't forget to check out these other Peer-Directed Projects:
+:barjavel.freenode.net 372 melloan :- FOSSCON [http://www.fosscon.org] and fossevents 
+:barjavel.freenode.net 372 melloan :- [http://www.fossevents.org], and soon we'll repeat last years 
+:barjavel.freenode.net 372 melloan :- success with Picnics for Geeks across the globe, more info at 
+:barjavel.freenode.net 372 melloan :- [http://geeknic.org]
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- freenode is a service of Peer-Directed Projects Center Ltd,
+:barjavel.freenode.net 372 melloan :- a not for profit organisation registered in England and Wales.
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- If you support the work we do and wish to donate to the PDPC, 
+:barjavel.freenode.net 372 melloan :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- Thank you for using freenode!
+:barjavel.freenode.net 372 melloan :-  
+:barjavel.freenode.net 372 melloan :- ***************************************************************
+:barjavel.freenode.net 372 melloan :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:barjavel.freenode.net 372 melloan :- ***************************************************************
+:barjavel.freenode.net 376 melloan :End of /MOTD command.
+:melloan MODE melloan :+i
+
+Wed Nov 28 13:43:30 2012 : client : JOIN #tsam
+Wed Nov 28 13:43:30 2012 : server : :melloan!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:43:31 2012 : server : :barjavel.freenode.net 332 melloan #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:barjavel.freenode.net 333 melloan #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
+:barjavel.freenode.net 353 melloan @ #tsam :melloan Saxaklandur AlexBaa Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:barjavel.freenode.net 366 melloan #tsam :End of /NAMES list.
+
+Wed Nov 28 13:43:38 2012 : client : PRIVMSG me ha no
+Wed Nov 28 13:45:36 2012 : server : :AlexBaa!~Alex@fire-out.ru.is PART #tsam
+
+Wed Nov 28 13:45:41 2012 : server : PING :barjavel.freenode.net
+
+Wed Nov 28 13:49:22 2012 : client : NICK mellohallo
+Wed Nov 28 13:49:22 2012 : server : :sendak.freenode.net NOTICE * :*** Looking up your hostname...
+:sendak.freenode.net NOTICE * :*** Checking Ident
+:sendak.freenode.net NOTICE * :*** Found your hostname
+:sendak.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:49:22 2012 : client : USER AL 0 * .
+Wed Nov 28 13:49:22 2012 : server : :sendak.freenode.net 001 mellohallo :Welcome to the freenode Internet Relay Chat Network mellohallo
+
+Wed Nov 28 13:49:23 2012 : server : :sendak.freenode.net 002 mellohallo :Your host is sendak.freenode.net[193.219.128.49/6667], running version ircd-seven-1.1.3
+:sendak.freenode.net 003 mellohallo :This server was created Mon Nov 28 2011 at 00:37:27 EET
+:sendak.freenode.net 004 mellohallo sendak.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:sendak.freenode.net 005 mellohallo CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:sendak.freenode.net 005 mellohallo CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:sendak.freenode.net 005 mellohallo EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:sendak.freenode.net 251 mellohallo :There are 222 users and 79316 invisible on 34 servers
+:sendak.freenode.net 252 mellohallo 38 :IRC Operators online
+:sendak.freenode.net 253 mellohallo 7 :unknown connection(s)
+:sendak.freenode.net 254 mellohallo 43187 :channels formed
+:sendak.freenode.net 255 mellohallo :I have 4456 clients and 1 servers
+:sendak.freenode.net 265 mellohallo 4456 6876 :Current local users 4456, max 6876
+:sendak.freenode.net 266 mellohallo 79538 85546 :Current global users 79538, max 85546
+:sendak.freenode.net 250 mellohallo :Highest connection count: 6877 (6876 clients) (1865825 connections received)
+:sendak.freenode.net 375 mellohallo :- sendak.freenode.net Message of the Day - 
+:sendak.freenode.net 372 mellohallo :- Welcome to sendak.freenode.net in Vilnius, Lithuania, EU.
+:sendak.freenode.net 372 mellohallo :- Thanks to Microlink Lietuva (http://www.microlink.lt) for providing this
+:sendak.freenode.net 372 mellohallo :- server!
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- SENDAK, MAURICE [1928-2012].  The author of Seven Little
+:sendak.freenode.net 372 mellohallo :- Monsters and Where the Wild Things Are, Maurice Sendak was
+:sendak.freenode.net 372 mellohallo :- born in Brooklyn, NY, US, to a family of poor Polish
+:sendak.freenode.net 372 mellohallo :- immigrants who moved to the US before World War II.  He
+:sendak.freenode.net 372 mellohallo :- became an illustrator while in high school.
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- You're using freenode, a service of Peer-Directed Projects
+:sendak.freenode.net 372 mellohallo :- Center Ltd (http://freenode.net/pdpc.shtml).
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- By connecting to freenode you indicate that you have read
+:sendak.freenode.net 372 mellohallo :- and agree to adhere to our policies and procedures as per
+:sendak.freenode.net 372 mellohallo :- the website (http://freenode.net). We would like to remind
+:sendak.freenode.net 372 mellohallo :- you that unauthorized public logging of channels on the
+:sendak.freenode.net 372 mellohallo :- network is prohibited. Public channel logging should only
+:sendak.freenode.net 372 mellohallo :- take place where the channel owner(s) has requested this
+:sendak.freenode.net 372 mellohallo :- and users of the channel are all made aware (if you are
+:sendak.freenode.net 372 mellohallo :- publically logging your channel, you may wish to keep a
+:sendak.freenode.net 372 mellohallo :- notice in topic and perhaps as a on-join message).
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- freenode runs an open proxy scanner. Your use of the network
+:sendak.freenode.net 372 mellohallo :- indicates your acceptance of this policy. For details on
+:sendak.freenode.net 372 mellohallo :- freenode network policy, please take a look at our policy
+:sendak.freenode.net 372 mellohallo :- page (http://freenode.net/policy.shtml). Thank you for using
+:sendak.freenode.net 372 mellohallo :- the network!
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- Don't forget to check out these other Peer-Directed Projects:
+:sendak.freenode.net 372 mellohallo :- FOSSCON [http://www.fosscon.org] and fossevents 
+:sendak.freenode.net 372 mellohallo :- [http://www.fossevents.org], and soon we'll repeat last years 
+:sendak.freenode.net 372 mellohallo :- success with Picnics for Geeks across the globe, more info at 
+:sendak.freenode.net 372 mellohallo :- [http://geeknic.org]
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- freenode is a service of Peer-Directed Projects Center Ltd,
+:sendak.freenode.net 372 mellohallo :- a not for profit organisation registered in England and Wales.
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- If you support the work we do and wish to donate to the PDPC, 
+:sendak.freenode.net 372 mellohallo :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- Thank you for using freenode!
+:sendak.freenode.net 372 mellohallo :-  
+:sendak.freenode.net 372 mellohallo :- ***************************************************************
+:sendak.freenode.net 372 mellohallo :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:sendak.freenode.net 372 mellohallo :- ***************************************************************
+:sendak.freenode.net 376 mellohallo :End of /MOTD command.
+:mellohallo MODE mellohallo :+i
+
+Wed Nov 28 13:49:27 2012 : client : JOIN #tsam
+Wed Nov 28 13:49:29 2012 : server : :mellohallo!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:49:29 2012 : server : :sendak.freenode.net 332 mellohallo #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:sendak.freenode.net 333 mellohallo #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
+:sendak.freenode.net 353 mellohallo @ #tsam :mellohallo AlexBaa Saxaklandur Theragon [TSAM]Carsten Mega winston_ ble cozmic\
+:sendak.freenode.net 366 mellohallo #tsam :End of /NAMES list.
+
+Wed Nov 28 13:49:44 2012 : client : PRIVMSG hvernig gengur
+Wed Nov 28 13:49:49 2012 : server : :glommi!~glommi@fire-out.ru.is JOIN #tsam
+:glommi!~glommi@fire-out.ru.is PRIVMSG #tsam :glommmmm
+
+Wed Nov 28 13:49:59 2012 : client : PRIVMSG bara vel?
+Wed Nov 28 13:51:06 2012 : server : :[TSAM]Carsten!~Carsten@fire-out.ru.is PRIVMSG #tsam :hi í mirc'inu
+
+Wed Nov 28 13:54:59 2012 : client : JOIN #purfa
+Wed Nov 28 13:54:59 2012 : server : :ble!~epli@46-239-237-169.tal.is QUIT :Ping timeout: 255 seconds
+:glommi!~glommi@fire-out.ru.is QUIT :Read error: Connection reset by peer
+PING :sendak.freenode.net
+:salld!~salld@fire-out.ru.is JOIN #tsam
+:salld!~salld@fire-out.ru.is PRIVMSG #tsam :Blabla
+:glommi!~glommi@fire-out.ru.is JOIN #tsam
+:salld!~salld@fire-out.ru.is QUIT :Read error: Connection reset by peer
+:Theragon!~Theragon@fire-out.ru.is PRIVMSG #tsam :hvar er sindri ?
+:fsdfsd!~a@89.160.133.29 JOIN #tsam
+:Saxaklandur!~Saxakland@fire-out.ru.is PRIVMSG #tsam :test
+:fsdfsd!~a@89.160.133.29 QUIT :Read error: Connection reset by peer
+:glommi!~glommi@fire-out.ru.is QUIT :Read error: Connection reset by peer
+:mellohallo!~AL@fire-out.ru.is QUIT :Ping timeout: 255 seconds
+ERROR :Closing Link: fire-out.ru.is (Ping timeout: 255 seconds)
+
+Wed Nov 28 13:54:59 2012 : server : 
+Wed Nov 28 13:56:01 2012 : client : JOIN #prufa
+Wed Nov 28 13:56:01 2012 : server : 
+Wed Nov 28 13:56:01 2012 : server : 
+Wed Nov 28 13:56:46 2012 : client : NICK hamala
+Wed Nov 28 13:56:46 2012 : server : :pratchett.freenode.net NOTICE * :*** Looking up your hostname...
+:pratchett.freenode.net NOTICE * :*** Checking Ident
+:pratchett.freenode.net NOTICE * :*** Found your hostname
+:pratchett.freenode.net NOTICE * :*** No Ident response
+
+Wed Nov 28 13:56:46 2012 : client : USER AL 0 * .
+Wed Nov 28 13:56:46 2012 : server : :pratchett.freenode.net 001 hamala :Welcome to the freenode Internet Relay Chat Network hamala
+
+Wed Nov 28 13:56:46 2012 : server : :pratchett.freenode.net 002 hamala :Your host is pratchett.freenode.net[192.168.25.107/6667], running version ircd-seven-1.1.3
+:pratchett.freenode.net 003 hamala :This server was created Sun Dec 4 2011 at 06:24:07 PST
+:pratchett.freenode.net 004 hamala pratchett.freenode.net ircd-seven-1.1.3 DOQRSZaghilopswz CFILMPQbcefgijklmnopqrstvz bkloveqjfI
+:pratchett.freenode.net 005 hamala CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQcgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode KNOCK STATUSMSG=@+ CALLERID=g :are supported by this server
+:pratchett.freenode.net 005 hamala CASEMAPPING=rfc1459 CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 ETRACE CPRIVMSG CNOTICE DEAF=D MONITOR=100 FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: :are supported by this server
+:pratchett.freenode.net 005 hamala EXTBAN=$,arx WHOX CLIENTVER=3.0 SAFELIST ELIST=CTU :are supported by this server
+:pratchett.freenode.net 251 hamala :There are 222 users and 79571 invisible on 34 servers
+:pratchett.freenode.net 252 hamala 38 :IRC Operators online
+:pratchett.freenode.net 253 hamala 9 :unknown connection(s)
+:pratchett.freenode.net 254 hamala 43225 :channels formed
+:pratchett.freenode.net 255 hamala :I have 3578 clients and 1 servers
+:pratchett.freenode.net 265 hamala 3578 7342 :Current local users 3578, max 7342
+:pratchett.freenode.net 266 hamala 79793 85546 :Current global users 79793, max 85546
+:pratchett.freenode.net 250 hamala :Highest connection count: 7343 (7342 clients) (3722419 connections received)
+:pratchett.freenode.net 375 hamala :- pratchett.freenode.net Message of the Day - 
+:pratchett.freenode.net 372 hamala :- Welcome to pratchett.freenode.net in Rennes, FR, EU.
+:pratchett.freenode.net 372 hamala :- Thanks to: FSF-France (http://www.fsffrance.org) for sponsoring this server!
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- PRATCHETT, TERRY (1948-).  Born in Buckinghamshire, England,
+:pratchett.freenode.net 372 hamala :- Pratchett is the famous author of the Discworld series of
+:pratchett.freenode.net 372 hamala :- novels and, more recently, an active Alzheimer's Disease awareness 
+:pratchett.freenode.net 372 hamala :- campaigner.
+:pratchett.freenode.net 372 hamala :- You're using freenode, a service of Peer-Directed Projects
+:pratchett.freenode.net 372 hamala :- Center Ltd (http://freenode.net/pdpc.shtml).
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- By connecting to freenode you indicate that you have read
+:pratchett.freenode.net 372 hamala :- and agree to adhere to our policies and procedures as per
+:pratchett.freenode.net 372 hamala :- the website (http://freenode.net). We would like to remind
+:pratchett.freenode.net 372 hamala :- you that unauthorized public logging of channels on the
+:pratchett.freenode.net 372 hamala :- network is prohibited. Public channel logging should only
+:pratchett.freenode.net 372 hamala :- take place where the channel owner(s) has requested this
+:pratchett.freenode.net 372 hamala :- and users of the channel are all made aware (if you are
+:pratchett.freenode.net 372 hamala :- publically logging your channel, you may wish to keep a
+:pratchett.freenode.net 372 hamala :- notice in topic and perhaps as a on-join message).
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- freenode runs an open proxy scanner. Your use of the network
+:pratchett.freenode.net 372 hamala :- indicates your acceptance of this policy. For details on
+:pratchett.freenode.net 372 hamala :- freenode network policy, please take a look at our policy
+:pratchett.freenode.net 372 hamala :- page (http://freenode.net/policy.shtml). Thank you for using
+:pratchett.freenode.net 372 hamala :- the network!
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- Don't forget to check out these other Peer-Directed Projects:
+:pratchett.freenode.net 372 hamala :- FOSSCON [http://www.fosscon.org] and fossevents 
+:pratchett.freenode.net 372 hamala :- [http://www.fossevents.org], and soon we'll repeat last years 
+:pratchett.freenode.net 372 hamala :- success with Picnics for Geeks across the globe, more info at 
+:pratchett.freenode.net 372 hamala :- [http://geeknic.org]
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- freenode is a service of Peer-Directed Projects Center Ltd,
+:pratchett.freenode.net 372 hamala :- a not for profit organisation registered in England and Wales.
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- If you support the work we do and wish to donate to the PDPC, 
+:pratchett.freenode.net 372 hamala :- you may do so over at http://freenode.net/pdpc_donations.shtml
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- Thank you for using freenode!
+:pratchett.freenode.net 372 hamala :-  
+:pratchett.freenode.net 372 hamala :- ***************************************************************
+:pratchett.freenode.net 372 hamala :- Please read http://blog.freenode.net/2010/11/be-safe-out-there/
+:pratchett.freenode.net 372 hamala :- ***************************************************************
+:pratchett.freenode.net 376 hamala :End of /MOTD command.
+:hamala MODE hamala :+i
+
+Wed Nov 28 13:56:51 2012 : client : JOIN #tsam
+Wed Nov 28 13:56:52 2012 : server : :hamala!~AL@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:56:52 2012 : server : :pratchett.freenode.net 332 hamala #tsam :Welcome to the TSAM channel. Please feel free to use this channel for your IRC client testing.
+:pratchett.freenode.net 333 hamala #tsam banani!~multimedi@89-160-130-140.du.xdsl.is 1353015592
+:pratchett.freenode.net 353 hamala @ #tsam :hamala glommi AlexBaa Saxaklandur Theragon [TSAM]Carsten Mega winston_ cozmic\
+:pratchett.freenode.net 366 hamala #tsam :End of /NAMES list.
+
+Wed Nov 28 13:57:01 2012 : client : JOIN #purfa
+Wed Nov 28 13:57:01 2012 : server : :hamala!~AL@fire-out.ru.is JOIN #purfa
+
+Wed Nov 28 13:57:01 2012 : server : :pratchett.freenode.net 353 hamala @ #purfa :hamala @[TSAM]Carsten
+:pratchett.freenode.net 366 hamala #purfa :End of /NAMES list.
+
+Wed Nov 28 13:57:20 2012 : client : PART #purfa
+Wed Nov 28 13:57:20 2012 : server : :hamala!~AL@fire-out.ru.is PART #purfa
+
+Wed Nov 28 13:57:39 2012 : client : PRIVMSG where am i
+Wed Nov 28 13:57:40 2012 : server : :pratchett.freenode.net 404 hamala #purfa :Cannot send to channel
+
+Wed Nov 28 13:57:53 2012 : client : JOIN #prufa
+Wed Nov 28 13:57:53 2012 : server : :fsdfsd!~a@89-160-133-29.du.xdsl.is JOIN #tsam
+:fsdfsd!~a@89-160-133-29.du.xdsl.is PRIVMSG #tsam :dd
+:fsdfsd!~a@89-160-133-29.du.xdsl.is PRIVMSG #tsam :asdf
+
+Wed Nov 28 13:57:53 2012 : server : :hamala!~AL@fire-out.ru.is JOIN #prufa
+
+Wed Nov 28 13:58:01 2012 : client : PART prufa
+Wed Nov 28 13:58:01 2012 : server : :pratchett.freenode.net MODE #prufa +ns
+:pratchett.freenode.net 353 hamala @ #prufa :@hamala
+:pratchett.freenode.net 366 hamala #prufa :End of /NAMES list.
+
+Wed Nov 28 13:58:07 2012 : client : JOIN #purfa
+Wed Nov 28 13:58:07 2012 : server : :pratchett.freenode.net 403 hamala prufa :No such channel
+:fsdfsd!~a@89-160-133-29.du.xdsl.is QUIT :Read error: Connection reset by peer
+
+Wed Nov 28 13:58:12 2012 : server : :Saxab!~Saxab@fire-out.ru.is JOIN #tsam
+
+Wed Nov 28 13:58:21 2012 : client : PRIVMSG am i here?
+Wed Nov 28 13:58:21 2012 : server : :hamala!~AL@fire-out.ru.is JOIN #purfa
+:pratchett.freenode.net 353 hamala @ #purfa :hamala @[TSAM]Carsten
+:pratchett.freenode.net 366 hamala #purfa :End of /NAMES list.
+
+Wed Nov 28 13:58:39 2012 : client : PRIVMSG really?
+Wed Nov 28 13:58:39 2012 : server : :[TSAM]Carsten!~Carsten@fire-out.ru.is PRIVMSG #purfa :Yes you are
+
+Wed Nov 28 13:59:02 2012 : client : PRIVMSG well then i go
+Wed Nov 28 13:59:19 2012 : server : :[TSAM]Carsten!~Carsten@fire-out.ru.is PRIVMSG #purfa :Nooooo, don't leave me here alone!!!!!!
+
+Wed Nov 28 13:59:27 2012 : client : PART #purfa
+Wed Nov 28 13:59:27 2012 : server : :hamala!~AL@fire-out.ru.is PART #purfa
+
+Wed Nov 28 13:59:46 2012 : client : JOIN #tsam
+Wed Nov 28 13:59:46 2012 : server : :glommi!~glommi@fire-out.ru.is QUIT :Ping timeout: 260 seconds
+
+Wed Nov 28 14:00:20 2012 : server : :Saxab!~Saxab@fire-out.ru.is PRIVMSG #tsam :Blabla
+

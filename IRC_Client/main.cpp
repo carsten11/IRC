@@ -44,7 +44,7 @@ fstream file;
 bool isvalid(string comm)
 {
     transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
-    if (comm == "JOIN" || comm == "PART" || comm == "QUIT"|| comm == "NICK")
+    if (comm == "JOIN" || comm == "PART" || comm == "QUIT"|| comm == "NICK"|| comm == "PRIVMSG")
         return true;
 }
 
@@ -99,7 +99,17 @@ void logSent(SOCKET sock, char* buffer, string comm, string mess)
     logSentMess(comm, mess);
 }
 
-
+void getDataMsg(SOCKET sock, char* buffer, string comm, string mess, string channel)
+{
+    string commMess = comm + " "+ channel + " :" + mess + CRLF; //first forming one string of all letter/symbols needed
+    cout << comm << " COMM !!!" << endl;
+    for (int a=0; a<=commMess.size(); a++)
+    {
+        buffer[a]=commMess[a]; //reading string into buffer
+    }
+    int len = strlen(buffer);
+    buffer[len++] = '\0';       //adding termination in the end
+}
 /**clearing buffer, which was a kind of debugging as well, but is not used at the moment**/
 void clear(char buffer[BUFFER_SIZE])
 {
@@ -164,7 +174,7 @@ int main(int argc, char* argv[])
     int port = 6667;                                    // IRC port on Server
     char buffer [BUFFER_SIZE];                          // buffer for char array sended
     int bsize;                                          // the output of the recv() function (size of recvData)
-    string mess, nickn, comm;                           // message, nickname, command
+    string mess, nickn, comm, channel;                  // message, nickname, command
     SOCKET sock;                                        // Socket
     sockaddr_in serverAddr;                             // Socket stuff
     hostent *host;                                      // host declared
@@ -217,7 +227,7 @@ int main(int argc, char* argv[])
 
     //send directly USER command, where the user does not need to give information
     comm = "USER AL 0 *";
-    mess = ".";             //a little hacking going on to get the space and colon
+    mess = ".";             //a little hacking going on to get the space and colon into USER message
     logSent(sock,buffer,comm,mess);
 
     //answer (more than 1200 letters!) recieved is logged and "couted"
@@ -235,7 +245,7 @@ int main(int argc, char* argv[])
         cout << recvData << endl;
         memset(&recvData,0,BUFFER_SIZE); //fill the space behind the data with zeros
 
-        cout << "Enter next command (JOIN, QUIT, PART, NICK): ";
+        cout << "Enter next command (JOIN, QUIT, PART, NICK, PRIVMSG): ";
         cin >> comm;
         while (!isvalid(comm))//checking whether the command is legal
         {
@@ -244,7 +254,18 @@ int main(int argc, char* argv[])
         }
         //in this paragraph the if condition is checked, break loop if client wants to quit the channel.
         transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
-        if (comm == "QUIT")
+
+        if (comm == "PRIVMSG")
+            {
+                cout << "Please enter your message: ";
+                cin.ignore(1,'\r');
+                getline(cin,mess);
+                getDataMsg(sock,buffer,comm,mess,channel);
+                send(sock, buffer, strlen(buffer), 0);
+                logSentMess(comm, mess);
+                continue;
+            }
+        else if (comm == "QUIT")
             {
                 cout << "Please enter a quit message if you want: ";
                 cin >> mess;
@@ -261,6 +282,8 @@ int main(int argc, char* argv[])
         //if the command is not quit, we keep on in th el
         cout << "Please enter the channel/message (ex for channel: #test1): ";
         cin >> mess;
+        if (comm == "JOIN")
+            channel = mess;
         logSent(sock,buffer,comm,mess);
         checkRecv(sock, comm, bsize, recvData);
     }
