@@ -99,10 +99,11 @@ void logSent(SOCKET sock, char* buffer, string comm, string mess)
     logSentMess(comm, mess);
 }
 
+/**this function is the same as getdata in principle, but is used during chatting
+that is only with the command "PREVMSG", puts everything together in the buffer**/
 void getDataMsg(SOCKET sock, char* buffer, string comm, string mess, string channel)
 {
     string commMess = comm + " "+ channel + " :" + mess + CRLF; //first forming one string of all letter/symbols needed
-    cout << comm << " COMM !!!" << endl;
     for (int a=0; a<=commMess.size(); a++)
     {
         buffer[a]=commMess[a]; //reading string into buffer
@@ -252,25 +253,27 @@ int main(int argc, char* argv[])
             cout << "This is not a valid commad, please try again" << endl;
             cin >> comm;
         }
-        //in this paragraph the if condition is checked, break loop if client wants to quit the channel.
+        //in this paragraphs special conditions are checked.
         transform(comm.begin(),comm.end(),comm.begin(), :: toupper);
-
+        //if the command is privmsg, the message following is sent diffrently
+        //to the server then other messages, it calles "getDataMsg" (see functions)
         if (comm == "PRIVMSG")
             {
-                cout << "Please enter your message: ";
-                cin.ignore(1,'\r');
-                getline(cin,mess);
+                cout << "Please enter your message (no # required): ";
+                cin.ignore(1,'\r'); //ignores the end of the comm string(enter)
+                getline(cin,mess);  //getline to get the whitspaces
                 getDataMsg(sock,buffer,comm,mess,channel);
                 send(sock, buffer, strlen(buffer), 0);
                 logSentMess(comm, mess);
                 continue;
             }
+        //if the command is quit, the message is sent to server, but after having
+        //done so, we end the while loop with "break" and shut down gracefully
         else if (comm == "QUIT")
             {
                 cout << "Please enter a quit message if you want: ";
-                cin >> mess;
-                //getline(cin,mess);
-                //cout << mess;
+                cin.ignore(1,'\r');//ignores the end of the comm string(enter)
+                getline(cin,mess);  //getline to get the whitspaces
                 logSent(sock,buffer,comm,mess);
                 checkRecv(sock, comm, bsize, recvData);
                 bsize = recv(sock,recvData,BUFFER_SIZE,0);
